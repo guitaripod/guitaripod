@@ -38,6 +38,9 @@
 <a href="https://www.twitch.tv/guitaripod" target="_blank" rel="noreferrer"><img src="https://img.shields.io/twitch/status/guitaripod?logo=twitchsx&style=for-the-badge&color=0891b2&labelColor=7F00FF&label=TWITCH+STATUS" /></a>
 </p>
 <p align="center">
+<a href="https://psnprofiles.com/GuitarIpod93"><img src="https://card.psnprofiles.com/1/GuitarIpod93.png" border="0"></a>
+</p>
+<p align="center">
 <a href='https://ko-fi.com/A0A6EOA7C' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </p>
 

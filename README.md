@@ -4,7 +4,7 @@
     <p align="center">
     📍🌍<br>
     A Human. Being.<br>
-    A byte in God's computer.<br>
+    Astronomer.<br>
     Gamer.<br>
     Musician.<br>
     ...On a quest for inner peace.

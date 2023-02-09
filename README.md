@@ -4,7 +4,7 @@
     <p align="center">
     📍🌍<br>
     A Human. Being.<br>
-    Astronomer.<br>
+    Cosmologist.<br>
     Gamer.<br>
     Musician.<br>
     ...On a quest for inner peace.

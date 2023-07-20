@@ -19,7 +19,7 @@
 
 <a href="https://leetcode.com/marcusziade/" target="_blank">
     <p align="center">
-        <img src="https://leetcard.jacoblin.cool/marcusziade?theme=dark" alt="Leetcode Stats"/>
+        <img src="https://leetcard.jacoblin.cool/marcusziade?show_rank=false" alt="Leetcode Stats"/>
     </p>
 </a>
 

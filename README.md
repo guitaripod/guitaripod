@@ -1,6 +1,6 @@
 # Marcus Ziadé<br>Software Engineer
 
-<p align="left"> 
+<p align="right"> 
     <img src="https://komarev.com/ghpvc/?username=marcusziade&label=Profile%20views&color=0e75b6&style=flat" alt="marcusziade" /> <br>
     <a href='https://ko-fi.com/A0A6EOA7C' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </p>

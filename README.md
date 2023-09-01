@@ -15,7 +15,7 @@
     </p>
 
 <p align="center">
-<a href="https://github.com/marcusziade" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&langs_count=10&title_color=ffffff&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile, alt="Technologies" /></a>
+<a href="https://github.com/marcusziade" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&langs_count=10&title_color=ffffff&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile,Shell" alt="Technologies" /></a>
 </a>
 </p>
 

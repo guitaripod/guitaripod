@@ -11,7 +11,7 @@
     Cosmologist.<br>
     Gamer.<br>
     Musician.<br>
-    ...On a quest for inner peace.
+    100% stardust.
     </p>
     
 <p align="center">

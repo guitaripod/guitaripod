@@ -15,13 +15,13 @@
     </p>
     
 <p align="center">
-<a href="https://github.com/marcusziade?tab=repositories" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&langs_count=10&title_color=ffffff&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile,Shell,PowerShell" alt="Technologies" /></a>
+<a href="https://github.com/marcusziade?tab=repositories" align="center"><img height=275 src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile,Shell,PowerShell" alt="Technologies" /></a>
 </a>
 </p>
 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height=216 src="https://github-readme-stats.vercel.app/api?username=marcusziade&theme=transparent" />
+    <img height=217 src="https://github-readme-stats.vercel.app/api?username=marcusziade&hide_border=true&custom_title=Open%20Source&theme=transparent" />
   </a>
 </div>
 

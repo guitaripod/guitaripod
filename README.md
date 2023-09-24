@@ -25,14 +25,14 @@
   </a>
 </div>
 
-<p align="center">
-<a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/wide/64746fdcc4ec366ad5b14aea?variant=dark" alt="roadmap.sh"/></a>
-</p>
-
 <a href="https://leetcode.com/marcusziade/" target="_blank">
     <p align="center">
         <img src="https://leetcard.jacoblin.cool/marcusziade?show_rank=false" alt="Leetcode Stats"/>
     </p>
 </a>
+
+<p align="center">
+<a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/wide/64746fdcc4ec366ad5b14aea?variant=dark" alt="roadmap.sh"/></a>
+</p>
 
 </div>

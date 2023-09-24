@@ -19,6 +19,12 @@
 </a>
 </p>
 
+<div align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height=216 src="https://github-readme-stats.vercel.app/api?username=marcusziade&theme=transparent" />
+  </a>
+</div>
+
 <p align="center">
 <a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/wide/64746fdcc4ec366ad5b14aea?variant=dark" alt="roadmap.sh"/></a>
 </p>

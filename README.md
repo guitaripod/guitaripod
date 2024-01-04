@@ -6,12 +6,7 @@
 </p>
 <div style="text-align:center;">
     <p align="center">
-    📍🌍<br>
-    A Human. Being.<br>
-    Cosmologist.<br>
-    Gamer.<br>
-    Musician.<br>
-    100% stardust.
+    100% stardust, random in Starcraft
     </p>
     
 <p align="center">

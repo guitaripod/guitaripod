@@ -6,7 +6,7 @@
 </p>
 <div style="text-align:center;">
     <p align="center">
-    100% stardust, random in Starcraft
+    100% stardust, dyson sphere engineer 
     </p>
     
 <p align="center">

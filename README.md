@@ -8,6 +8,6 @@
 </p>
 
 <p align="left">
-  <img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile,Shell,PowerShell" alt="Technologies" />
-  <img width="35%" src="https://github-readme-stats.vercel.app/api?username=marcusziade&hide_border=true&custom_title=Open%20Source&theme=transparent" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile,Shell,PowerShell" alt="Technologies" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api?username=marcusziade&hide_border=true&custom_title=Open%20Source&theme=transparent" />
 </p>

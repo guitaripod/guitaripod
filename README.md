@@ -7,26 +7,7 @@
     <a href="https://www.twitch.tv/guitaripod" target="_blank" rel="noreferrer"><img src="https://img.shields.io/twitch/status/guitaripod?logo=twitchsx&style=for-the-badge&color=0891b2&labelColor=7F00FF&label=TWITCH+STATUS" /></a>
 </p>
 
-<div style="text-align:center;">
 <p align="center">
-<a href="https://github.com/marcusziade?tab=repositories" align="center"><img height=275 src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile,Shell,PowerShell" alt="Technologies" /></a>
-</a>
+  <img height="275" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile,Shell,PowerShell" alt="Technologies" />
+  <img height="217" src="https://github-readme-stats.vercel.app/api?username=marcusziade&hide_border=true&custom_title=Open%20Source&theme=transparent" />
 </p>
-
-<div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height=217 src="https://github-readme-stats.vercel.app/api?username=marcusziade&hide_border=true&custom_title=Open%20Source&theme=transparent" />
-  </a>
-</div>
-
-<a href="https://leetcode.com/marcusziade/" target="_blank">
-    <p align="center">
-        <img src="https://leetcard.jacoblin.cool/marcusziade?show_rank=false" alt="Leetcode Stats"/>
-    </p>
-</a>
-
-<p align="center">
-<a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/wide/64746fdcc4ec366ad5b14aea?variant=dark" alt="roadmap.sh"/></a>
-</p>
-
-</div>

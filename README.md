@@ -7,7 +7,7 @@
     <a href="https://www.twitch.tv/guitaripod" target="_blank" rel="noreferrer"><img src="https://img.shields.io/twitch/status/guitaripod?logo=twitchsx&style=for-the-badge&color=0891b2&labelColor=7F00FF&label=TWITCH+STATUS" /></a>
 </p>
 
-<p align="center">
+<p align="left">
   <img height="275" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Dockerfile,Shell,PowerShell" alt="Technologies" />
   <img height="217" src="https://github-readme-stats.vercel.app/api?username=marcusziade&hide_border=true&custom_title=Open%20Source&theme=transparent" />
 </p>

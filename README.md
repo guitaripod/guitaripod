@@ -13,13 +13,20 @@
     <a href="https://ko-fi.com/A0A6EOA7C"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" /></a><br>
   </div>
 
-  <!-- Recent Releases -->
-  <div style="width: 60%; text-align: right;">
-    <h3>📦 Latest Releases</h3>
-    <table style="margin-left: auto;">
-      <tbody>
-      </tbody>
-    </table>
-  </div>
-  <!-- End Recent Releases -->
+  
+<!-- Recent Releases -->
+<div style="width: 60%; text-align: right;">
+<h3>📦 Latest Releases</h3>
+<table style="margin-left: auto;">
+<tbody>
+<tr><td>🔶</td><td><a href="https://github.com/marcusziade/StarCraftKit/releases/tag/v1.0.0">StarCraftKit</a></td><td>v1.0.0</td><td>11/1/2024</td></tr>
+<tr><td>🔶</td><td><a href="https://github.com/marcusziade/VimTerminalKit/releases/tag/v1.0.2">VimTerminalKit</a></td><td>v1.0.2</td><td>10/31/2024</td></tr>
+<tr><td>🔵</td><td><a href="https://github.com/marcusziade/torrent-rss/releases/tag/v0.0.1-alpha">torrent-rss</a></td><td>v0.0.1-alpha</td><td>10/31/2024</td></tr>
+<tr><td>🔶</td><td><a href="https://github.com/marcusziade/Swollama/releases/tag/v1.0.2">Swollama</a></td><td>v1.0.2</td><td>10/29/2024</td></tr>
+<tr><td>🔵</td><td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v0.0.9">songlink-cli</a></td><td>v0.0.9</td><td>4/12/2024</td></tr>
+</tbody>
+</table>
+</div>
+<!-- End Recent Releases -->
+
 </div>

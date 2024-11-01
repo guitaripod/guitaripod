@@ -14,19 +14,66 @@
   </div>
 
   
+
 <!-- Recent Releases -->
-<div style="width: 60%; text-align: right;">
+<div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
 <table style="margin-left: auto;">
+<thead>
+<tr>
+<th>Lang</th>
+<th>Repository</th>
+<th>Version</th>
+<th>Released</th>
+<th>Stars</th>
+<th>Description</th>
+</tr>
+</thead>
 <tbody>
-<tr><td>🔶</td><td><a href="https://github.com/marcusziade/StarCraftKit/releases/tag/v1.0.0">StarCraftKit</a></td><td>v1.0.0</td><td>11/1/2024</td></tr>
-<tr><td>🔶</td><td><a href="https://github.com/marcusziade/VimTerminalKit/releases/tag/v1.0.2">VimTerminalKit</a></td><td>v1.0.2</td><td>10/31/2024</td></tr>
-<tr><td>🔵</td><td><a href="https://github.com/marcusziade/torrent-rss/releases/tag/v0.0.1-alpha">torrent-rss</a></td><td>v0.0.1-alpha</td><td>10/31/2024</td></tr>
-<tr><td>🔶</td><td><a href="https://github.com/marcusziade/Swollama/releases/tag/v1.0.2">Swollama</a></td><td>v1.0.2</td><td>10/29/2024</td></tr>
-<tr><td>🔵</td><td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v0.0.9">songlink-cli</a></td><td>v0.0.9</td><td>4/12/2024</td></tr>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/StarCraftKit/releases/tag/v1.0.0">StarCraftKit</a></td>
+      <td>v1.0.0</td>
+      <td>Nov 1, 2024</td>
+      <td>⭐ 0</td>
+      <td>StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene, providing clear, direct, and efficient interfaces to the pro scene data.</td>
+    </tr>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/VimTerminalKit/releases/tag/v1.0.2">VimTerminalKit</a></td>
+      <td>v1.0.2</td>
+      <td>Oct 31, 2024</td>
+      <td>⭐ 0</td>
+      <td>A Swift package that brings Vim-style navigation to your command-line applications.</td>
+    </tr>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/torrent-rss/releases/tag/v0.0.1-alpha">torrent-rss</a></td>
+      <td>v0.0.1-alpha</td>
+      <td>Oct 31, 2024</td>
+      <td>⭐ 0</td>
+      <td>torrentday.com torrent downloader</td>
+    </tr>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/Swollama/releases/tag/v1.0.2">Swollama</a></td>
+      <td>v1.0.2</td>
+      <td>Oct 29, 2024</td>
+      <td>⭐ 3</td>
+      <td>A Swift package for Ollama</td>
+    </tr>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v0.0.9">songlink-cli</a></td>
+      <td>v0.0.9</td>
+      <td>Apr 12, 2024</td>
+      <td>⭐ 5</td>
+      <td>A Song.Link CLI app written in Go</td>
+    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 </div>

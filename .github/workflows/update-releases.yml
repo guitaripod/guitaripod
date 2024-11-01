@@ -1,0 +1,92 @@
+name: Update Recent Releases
+
+on:
+  release:
+    types: [published]
+  schedule:
+    - cron: '0 0 * * *'  # Update daily
+  workflow_dispatch:  # Allow manual triggers
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Fetch Recent Releases
+        id: releases
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const releases = await github.rest.repos.listReleases({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              per_page: 5
+            });
+            
+            let releaseData = releases.data.map(release => ({
+              name: release.name || release.tag_name,
+              tag: release.tag_name,
+              url: release.html_url,
+              date: new Date(release.published_at).toLocaleDateString(),
+              language: await getRepoLanguage(release.target_commitish)
+            }));
+            
+            async function getRepoLanguage(branch) {
+              const langs = await github.rest.repos.listLanguages({
+                owner: context.repo.owner,
+                repo: context.repo.repo
+              });
+              return Object.keys(langs.data)[0] || 'Unknown';
+            }
+            
+            const releaseSection = `
+            <!-- Recent Releases -->
+            <div align="right" style="margin-top: 20px;">
+              <table>
+                <tr><th colspan="3"><h3>📦 Recent Releases</h3></th></tr>
+                ${releaseData.map(release => `
+                  <tr>
+                    <td><code>${getLangIcon(release.language)}</code></td>
+                    <td><a href="${release.url}">${release.name}</a></td>
+                    <td>${release.tag}</td>
+                  </tr>
+                `).join('')}
+              </table>
+            </div>
+            `;
+            
+            function getLangIcon(lang) {
+              const icons = {
+                Swift: '🔶',
+                Go: '🔵',
+                Python: '🐍',
+                Rust: '⚙️',
+                'C++': '⚡',
+                Unknown: '📦'
+              };
+              return icons[lang] || '📦';
+            }
+            
+            core.setOutput('release_section', releaseSection);
+      
+      - name: Update README
+        run: |
+          # Get the release section from previous step
+          RELEASE_SECTION="${{ steps.releases.outputs.release_section }}"
+          
+          # Update the README
+          sed -i '/<!-- Recent Releases -->/,/<!-- End Recent Releases -->/c\'"$RELEASE_SECTION" README.md
+          
+          # If section doesn't exist, append it
+          if ! grep -q "<!-- Recent Releases -->" README.md; then
+            echo "$RELEASE_SECTION" >> README.md
+          fi
+      
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update recent releases section" || exit 0
+          git push

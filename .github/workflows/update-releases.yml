@@ -33,23 +33,31 @@ jobs:
             // Create a map to store latest release per repo
             let repoReleasesMap = new Map();
             
-            // Fetch releases from all repos
+            // Fetch releases and additional repo data
             for (const repo of repos.data) {
               try {
-                const releases = await github.rest.repos.listReleases({
-                  owner: context.repo.owner,
-                  repo: repo.name,
-                  per_page: 1  // Only fetch the latest release
-                });
+                const [releases, repoDetails] = await Promise.all([
+                  github.rest.repos.listReleases({
+                    owner: context.repo.owner,
+                    repo: repo.name,
+                    per_page: 1
+                  }),
+                  github.rest.repos.get({
+                    owner: context.repo.owner,
+                    repo: repo.name
+                  })
+                ]);
                 
                 if (releases.data.length > 0) {
                   const release = releases.data[0];
                   release.repo_name = repo.name;
                   release.language = repo.language;
+                  release.stars = repoDetails.data.stargazers_count;
+                  release.description = repoDetails.data.description;
                   repoReleasesMap.set(repo.name, release);
                 }
               } catch (error) {
-                console.log(`Error fetching releases for ${repo.name}: ${error.message}`);
+                console.log(`Error fetching data for ${repo.name}: ${error.message}`);
               }
             }
             
@@ -58,26 +66,20 @@ jobs:
             allReleases.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
             allReleases = allReleases.slice(0, 5);
             
-            function getLangIcon(lang) {
-              const icons = {
-                Swift: '🔶',
-                Go: '🔵',
-                Python: '🐍',
-                Rust: '⚙️',
-                'C++': '⚡',
-                JavaScript: '💛',
-                TypeScript: '💙',
-                Java: '☕',
-                Unknown: '📦'
-              };
-              return icons[lang] || '📦';
+            function formatDate(dateStr) {
+              const date = new Date(dateStr);
+              return date.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric'
+              });
             }
             
             let newSection;
             if (allReleases.length === 0) {
               newSection = [
                 '\n<!-- Recent Releases -->',
-                '<div style="width: 60%; text-align: right;">',
+                '<div style="width: 80%; text-align: right;">',
                 '<h3>📦 Latest Releases</h3>',
                 '<p>No releases yet</p>',
                 '</div>',
@@ -86,16 +88,32 @@ jobs:
             } else {
               const tableRows = allReleases.map(release => {
                 const name = release.name || release.tag_name;
-                const date = new Date(release.published_at).toLocaleDateString();
-                const langIcon = getLangIcon(release.language);
-                return `<tr><td>${langIcon}</td><td><a href="${release.html_url}">${release.repo_name}</a></td><td>${name}</td><td>${date}</td></tr>`;
+                const date = formatDate(release.published_at);
+                return `<tr>
+                  <td>${release.language || 'N/A'}</td>
+                  <td><a href="${release.html_url}">${release.repo_name}</a></td>
+                  <td>${name}</td>
+                  <td>${date}</td>
+                  <td>⭐ ${release.stars}</td>
+                  <td>${release.description || ''}</td>
+                </tr>`;
               }).join('\n');
 
               newSection = [
                 '\n<!-- Recent Releases -->',
-                '<div style="width: 60%; text-align: right;">',
+                '<div style="width: 80%; text-align: right;">',
                 '<h3>📦 Latest Releases</h3>',
                 '<table style="margin-left: auto;">',
+                '<thead>',
+                '<tr>',
+                '<th>Lang</th>',
+                '<th>Repository</th>',
+                '<th>Version</th>',
+                '<th>Released</th>',
+                '<th>Stars</th>',
+                '<th>Description</th>',
+                '</tr>',
+                '</thead>',
                 '<tbody>',
                 tableRows,
                 '</tbody>',
@@ -111,7 +129,6 @@ jobs:
               const end = readme.indexOf('<!-- End Recent Releases -->') + '<!-- End Recent Releases -->'.length;
               readme = readme.substring(0, start) + newSection + readme.substring(end);
             } else {
-              // Find the position after the stats cards but before the profile views
               const insertPoint = readme.indexOf('![Profile views]');
               if (insertPoint !== -1) {
                 readme = readme.slice(0, insertPoint) + newSection + readme.slice(insertPoint);

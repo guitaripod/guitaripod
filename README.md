@@ -15,6 +15,7 @@
 
   
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -36,7 +37,7 @@
       <td>v1.0.0</td>
       <td>Nov 1, 2024</td>
       <td>⭐ 0</td>
-      <td>StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene, providing clear, direct, and efficient interfaces to the pro scene data.</td>
+      <td>StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.</td>
     </tr>
 <tr>
       <td>Swift</td>
@@ -74,6 +75,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 </div>

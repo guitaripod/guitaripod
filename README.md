@@ -11,6 +11,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -31,7 +32,7 @@
       <td><a href="https://github.com/marcusziade/StarCraftKit/releases/tag/v1.0.0">StarCraftKit</a></td>
       <td>v1.0.0</td>
       <td>Nov 1, 2024</td>
-      <td>⭐ 0</td>
+      <td>⭐ 1</td>
       <td>StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.</td>
     </tr>
 <tr>
@@ -39,7 +40,7 @@
       <td><a href="https://github.com/marcusziade/VimTerminalKit/releases/tag/v1.0.2">VimTerminalKit</a></td>
       <td>v1.0.2</td>
       <td>Oct 31, 2024</td>
-      <td>⭐ 0</td>
+      <td>⭐ 1</td>
       <td>A Swift package that brings Vim-style navigation to your command-line applications.</td>
     </tr>
 <tr>
@@ -70,6 +71,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

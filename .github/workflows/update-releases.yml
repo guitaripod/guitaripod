@@ -46,22 +46,46 @@ jobs:
               return releases;
             }
 
-            // Function to compare two release arrays
+            // Function to compare two release arrays with detailed logging
             function releasesAreDifferent(oldReleases, newReleases) {
-              if (oldReleases.length !== newReleases.length) return true;
+              console.log('\nComparing releases:');
+              console.log('Old releases:', JSON.stringify(oldReleases, null, 2));
+              console.log('New releases:', JSON.stringify(newReleases, null, 2));
+              
+              if (oldReleases.length !== newReleases.length) {
+                console.log(`Length mismatch: old=${oldReleases.length}, new=${newReleases.length}`);
+                return true;
+              }
               
               for (let i = 0; i < oldReleases.length; i++) {
                 const old = oldReleases[i];
                 const newR = newReleases[i];
                 
-                if (old.repo !== newR.repo ||
-                    old.version !== newR.version ||
-                    old.date !== newR.date ||
-                    old.stars !== newR.stars) {
+                console.log(`\nComparing release ${i + 1}:`);
+                console.log('Old:', old);
+                console.log('New:', newR);
+                
+                if (old.repo !== newR.repo) {
+                  console.log(`Repository changed: ${old.repo} -> ${newR.repo}`);
                   return true;
                 }
+                if (old.version !== newR.version) {
+                  console.log(`Version changed for ${old.repo}: ${old.version} -> ${newR.version}`);
+                  return true;
+                }
+                if (old.date !== newR.date) {
+                  console.log(`Date changed for ${old.repo}: ${old.date} -> ${newR.date}`);
+                  return true;
+                }
+                if (old.stars !== newR.stars) {
+                  console.log(`Stars changed for ${old.repo}: ${old.stars} -> ${newR.stars}`);
+                  return true;
+                }
+                
+                console.log(`No changes detected for ${old.repo}`);
               }
               
+              console.log('\nNo differences found between releases');
               return false;
             }
             
@@ -73,10 +97,14 @@ jobs:
             let originalSection = '';
             let currentReleases = [];
             if (readme.includes('<!-- Recent Releases -->')) {
+              console.log('Found existing releases section');
               const start = readme.indexOf('<!-- Recent Releases -->');
               const end = readme.indexOf('<!-- End Recent Releases -->') + '<!-- End Recent Releases -->'.length;
               originalSection = readme.substring(start, end);
               currentReleases = extractReleaseData(originalSection);
+              console.log('Extracted current releases:', currentReleases);
+            } else {
+              console.log('No existing releases section found');
             }
             
             console.log('Fetching repositories...');
@@ -90,8 +118,10 @@ jobs:
             let repoReleasesMap = new Map();
             
             // Fetch releases and additional repo data
+            console.log(`\nFetching release data for ${repos.data.length} repositories...`);
             for (const repo of repos.data) {
               try {
+                console.log(`\nProcessing ${repo.name}...`);
                 const [releases, repoDetails] = await Promise.all([
                   github.rest.repos.listReleases({
                     owner: context.repo.owner,
@@ -111,6 +141,9 @@ jobs:
                   release.stars = repoDetails.data.stargazers_count;
                   release.description = repoDetails.data.description;
                   repoReleasesMap.set(repo.name, release);
+                  console.log(`Found release: ${release.name || release.tag_name}`);
+                } else {
+                  console.log('No releases found');
                 }
               } catch (error) {
                 console.log(`Error fetching data for ${repo.name}: ${error.message}`);
@@ -121,6 +154,7 @@ jobs:
             let allReleases = Array.from(repoReleasesMap.values());
             allReleases.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
             allReleases = allReleases.slice(0, 5);
+            console.log(`\nProcessed ${allReleases.length} most recent releases`);
             
             function formatDate(dateStr) {
               const date = new Date(dateStr);
@@ -136,6 +170,7 @@ jobs:
             let newReleasesData = [];
             
             if (allReleases.length === 0) {
+              console.log('No releases found, creating empty section');
               newSection = [
                 '\n<!-- Recent Releases -->',
                 '<div style="width: 80%; text-align: right;">',
@@ -152,6 +187,8 @@ jobs:
                 date: formatDate(release.published_at),
                 stars: release.stars
               }));
+              
+              console.log('\nPreparing new releases data:', newReleasesData);
               
               const tableRows = allReleases.map(release => {
                 const name = release.name || release.tag_name;
@@ -192,24 +229,26 @@ jobs:
             
             // Compare the actual release data instead of HTML content
             if (releasesAreDifferent(currentReleases, newReleasesData)) {
-              console.log('Changes detected in release data, updating README...');
+              console.log('\nChanges detected in release data, updating README...');
               // Update or append the section
               if (originalSection) {
                 readme = readme.replace(originalSection, newSection);
+                console.log('Updated existing section');
               } else {
                 const insertPoint = readme.indexOf('![Profile views]');
                 if (insertPoint !== -1) {
                   readme = readme.slice(0, insertPoint) + newSection + readme.slice(insertPoint);
+                  console.log('Inserted new section before profile views');
                 } else {
                   readme += newSection;
+                  console.log('Appended new section at end of README');
                 }
               }
               
               fs.writeFileSync('README.md', readme);
-              // Create a file to signal that changes were made
               fs.writeFileSync('changes_detected', 'true');
             } else {
-              console.log('No changes detected in release data');
+              console.log('\nNo changes detected in release data, skipping update');
             }
 
       - name: Commit and Push if Changed

@@ -7,6 +7,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -66,6 +67,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

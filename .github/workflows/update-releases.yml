@@ -4,7 +4,7 @@ on:
   release:
     types: [published]
   schedule:
-    - cron: '0 8 * * 0'  # Runs at 8:00 UTC every Sunday
+    - cron: '0 * * * *'  # Runs at minute 0 of every hour
   workflow_dispatch:
 
 jobs:
@@ -22,6 +22,14 @@ jobs:
             // Read current README first
             console.log('Reading README...');
             let readme = fs.readFileSync('README.md', 'utf8');
+            
+            // Store the original releases section if it exists
+            let originalSection = '';
+            if (readme.includes('<!-- Recent Releases -->')) {
+              const start = readme.indexOf('<!-- Recent Releases -->');
+              const end = readme.indexOf('<!-- End Recent Releases -->') + '<!-- End Recent Releases -->'.length;
+              originalSection = readme.substring(start, end);
+            }
             
             console.log('Fetching repositories...');
             const repos = await github.rest.repos.listForUser({
@@ -123,28 +131,37 @@ jobs:
               ].join('\n');
             }
             
-            // Update or append the section
-            if (readme.includes('<!-- Recent Releases -->')) {
-              const start = readme.indexOf('<!-- Recent Releases -->');
-              const end = readme.indexOf('<!-- End Recent Releases -->') + '<!-- End Recent Releases -->'.length;
-              readme = readme.substring(0, start) + newSection + readme.substring(end);
-            } else {
-              const insertPoint = readme.indexOf('![Profile views]');
-              if (insertPoint !== -1) {
-                readme = readme.slice(0, insertPoint) + newSection + readme.slice(insertPoint);
+            // Compare new section with original before updating
+            if (newSection !== originalSection) {
+              console.log('Changes detected, updating README...');
+              // Update or append the section
+              if (originalSection) {
+                readme = readme.replace(originalSection, newSection);
               } else {
-                readme += newSection;
+                const insertPoint = readme.indexOf('![Profile views]');
+                if (insertPoint !== -1) {
+                  readme = readme.slice(0, insertPoint) + newSection + readme.slice(insertPoint);
+                } else {
+                  readme += newSection;
+                }
               }
+              
+              fs.writeFileSync('README.md', readme);
+              // Create a file to signal that changes were made
+              fs.writeFileSync('changes_detected', 'true');
+            } else {
+              console.log('No changes detected in releases section');
             }
-            
-            console.log('Writing updated README...');
-            fs.writeFileSync('README.md', readme);
-            console.log('Done!');
 
-      - name: Commit and Push
+      - name: Commit and Push if Changed
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Update recent releases section" || exit 0
-          git push
+          if [ -f changes_detected ]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add README.md
+            git commit -m "Update recent releases section"
+            git push
+            rm changes_detected
+          else
+            echo "No changes to commit"
+          fi

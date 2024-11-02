@@ -19,16 +19,64 @@ jobs:
           script: |
             const fs = require('fs');
             
+            // Function to extract release data from HTML section
+            function extractReleaseData(section) {
+              const releases = [];
+              const rows = section.match(/<tr>[\s\S]*?<\/tr>/g) || [];
+              
+              for (const row of rows) {
+                // Skip header row
+                if (row.includes('<th>')) continue;
+                
+                // Extract key data points that would indicate a change
+                const repo = row.match(/href="([^"]+)">([^<]+)<\/a>/);
+                const version = row.match(/<td>([^<]+)<\/td>/g)?.[2]?.replace(/<\/?td>/g, '');
+                const date = row.match(/<td>([^<]+)<\/td>/g)?.[3]?.replace(/<\/?td>/g, '');
+                const stars = row.match(/⭐\s*([0-9]+)/)?.[1];
+                
+                if (repo && version && date) {
+                  releases.push({
+                    repo: repo[2],
+                    version: version.trim(),
+                    date: date.trim(),
+                    stars: stars ? parseInt(stars) : 0
+                  });
+                }
+              }
+              return releases;
+            }
+
+            // Function to compare two release arrays
+            function releasesAreDifferent(oldReleases, newReleases) {
+              if (oldReleases.length !== newReleases.length) return true;
+              
+              for (let i = 0; i < oldReleases.length; i++) {
+                const old = oldReleases[i];
+                const newR = newReleases[i];
+                
+                if (old.repo !== newR.repo ||
+                    old.version !== newR.version ||
+                    old.date !== newR.date ||
+                    old.stars !== newR.stars) {
+                  return true;
+                }
+              }
+              
+              return false;
+            }
+            
             // Read current README first
             console.log('Reading README...');
             let readme = fs.readFileSync('README.md', 'utf8');
             
-            // Store the original releases section if it exists
+            // Extract current releases section if it exists
             let originalSection = '';
+            let currentReleases = [];
             if (readme.includes('<!-- Recent Releases -->')) {
               const start = readme.indexOf('<!-- Recent Releases -->');
               const end = readme.indexOf('<!-- End Recent Releases -->') + '<!-- End Recent Releases -->'.length;
               originalSection = readme.substring(start, end);
+              currentReleases = extractReleaseData(originalSection);
             }
             
             console.log('Fetching repositories...');
@@ -83,7 +131,10 @@ jobs:
               });
             }
             
+            // Prepare new section
             let newSection;
+            let newReleasesData = [];
+            
             if (allReleases.length === 0) {
               newSection = [
                 '\n<!-- Recent Releases -->',
@@ -94,6 +145,14 @@ jobs:
                 '<!-- End Recent Releases -->'
               ].join('\n');
             } else {
+              // Transform the new releases into comparable format
+              newReleasesData = allReleases.map(release => ({
+                repo: release.repo_name,
+                version: release.name || release.tag_name,
+                date: formatDate(release.published_at),
+                stars: release.stars
+              }));
+              
               const tableRows = allReleases.map(release => {
                 const name = release.name || release.tag_name;
                 const date = formatDate(release.published_at);
@@ -131,9 +190,9 @@ jobs:
               ].join('\n');
             }
             
-            // Compare new section with original before updating
-            if (newSection !== originalSection) {
-              console.log('Changes detected, updating README...');
+            // Compare the actual release data instead of HTML content
+            if (releasesAreDifferent(currentReleases, newReleasesData)) {
+              console.log('Changes detected in release data, updating README...');
               // Update or append the section
               if (originalSection) {
                 readme = readme.replace(originalSection, newSection);
@@ -150,7 +209,7 @@ jobs:
               // Create a file to signal that changes were made
               fs.writeFileSync('changes_detected', 'true');
             } else {
-              console.log('No changes detected in releases section');
+              console.log('No changes detected in release data');
             }
 
       - name: Commit and Push if Changed

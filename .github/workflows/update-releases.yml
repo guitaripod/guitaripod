@@ -28,21 +28,24 @@ jobs:
                 // Skip header row
                 if (row.includes('<th>')) continue;
                 
-                // Extract key data points that would indicate a change
-                const repo = row.match(/href="([^"]+)">([^<]+)<\/a>/);
-                const version = row.match(/<td>([^<]+)<\/td>/g)?.[2]?.replace(/<\/?td>/g, '');
-                const date = row.match(/<td>([^<]+)<\/td>/g)?.[3]?.replace(/<\/?td>/g, '');
-                const stars = row.match(/⭐\s*([0-9]+)/)?.[1];
-                
-                if (repo && version && date) {
-                  releases.push({
-                    repo: repo[2],
-                    version: version.trim(),
-                    date: date.trim(),
-                    stars: stars ? parseInt(stars) : 0
-                  });
+                const cells = row.match(/<td>[^<]*(?:<[^>]*>[^<]*)*<\/td>/g) || [];
+                if (cells.length >= 5) {
+                  const repoMatch = cells[1].match(/href="[^"]+">([^<]+)<\/a>/);
+                  const version = cells[2].replace(/<\/?td>/g, '').trim();
+                  const date = cells[3].replace(/<\/?td>/g, '').trim();
+                  const starsMatch = cells[4].match(/⭐\s*([0-9]+)/);
+                  
+                  if (repoMatch && version && date) {
+                    releases.push({
+                      repo: repoMatch[1],
+                      version: version,
+                      date: date,
+                      stars: starsMatch ? parseInt(starsMatch[1]) : 0
+                    });
+                  }
                 }
               }
+              console.log('Extracted releases:', releases);
               return releases;
             }
 

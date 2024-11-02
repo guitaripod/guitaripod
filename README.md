@@ -6,6 +6,7 @@
 </p>
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -50,7 +51,7 @@
       <td><a href="https://github.com/marcusziade/Swollama/releases/tag/v1.0.2">Swollama</a></td>
       <td>v1.0.2</td>
       <td>Oct 29, 2024</td>
-      <td>⭐ 3</td>
+      <td>⭐ 4</td>
       <td>A Swift package for Ollama</td>
     </tr>
 <tr>
@@ -65,6 +66,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

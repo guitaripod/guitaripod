@@ -21,19 +21,38 @@ jobs:
             
             // Function to extract release data from HTML section
             function extractReleaseData(section) {
+              console.log('Raw section:', section); // Debug log
+              
               const releases = [];
-              const rows = section.match(/<tr>[\s\S]*?<\/tr>/g) || [];
+              // More precise regex to match table rows while avoiding thead
+              const rows = section.match(/<tbody>[\s\S]*?<\/tbody>/)?.[0]?.match(/<tr>[\s\S]*?<\/tr>/g) || [];
+              
+              console.log(`Found ${rows.length} rows`); // Debug log
               
               for (const row of rows) {
-                // Skip header row
+                // Skip if this is a header row
                 if (row.includes('<th>')) continue;
                 
-                const cells = row.match(/<td>[^<]*(?:<[^>]*>[^<]*)*<\/td>/g) || [];
+                console.log('Processing row:', row); // Debug log
+                
+                // Match all content between <td> tags, including HTML content
+                const cells = row.match(/<td>([\s\S]*?)<\/td>/g) || [];
+                
                 if (cells.length >= 5) {
+                  // Extract data from each cell
+                  const language = cells[0].replace(/<\/?[^>]+>/g, '').trim();
                   const repoMatch = cells[1].match(/href="[^"]+">([^<]+)<\/a>/);
-                  const version = cells[2].replace(/<\/?td>/g, '').trim();
-                  const date = cells[3].replace(/<\/?td>/g, '').trim();
-                  const starsMatch = cells[4].match(/⭐\s*([0-9]+)/);
+                  const version = cells[2].replace(/<\/?[^>]+>/g, '').trim();
+                  const date = cells[3].replace(/<\/?[^>]+>/g, '').trim();
+                  const starsMatch = cells[4].replace(/<\/?[^>]+>/g, '').match(/⭐\s*([0-9]+)/);
+                  
+                  console.log('Extracted cell data:', { // Debug log
+                    language,
+                    repo: repoMatch?.[1],
+                    version,
+                    date,
+                    stars: starsMatch?.[1]
+                  });
                   
                   if (repoMatch && version && date) {
                     releases.push({
@@ -45,7 +64,8 @@ jobs:
                   }
                 }
               }
-              console.log('Extracted releases:', releases);
+              
+              console.log('Final extracted releases:', releases); // Debug log
               return releases;
             }
 

@@ -13,6 +13,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -28,6 +29,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Lua</td>
+      <td><a href="https://github.com/marcusziade/rawdog.ml.nvim/releases/tag/v1">rawdog.ml.nvim</a></td>
+      <td>v1</td>
+      <td>Nov 22, 2024</td>
+      <td>⭐ 0</td>
+      <td>minimal neovim config</td>
+    </tr>
 <tr>
       <td>Swift</td>
       <td><a href="https://github.com/marcusziade/StarCraftKit/releases/tag/v1.0.0">StarCraftKit</a></td>
@@ -60,18 +69,11 @@
       <td>⭐ 5</td>
       <td>A Swift package for Ollama</td>
     </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v0.0.9">songlink-cli</a></td>
-      <td>v0.0.9</td>
-      <td>Apr 12, 2024</td>
-      <td>⭐ 5</td>
-      <td>A Song.Link CLI app written in Go</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

@@ -14,6 +14,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -30,12 +31,20 @@
 </thead>
 <tbody>
 <tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v0.0.1-alpha">fluxxxer</a></td>
+      <td>v0.0.1-alpha</td>
+      <td>Nov 24, 2024</td>
+      <td>⭐ 0</td>
+      <td>a native gtk4 Linux image generator built with Go</td>
+    </tr>
+<tr>
       <td>Lua</td>
       <td><a href="https://github.com/marcusziade/rawdog.ml.nvim/releases/tag/v1">rawdog.ml.nvim</a></td>
       <td>v1</td>
       <td>Nov 22, 2024</td>
       <td>⭐ 0</td>
-      <td>minimal neovim config</td>
+      <td>my neovim config, btw. for arch and macOS, btw.</td>
     </tr>
 <tr>
       <td>Swift</td>
@@ -61,18 +70,11 @@
       <td>⭐ 0</td>
       <td>torrentday.com torrent downloader</td>
     </tr>
-<tr>
-      <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/Swollama/releases/tag/v1.0.2">Swollama</a></td>
-      <td>v1.0.2</td>
-      <td>Oct 29, 2024</td>
-      <td>⭐ 5</td>
-      <td>A Swift package for Ollama</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

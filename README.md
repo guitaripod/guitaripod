@@ -15,6 +15,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -32,9 +33,9 @@
 <tbody>
 <tr>
       <td>Go</td>
-      <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v0.0.1-alpha">fluxxxer</a></td>
-      <td>v0.0.1-alpha</td>
-      <td>Nov 24, 2024</td>
+      <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v1">fluxxxer</a></td>
+      <td>v1</td>
+      <td>Nov 25, 2024</td>
       <td>⭐ 0</td>
       <td>a native gtk4 Linux image generator built with Go</td>
     </tr>
@@ -74,6 +75,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

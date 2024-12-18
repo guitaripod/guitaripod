@@ -16,6 +16,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -31,6 +32,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/chatgpt-gtk4/releases/tag/v0.0.1-alpha">chatgpt-gtk4</a></td>
+      <td>v0.0.1-alpha</td>
+      <td>Dec 18, 2024</td>
+      <td>⭐ 0</td>
+      <td>Native GTK4 ChatGPT client using the official Go SDK</td>
+    </tr>
 <tr>
       <td>Go</td>
       <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v1">fluxxxer</a></td>
@@ -63,18 +72,11 @@
       <td>⭐ 1</td>
       <td>A Swift package that brings Vim-style navigation to your command-line applications.</td>
     </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/torrent-rss/releases/tag/v0.0.1-alpha">torrent-rss</a></td>
-      <td>v0.0.1-alpha</td>
-      <td>Oct 31, 2024</td>
-      <td>⭐ 0</td>
-      <td>torrentday.com torrent downloader</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

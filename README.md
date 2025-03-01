@@ -17,6 +17,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -32,6 +33,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>JavaScript</td>
+      <td><a href="https://github.com/marcusziade/freedom-speech-tierlist/releases/tag/v1.0">freedom-speech-tierlist</a></td>
+      <td>v1.0</td>
+      <td>Feb 27, 2025</td>
+      <td>⭐ 0</td>
+      <td></td>
+    </tr>
 <tr>
       <td>Go</td>
       <td><a href="https://github.com/marcusziade/chatgpt-gtk4/releases/tag/v0.0.1-alpha">chatgpt-gtk4</a></td>
@@ -64,18 +73,11 @@
       <td>⭐ 1</td>
       <td>StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.</td>
     </tr>
-<tr>
-      <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/VimTerminalKit/releases/tag/v1.0.2">VimTerminalKit</a></td>
-      <td>v1.0.2</td>
-      <td>Oct 31, 2024</td>
-      <td>⭐ 1</td>
-      <td>A Swift package that brings Vim-style navigation to your command-line applications.</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

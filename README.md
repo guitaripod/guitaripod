@@ -18,6 +18,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -34,28 +35,12 @@
 </thead>
 <tbody>
 <tr>
-      <td>JavaScript</td>
-      <td><a href="https://github.com/marcusziade/freedom-speech-tierlist/releases/tag/v1.0">freedom-speech-tierlist</a></td>
-      <td>v1.0</td>
-      <td>Feb 27, 2025</td>
-      <td>⭐ 0</td>
-      <td></td>
-    </tr>
-<tr>
       <td>Go</td>
       <td><a href="https://github.com/marcusziade/chatgpt-gtk4/releases/tag/v0.0.1-alpha">chatgpt-gtk4</a></td>
       <td>v0.0.1-alpha</td>
       <td>Dec 18, 2024</td>
       <td>⭐ 0</td>
       <td>Native GTK4 ChatGPT client using the official Go SDK</td>
-    </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v1">fluxxxer</a></td>
-      <td>v1</td>
-      <td>Nov 25, 2024</td>
-      <td>⭐ 0</td>
-      <td>a native gtk4 Linux image generator built with Go</td>
     </tr>
 <tr>
       <td>Lua</td>
@@ -66,17 +51,34 @@
       <td>my neovim config, btw. for arch and macOS, btw.</td>
     </tr>
 <tr>
-      <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/StarCraftKit/releases/tag/v1.0.0">StarCraftKit</a></td>
-      <td>v1.0.0</td>
-      <td>Nov 1, 2024</td>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/torrent-rss/releases/tag/v0.0.1-alpha">torrent-rss</a></td>
+      <td>v0.0.1-alpha</td>
+      <td>Oct 31, 2024</td>
       <td>⭐ 1</td>
-      <td>StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.</td>
+      <td>torrentday.com torrent downloader</td>
+    </tr>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v0.0.9">songlink-cli</a></td>
+      <td>v0.0.9</td>
+      <td>Apr 12, 2024</td>
+      <td>⭐ 5</td>
+      <td>A Song.Link CLI app written in Go</td>
+    </tr>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/reposort/releases/tag/v0.0.2-alpha">reposort</a></td>
+      <td>v0.0.2-alpha</td>
+      <td>Mar 9, 2024</td>
+      <td>⭐ 0</td>
+      <td>RepoSort is a command-line tool written in Go that organizes repositories into language-specific directories. It is designed to help developers maintain a clean workspace by automatically sorting repositories based on the programming language they are primarily written in.</td>
     </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

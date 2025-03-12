@@ -22,6 +22,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -37,6 +38,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>JavaScript</td>
+      <td><a href="https://github.com/marcusziade/twitter-reply-selector/releases/tag/v1.0.1">twitter-reply-selector</a></td>
+      <td>v1.0.1</td>
+      <td>Mar 12, 2025</td>
+      <td>⭐ 0</td>
+      <td>A browser extension that automatically sets reply visibility to "Verified accounts" when composing tweets</td>
+    </tr>
 <tr>
       <td>JavaScript</td>
       <td><a href="https://github.com/marcusziade/freedom-speech-tierlist/releases/tag/v1.0">freedom-speech-tierlist</a></td>
@@ -69,18 +78,11 @@
       <td>⭐ 0</td>
       <td>my neovim config, btw. for arch and macOS, btw.</td>
     </tr>
-<tr>
-      <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/StarCraftKit/releases/tag/v1.0.0">StarCraftKit</a></td>
-      <td>v1.0.0</td>
-      <td>Nov 1, 2024</td>
-      <td>⭐ 1</td>
-      <td>StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

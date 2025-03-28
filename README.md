@@ -23,6 +23,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -38,6 +39,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/MusicKitKat/releases/tag/v0.0.2">MusicKitKat</a></td>
+      <td>v0.0.2</td>
+      <td>Mar 28, 2025</td>
+      <td>⭐ 0</td>
+      <td>Go SDK for Apple Music (WIP)</td>
+    </tr>
 <tr>
       <td>JavaScript</td>
       <td><a href="https://github.com/marcusziade/twitter-reply-selector/releases/tag/v1.0.1">twitter-reply-selector</a></td>
@@ -70,18 +79,11 @@
       <td>⭐ 0</td>
       <td>a native gtk4 Linux image generator built with Go</td>
     </tr>
-<tr>
-      <td>Lua</td>
-      <td><a href="https://github.com/marcusziade/rawdog.ml.nvim/releases/tag/v1">rawdog.ml.nvim</a></td>
-      <td>v1</td>
-      <td>Nov 22, 2024</td>
-      <td>⭐ 0</td>
-      <td>my neovim config, btw. for arch and macOS, btw.</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

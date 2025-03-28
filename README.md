@@ -24,6 +24,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -39,6 +40,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v2.0.0">songlink-cli</a></td>
+      <td>v2.0.0</td>
+      <td>Mar 28, 2025</td>
+      <td>⭐ 5</td>
+      <td>A Song.Link CLI app written in Go</td>
+    </tr>
 <tr>
       <td>Go</td>
       <td><a href="https://github.com/marcusziade/MusicKitKat/releases/tag/v0.0.2">MusicKitKat</a></td>
@@ -71,18 +80,11 @@
       <td>⭐ 0</td>
       <td>Native GTK4 ChatGPT client using the official Go SDK</td>
     </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v1">fluxxxer</a></td>
-      <td>v1</td>
-      <td>Nov 25, 2024</td>
-      <td>⭐ 0</td>
-      <td>a native gtk4 Linux image generator built with Go</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

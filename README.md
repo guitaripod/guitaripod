@@ -25,6 +25,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -40,6 +41,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/JewOrNotJewKit/releases/tag/v1.0.2">JewOrNotJewKit</a></td>
+      <td>v1.0.2</td>
+      <td>Mar 29, 2025</td>
+      <td>⭐ 0</td>
+      <td>A Go SDK and database for JewOrNotJew(dot)com</td>
+    </tr>
 <tr>
       <td>Go</td>
       <td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v2.0.0">songlink-cli</a></td>
@@ -72,18 +81,11 @@
       <td>⭐ 0</td>
       <td></td>
     </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/chatgpt-gtk4/releases/tag/v0.0.1-alpha">chatgpt-gtk4</a></td>
-      <td>v0.0.1-alpha</td>
-      <td>Dec 18, 2024</td>
-      <td>⭐ 0</td>
-      <td>Native GTK4 ChatGPT client using the official Go SDK</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

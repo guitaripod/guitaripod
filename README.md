@@ -26,6 +26,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -46,7 +47,7 @@
       <td><a href="https://github.com/marcusziade/JewOrNotJewKit/releases/tag/v1.0.2">JewOrNotJewKit</a></td>
       <td>v1.0.2</td>
       <td>Mar 29, 2025</td>
-      <td>⭐ 0</td>
+      <td>⭐ 1</td>
       <td>A Go SDK and database for JewOrNotJew(dot)com</td>
     </tr>
 <tr>
@@ -85,6 +86,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

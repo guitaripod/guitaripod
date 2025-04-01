@@ -27,6 +27,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -42,6 +43,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/Pomme/releases/tag/v1.0.2">Pomme</a></td>
+      <td>v1.0.2</td>
+      <td>Apr 1, 2025</td>
+      <td>⭐ 0</td>
+      <td>App Store Connect CLI tool built with Go.</td>
+    </tr>
 <tr>
       <td>Go</td>
       <td><a href="https://github.com/marcusziade/JewOrNotJewKit/releases/tag/v1.0.2">JewOrNotJewKit</a></td>
@@ -74,18 +83,11 @@
       <td>⭐ 0</td>
       <td>A browser extension that automatically sets reply visibility to "Verified accounts" when composing tweets</td>
     </tr>
-<tr>
-      <td>JavaScript</td>
-      <td><a href="https://github.com/marcusziade/freedom-speech-tierlist/releases/tag/v1.0">freedom-speech-tierlist</a></td>
-      <td>v1.0</td>
-      <td>Feb 27, 2025</td>
-      <td>⭐ 0</td>
-      <td></td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

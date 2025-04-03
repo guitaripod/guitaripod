@@ -28,6 +28,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -43,6 +44,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v2.0.0">fluxxxer</a></td>
+      <td>v2.0.0</td>
+      <td>Apr 3, 2025</td>
+      <td>⭐ 0</td>
+      <td>a native gtk4 Linux image generator built with Go</td>
+    </tr>
 <tr>
       <td>Go</td>
       <td><a href="https://github.com/marcusziade/Pomme/releases/tag/v1.0.2">Pomme</a></td>
@@ -75,18 +84,11 @@
       <td>⭐ 0</td>
       <td>Go SDK for Apple Music (WIP)</td>
     </tr>
-<tr>
-      <td>JavaScript</td>
-      <td><a href="https://github.com/marcusziade/twitter-reply-selector/releases/tag/v1.0.1">twitter-reply-selector</a></td>
-      <td>v1.0.1</td>
-      <td>Mar 12, 2025</td>
-      <td>⭐ 0</td>
-      <td>A browser extension that automatically sets reply visibility to "Verified accounts" when composing tweets</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

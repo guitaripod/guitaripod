@@ -31,6 +31,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -51,7 +52,7 @@
       <td><a href="https://github.com/marcusziade/OpenAIImagesKit/releases/tag/1.0.0">OpenAIImagesKit</a></td>
       <td>1.0.0</td>
       <td>Apr 23, 2025</td>
-      <td>⭐ 0</td>
+      <td>⭐ 1</td>
       <td>Swift package for OpenAI's Images API</td>
     </tr>
 <tr>
@@ -90,6 +91,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

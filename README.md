@@ -33,6 +33,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -58,14 +59,6 @@
     </tr>
 <tr>
       <td>Go</td>
-      <td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v3.0.0">songlink-cli</a></td>
-      <td>v3.0.0</td>
-      <td>Apr 18, 2025</td>
-      <td>⭐ 5</td>
-      <td>A Song.Link CLI app written in Go</td>
-    </tr>
-<tr>
-      <td>Go</td>
       <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v2.0.0">fluxxxer</a></td>
       <td>v2.0.0</td>
       <td>Apr 3, 2025</td>
@@ -88,10 +81,19 @@
       <td>⭐ 1</td>
       <td>A Go SDK and database for JewOrNotJew(dot)com</td>
     </tr>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/MusicKitKat/releases/tag/v0.0.2">MusicKitKat</a></td>
+      <td>v0.0.2</td>
+      <td>Mar 28, 2025</td>
+      <td>⭐ 0</td>
+      <td>Go SDK for Apple Music (WIP)</td>
+    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

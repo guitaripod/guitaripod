@@ -36,6 +36,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -51,6 +52,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>JavaScript</td>
+      <td><a href="https://github.com/marcusziade/xthemetoggler/releases/tag/1.0.0">xthemetoggler</a></td>
+      <td>1.0.0</td>
+      <td>Apr 27, 2025</td>
+      <td>⭐ 0</td>
+      <td> Extension that adds a dedicated button on X.com to quickly access display settings</td>
+    </tr>
 <tr>
       <td>Swift</td>
       <td><a href="https://github.com/marcusziade/OpenAIImagesKit/releases/tag/1.0.0">OpenAIImagesKit</a></td>
@@ -83,18 +92,11 @@
       <td>⭐ 0</td>
       <td>App Store Connect CLI tool built with Go.</td>
     </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/JewOrNotJewKit/releases/tag/v1.0.2">JewOrNotJewKit</a></td>
-      <td>v1.0.2</td>
-      <td>Mar 29, 2025</td>
-      <td>⭐ 1</td>
-      <td>A Go SDK and database for JewOrNotJew(dot)com</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

@@ -42,6 +42,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -91,16 +92,17 @@
     </tr>
 <tr>
       <td>Go</td>
-      <td><a href="https://github.com/marcusziade/Pomme/releases/tag/v1.0.2">Pomme</a></td>
-      <td>v1.0.2</td>
-      <td>Apr 1, 2025</td>
+      <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v2.0.0">fluxxxer</a></td>
+      <td>v2.0.0</td>
+      <td>Apr 3, 2025</td>
       <td>⭐ 0</td>
-      <td>App Store Connect CLI tool built with Go.</td>
+      <td>a native gtk4 Linux image generator built with Go</td>
     </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

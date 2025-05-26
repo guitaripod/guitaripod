@@ -40,6 +40,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -56,36 +57,12 @@
 </thead>
 <tbody>
 <tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/speedrun-cli/releases/tag/1.0.1">speedrun-cli</a></td>
-      <td>1.0.1</td>
-      <td>May 22, 2025</td>
-      <td>⭐ 0</td>
-      <td>CLI client for speedrun.com</td>
-    </tr>
-<tr>
       <td>JavaScript</td>
       <td><a href="https://github.com/marcusziade/xthemetoggler/releases/tag/1.0.0">xthemetoggler</a></td>
       <td>1.0.0</td>
       <td>Apr 27, 2025</td>
       <td>⭐ 0</td>
       <td> Extension that adds a dedicated button on X.com to quickly access display settings</td>
-    </tr>
-<tr>
-      <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/OpenAIImagesKit/releases/tag/1.0.0">OpenAIImagesKit</a></td>
-      <td>1.0.0</td>
-      <td>Apr 23, 2025</td>
-      <td>⭐ 4</td>
-      <td>Swift package for OpenAI's Images API</td>
-    </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v3.0.0">songlink-cli</a></td>
-      <td>v3.0.0</td>
-      <td>Apr 18, 2025</td>
-      <td>⭐ 5</td>
-      <td>A Song.Link CLI app written in Go</td>
     </tr>
 <tr>
       <td>Go</td>
@@ -95,10 +72,35 @@
       <td>⭐ 0</td>
       <td>a native gtk4 Linux image generator built with Go</td>
     </tr>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/Pomme/releases/tag/v1.0.2">Pomme</a></td>
+      <td>v1.0.2</td>
+      <td>Apr 1, 2025</td>
+      <td>⭐ 0</td>
+      <td>App Store Connect CLI tool built with Go.</td>
+    </tr>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/JewOrNotJewKit/releases/tag/v1.0.2">JewOrNotJewKit</a></td>
+      <td>v1.0.2</td>
+      <td>Mar 29, 2025</td>
+      <td>⭐ 1</td>
+      <td>A Go SDK and database for JewOrNotJew(dot)com</td>
+    </tr>
+<tr>
+      <td>Go</td>
+      <td><a href="https://github.com/marcusziade/MusicKitKat/releases/tag/v0.0.2">MusicKitKat</a></td>
+      <td>v0.0.2</td>
+      <td>Mar 28, 2025</td>
+      <td>⭐ 0</td>
+      <td>Go SDK for Apple Music (WIP)</td>
+    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

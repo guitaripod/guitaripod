@@ -43,6 +43,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -60,9 +61,9 @@
 <tbody>
 <tr>
       <td>Go</td>
-      <td><a href="https://github.com/marcusziade/speedrun-cli/releases/tag/1.0.1">speedrun-cli</a></td>
-      <td>1.0.1</td>
-      <td>May 22, 2025</td>
+      <td><a href="https://github.com/marcusziade/speedrun-cli/releases/tag/1.1.0">speedrun-cli</a></td>
+      <td>1.1.0</td>
+      <td>May 31, 2025</td>
       <td>⭐ 0</td>
       <td>CLI client for speedrun.com</td>
     </tr>
@@ -102,6 +103,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

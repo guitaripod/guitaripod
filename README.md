@@ -1,4 +1,4 @@
-![jwst-code-stuff](https://github.com/user-attachments/assets/ef4f7cfb-1a30-4023-ba9b-b922d4fe6b24)
+![professionalretardtechstacks](https://github.com/user-attachments/assets/108655df-7d5d-43dd-884a-7406a52221d3)
 
 <p align="left">
   <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Kotlin,Dockerfile,Shell,PowerShell,Makefile" alt="Technologies" />

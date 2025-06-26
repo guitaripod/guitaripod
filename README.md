@@ -48,6 +48,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -63,6 +64,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.0.0">OpenAIKit</a></td>
+      <td>1.0.0</td>
+      <td>Jun 26, 2025</td>
+      <td>⭐ 0</td>
+      <td></td>
+    </tr>
 <tr>
       <td>Go</td>
       <td><a href="https://github.com/marcusziade/speedrun-cli/releases/tag/1.4.1">speedrun-cli</a></td>
@@ -95,18 +104,11 @@
       <td>⭐ 5</td>
       <td>A Song.Link CLI app written in Go</td>
     </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/fluxxxer/releases/tag/v2.0.0">fluxxxer</a></td>
-      <td>v2.0.0</td>
-      <td>Apr 3, 2025</td>
-      <td>⭐ 0</td>
-      <td>a native gtk4 Linux image generator built with Go</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

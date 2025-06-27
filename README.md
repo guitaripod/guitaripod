@@ -56,6 +56,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -71,6 +72,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/Swollama/releases/tag/2.0.0">Swollama</a></td>
+      <td>2.0.0</td>
+      <td>Jun 27, 2025</td>
+      <td>⭐ 10</td>
+      <td>A comprehensive Swift SDK for Ollama</td>
+    </tr>
 <tr>
       <td>Swift</td>
       <td><a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.0">OpenAIKit</a></td>
@@ -103,18 +112,11 @@
       <td>⭐ 4</td>
       <td>Swift package for OpenAI's Images API</td>
     </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/songlink-cli/releases/tag/v3.0.0">songlink-cli</a></td>
-      <td>v3.0.0</td>
-      <td>Apr 18, 2025</td>
-      <td>⭐ 5</td>
-      <td>A Song.Link CLI app written in Go</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

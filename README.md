@@ -52,6 +52,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -72,7 +73,7 @@
       <td><a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.1.0">OpenAIKit</a></td>
       <td>1.1.0</td>
       <td>Jun 26, 2025</td>
-      <td>⭐ 3</td>
+      <td>⭐ 4</td>
       <td>A comprehensive Swift SDK for the OpenAI API.</td>
     </tr>
 <tr>
@@ -111,6 +112,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

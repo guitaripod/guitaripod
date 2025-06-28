@@ -57,6 +57,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -72,6 +73,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.0">DeepSeekKit</a></td>
+      <td>1.0.0</td>
+      <td>Jun 28, 2025</td>
+      <td>⭐ 0</td>
+      <td>A comprehensive Swift SDK for the DeepSeek API</td>
+    </tr>
 <tr>
       <td>Swift</td>
       <td><a href="https://github.com/marcusziade/Swollama/releases/tag/2.0.0">Swollama</a></td>
@@ -104,18 +113,11 @@
       <td>⭐ 0</td>
       <td> Extension that adds a dedicated button on X.com to quickly access display settings</td>
     </tr>
-<tr>
-      <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/OpenAIImagesKit/releases/tag/1.0.0">OpenAIImagesKit</a></td>
-      <td>1.0.0</td>
-      <td>Apr 23, 2025</td>
-      <td>⭐ 4</td>
-      <td>Swift package for OpenAI's Images API</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

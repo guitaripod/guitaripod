@@ -58,6 +58,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -78,7 +79,7 @@
       <td><a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.0">DeepSeekKit</a></td>
       <td>1.0.0</td>
       <td>Jun 28, 2025</td>
-      <td>⭐ 0</td>
+      <td>⭐ 1</td>
       <td>A comprehensive Swift SDK for the DeepSeek API</td>
     </tr>
 <tr>
@@ -117,6 +118,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

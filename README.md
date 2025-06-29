@@ -62,6 +62,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -90,7 +91,7 @@
       <td><a href="https://github.com/marcusziade/AnthropicKit/releases/tag/1.0.0">AnthropicKit</a></td>
       <td>1.0.0</td>
       <td>Jun 29, 2025</td>
-      <td>⭐ 0</td>
+      <td>⭐ 1</td>
       <td>A comprehensive Swift SDK for the Anthropic API</td>
     </tr>
 <tr>
@@ -98,7 +99,7 @@
       <td><a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.0">DeepSeekKit</a></td>
       <td>1.0.0</td>
       <td>Jun 28, 2025</td>
-      <td>⭐ 1</td>
+      <td>⭐ 2</td>
       <td>A comprehensive Swift SDK for the DeepSeek API</td>
     </tr>
 <tr>
@@ -114,13 +115,14 @@
       <td><a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.0">OpenAIKit</a></td>
       <td>1.2.0</td>
       <td>Jun 27, 2025</td>
-      <td>⭐ 7</td>
+      <td>⭐ 8</td>
       <td>A comprehensive Swift SDK for the OpenAI API.</td>
     </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

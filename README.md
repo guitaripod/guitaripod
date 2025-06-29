@@ -61,6 +61,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -81,7 +82,7 @@
       <td><a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.0">xAIKit</a></td>
       <td>1.0.0</td>
       <td>Jun 29, 2025</td>
-      <td>⭐ 0</td>
+      <td>⭐ 1</td>
       <td>A comprehensive Swift SDK for the xAI API</td>
     </tr>
 <tr>
@@ -120,6 +121,7 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

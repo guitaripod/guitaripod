@@ -60,6 +60,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -75,6 +76,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.0">xAIKit</a></td>
+      <td>1.0.0</td>
+      <td>Jun 29, 2025</td>
+      <td>⭐ 0</td>
+      <td>A comprehensive Swift SDK for the xAI API</td>
+    </tr>
 <tr>
       <td>Swift</td>
       <td><a href="https://github.com/marcusziade/AnthropicKit/releases/tag/1.0.0">AnthropicKit</a></td>
@@ -107,18 +116,11 @@
       <td>⭐ 7</td>
       <td>A comprehensive Swift SDK for the OpenAI API.</td>
     </tr>
-<tr>
-      <td>Go</td>
-      <td><a href="https://github.com/marcusziade/speedrun-cli/releases/tag/1.4.1">speedrun-cli</a></td>
-      <td>1.4.1</td>
-      <td>Jun 17, 2025</td>
-      <td>⭐ 0</td>
-      <td>CLI client for speedrun.com</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

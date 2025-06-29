@@ -59,6 +59,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -74,6 +75,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/AnthropicKit/releases/tag/1.0.0">AnthropicKit</a></td>
+      <td>1.0.0</td>
+      <td>Jun 29, 2025</td>
+      <td>⭐ 0</td>
+      <td>A comprehensive Swift SDK for the Anthropic API</td>
+    </tr>
 <tr>
       <td>Swift</td>
       <td><a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.0">DeepSeekKit</a></td>
@@ -106,18 +115,11 @@
       <td>⭐ 0</td>
       <td>CLI client for speedrun.com</td>
     </tr>
-<tr>
-      <td>JavaScript</td>
-      <td><a href="https://github.com/marcusziade/xthemetoggler/releases/tag/1.0.0">xthemetoggler</a></td>
-      <td>1.0.0</td>
-      <td>Apr 27, 2025</td>
-      <td>⭐ 0</td>
-      <td> Extension that adds a dedicated button on X.com to quickly access display settings</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

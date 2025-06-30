@@ -63,6 +63,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -80,27 +81,35 @@
 <tbody>
 <tr>
       <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.0">xAIKit</a></td>
-      <td>1.0.0</td>
-      <td>Jun 29, 2025</td>
+      <td><a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a></td>
+      <td>1.0.1</td>
+      <td>Jun 30, 2025</td>
+      <td>⭐ 2</td>
+      <td>A comprehensive Swift SDK for the DeepSeek API</td>
+    </tr>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.2">xAIKit</a></td>
+      <td>1.0.2</td>
+      <td>Jun 30, 2025</td>
       <td>⭐ 1</td>
       <td>A comprehensive Swift SDK for the xAI API</td>
     </tr>
 <tr>
       <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/AnthropicKit/releases/tag/1.0.0">AnthropicKit</a></td>
-      <td>1.0.0</td>
-      <td>Jun 29, 2025</td>
-      <td>⭐ 1</td>
-      <td>A comprehensive Swift SDK for the Anthropic API</td>
+      <td><a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.1">OpenAIKit</a></td>
+      <td>1.2.1</td>
+      <td>Jun 30, 2025</td>
+      <td>⭐ 8</td>
+      <td>A comprehensive Swift SDK for the OpenAI API.</td>
     </tr>
 <tr>
       <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.0">DeepSeekKit</a></td>
-      <td>1.0.0</td>
-      <td>Jun 28, 2025</td>
-      <td>⭐ 2</td>
-      <td>A comprehensive Swift SDK for the DeepSeek API</td>
+      <td><a href="https://github.com/marcusziade/AnthropicKit/releases/tag/1.0.1">AnthropicKit</a></td>
+      <td>1.0.1</td>
+      <td>Jun 30, 2025</td>
+      <td>⭐ 1</td>
+      <td>A comprehensive Swift SDK for the Anthropic API</td>
     </tr>
 <tr>
       <td>Swift</td>
@@ -110,18 +119,11 @@
       <td>⭐ 10</td>
       <td>A comprehensive Swift SDK for Ollama</td>
     </tr>
-<tr>
-      <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.0">OpenAIKit</a></td>
-      <td>1.2.0</td>
-      <td>Jun 27, 2025</td>
-      <td>⭐ 8</td>
-      <td>A comprehensive Swift SDK for the OpenAI API.</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

@@ -64,6 +64,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -79,6 +80,14 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+      <td>Swift</td>
+      <td><a href="https://github.com/marcusziade/GeminiKit/releases/tag/1.0.0">GeminiKit</a></td>
+      <td>1.0.0</td>
+      <td>Jun 30, 2025</td>
+      <td>⭐ 0</td>
+      <td>A comprehensive Swift SDK for the Google Gemini SDK</td>
+    </tr>
 <tr>
       <td>Swift</td>
       <td><a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a></td>
@@ -111,18 +120,11 @@
       <td>⭐ 1</td>
       <td>A comprehensive Swift SDK for the Anthropic API</td>
     </tr>
-<tr>
-      <td>Swift</td>
-      <td><a href="https://github.com/marcusziade/Swollama/releases/tag/2.0.0">Swollama</a></td>
-      <td>2.0.0</td>
-      <td>Jun 27, 2025</td>
-      <td>⭐ 10</td>
-      <td>A comprehensive Swift SDK for Ollama</td>
-    </tr>
 </tbody>
 </table>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

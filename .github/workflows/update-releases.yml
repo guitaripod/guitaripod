@@ -219,20 +219,15 @@ jobs:
                 return langMap[lang] || lang || 'N/A';
               }
               
-              // Truncate descriptions if too long
-              function truncateDesc(desc) {
-                if (!desc) return '';
-                // Allow longer descriptions, just truncate if needed
-                if (desc.length > 80) {
-                  desc = desc.substring(0, 77) + '...';
-                }
-                return desc;
+              // Just return the description as-is
+              function getDesc(desc) {
+                return desc || '';
               }
               
               const releaseLines = allReleases.map(release => {
                 const name = release.name || release.tag_name;
                 const lang = shortLang(release.language);
-                const desc = truncateDesc(release.description);
+                const desc = getDesc(release.description);
                 const stars = release.stars.toString();
                 return `<a href="${release.html_url}">${release.repo_name}</a> ${name} [${lang}] ⭐${stars}${desc ? ' • ' + desc : ''}`;
               }).join('\n');

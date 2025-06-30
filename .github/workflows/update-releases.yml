@@ -24,44 +24,33 @@ jobs:
               console.log('Raw section:', section); // Debug log
               
               const releases = [];
-              // More precise regex to match table rows while avoiding thead
-              const rows = section.match(/<tbody>[\s\S]*?<\/tbody>/)?.[0]?.match(/<tr>[\s\S]*?<\/tr>/g) || [];
+              // Extract lines from the <pre> tag
+              const preMatch = section.match(/<pre[^>]*>([\s\S]*?)<\/pre>/);
+              if (!preMatch) return releases;
               
-              console.log(`Found ${rows.length} rows`); // Debug log
+              const lines = preMatch[1].split('\n').filter(line => line.trim());
+              console.log(`Found ${lines.length} lines`); // Debug log
               
-              for (const row of rows) {
-                // Skip if this is a header row
-                if (row.includes('<th>')) continue;
+              for (const line of lines) {
+                console.log('Processing line:', line); // Debug log
                 
-                console.log('Processing row:', row); // Debug log
+                // Parse compact format: <a href="...">RepoName</a> v1.0.0 [Lang] ⭐N • Description
+                const repoMatch = line.match(/href="[^"]+">([^<]+)<\/a>/);
+                const versionMatch = line.match(/<\/a>\s+([^\s]+)\s+\[/);
+                const starsMatch = line.match(/⭐(\d+)/);
                 
-                // Match all content between <td> tags, including HTML content
-                const cells = row.match(/<td>([\s\S]*?)<\/td>/g) || [];
+                console.log('Extracted line data:', { // Debug log
+                  repo: repoMatch?.[1],
+                  version: versionMatch?.[1],
+                  stars: starsMatch?.[1]
+                });
                 
-                if (cells.length >= 5) {
-                  // Extract data from each cell
-                  const language = cells[0].replace(/<\/?[^>]+>/g, '').trim();
-                  const repoMatch = cells[1].match(/href="[^"]+">([^<]+)<\/a>/);
-                  const version = cells[2].replace(/<\/?[^>]+>/g, '').trim();
-                  const date = cells[3].replace(/<\/?[^>]+>/g, '').trim();
-                  const starsMatch = cells[4].replace(/<\/?[^>]+>/g, '').match(/⭐\s*([0-9]+)/);
-                  
-                  console.log('Extracted cell data:', { // Debug log
-                    language,
-                    repo: repoMatch?.[1],
-                    version,
-                    date,
-                    stars: starsMatch?.[1]
+                if (repoMatch && versionMatch) {
+                  releases.push({
+                    repo: repoMatch[1],
+                    version: versionMatch[1],
+                    stars: starsMatch ? parseInt(starsMatch[1]) : 0
                   });
-                  
-                  if (repoMatch && version && date) {
-                    releases.push({
-                      repo: repoMatch[1],
-                      version: version,
-                      date: date,
-                      stars: starsMatch ? parseInt(starsMatch[1]) : 0
-                    });
-                  }
                 }
               }
               
@@ -96,10 +85,7 @@ jobs:
                   console.log(`Version changed for ${old.repo}: ${old.version} -> ${newR.version}`);
                   return true;
                 }
-                if (old.date !== newR.date) {
-                  console.log(`Date changed for ${old.repo}: ${old.date} -> ${newR.date}`);
-                  return true;
-                }
+                // Skip date comparison in compact format
                 if (old.stars !== newR.stars) {
                   console.log(`Stars changed for ${old.repo}: ${old.stars} -> ${newR.stars}`);
                   return true;
@@ -207,44 +193,67 @@ jobs:
               newReleasesData = allReleases.map(release => ({
                 repo: release.repo_name,
                 version: release.name || release.tag_name,
-                date: formatDate(release.published_at),
                 stars: release.stars
               }));
               
               console.log('\nPreparing new releases data:', newReleasesData);
               
-              const tableRows = allReleases.map(release => {
+              // Shorten language names
+              function shortLang(lang) {
+                const langMap = {
+                  'Swift': 'Swift',
+                  'Go': 'Go',
+                  'JavaScript': 'JS',
+                  'TypeScript': 'TS',
+                  'Python': 'Py',
+                  'Rust': 'Rust',
+                  'Java': 'Java',
+                  'C++': 'C++',
+                  'C': 'C',
+                  'Ruby': 'Ruby',
+                  'PHP': 'PHP',
+                  'Kotlin': 'Kotlin',
+                  'Dart': 'Dart',
+                  'Lua': 'Lua'
+                };
+                return langMap[lang] || lang || 'N/A';
+              }
+              
+              // Shorten descriptions to fit on one line
+              function shortDesc(desc) {
+                if (!desc) return '';
+                // Remove common prefixes
+                desc = desc.replace(/^A comprehensive Swift SDK for (the )?/i, '');
+                desc = desc.replace(/^A Swift package (that |for )?/i, '');
+                desc = desc.replace(/^Swift package for /i, '');
+                desc = desc.replace(/^A Go SDK (and database )?for /i, '');
+                desc = desc.replace(/^Go SDK for /i, '');
+                desc = desc.replace(/^Native GTK4 /i, 'GTK4 ');
+                desc = desc.replace(/^A browser extension that /i, '');
+                desc = desc.replace(/^CLI client for /i, 'CLI for ');
+                desc = desc.replace(/^Extension that /i, '');
+                // Shorten long descriptions
+                if (desc.length > 50) {
+                  desc = desc.substring(0, 47) + '...';
+                }
+                return desc;
+              }
+              
+              const releaseLines = allReleases.map(release => {
                 const name = release.name || release.tag_name;
-                const date = formatDate(release.published_at);
-                return `<tr>
-                  <td>${release.language || 'N/A'}</td>
-                  <td><a href="${release.html_url}">${release.repo_name}</a></td>
-                  <td>${name}</td>
-                  <td>${date}</td>
-                  <td>⭐ ${release.stars}</td>
-                  <td>${release.description || ''}</td>
-                </tr>`;
+                const lang = shortLang(release.language);
+                const desc = shortDesc(release.description);
+                const stars = release.stars.toString();
+                return `<a href="${release.html_url}">${release.repo_name}</a> ${name} [${lang}] ⭐${stars}${desc ? ' • ' + desc : ''}`;
               }).join('\n');
 
               newSection = [
                 '\n<!-- Recent Releases -->',
                 '<div style="width: 80%; text-align: right;">',
                 '<h3>📦 Latest Releases</h3>',
-                '<table style="margin-left: auto;">',
-                '<thead>',
-                '<tr>',
-                '<th>Lang</th>',
-                '<th>Repository</th>',
-                '<th>Version</th>',
-                '<th>Released</th>',
-                '<th>Stars</th>',
-                '<th>Description</th>',
-                '</tr>',
-                '</thead>',
-                '<tbody>',
-                tableRows,
-                '</tbody>',
-                '</table>',
+                '<pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">',
+                releaseLines,
+                '</pre>',
                 '</div>',
                 '<!-- End Recent Releases -->\n'
               ].join('\n');

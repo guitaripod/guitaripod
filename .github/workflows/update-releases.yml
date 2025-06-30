@@ -219,22 +219,12 @@ jobs:
                 return langMap[lang] || lang || 'N/A';
               }
               
-              // Shorten descriptions to fit on one line
-              function shortDesc(desc) {
+              // Truncate descriptions if too long
+              function truncateDesc(desc) {
                 if (!desc) return '';
-                // Remove common prefixes
-                desc = desc.replace(/^A comprehensive Swift SDK for (the )?/i, '');
-                desc = desc.replace(/^A Swift package (that |for )?/i, '');
-                desc = desc.replace(/^Swift package for /i, '');
-                desc = desc.replace(/^A Go SDK (and database )?for /i, '');
-                desc = desc.replace(/^Go SDK for /i, '');
-                desc = desc.replace(/^Native GTK4 /i, 'GTK4 ');
-                desc = desc.replace(/^A browser extension that /i, '');
-                desc = desc.replace(/^CLI client for /i, 'CLI for ');
-                desc = desc.replace(/^Extension that /i, '');
-                // Shorten long descriptions
-                if (desc.length > 50) {
-                  desc = desc.substring(0, 47) + '...';
+                // Allow longer descriptions, just truncate if needed
+                if (desc.length > 80) {
+                  desc = desc.substring(0, 77) + '...';
                 }
                 return desc;
               }
@@ -242,7 +232,7 @@ jobs:
               const releaseLines = allReleases.map(release => {
                 const name = release.name || release.tag_name;
                 const lang = shortLang(release.language);
-                const desc = shortDesc(release.description);
+                const desc = truncateDesc(release.description);
                 const stars = release.stars.toString();
                 return `<a href="${release.html_url}">${release.repo_name}</a> ${name} [${lang}] ⭐${stars}${desc ? ' • ' + desc : ''}`;
               }).join('\n');

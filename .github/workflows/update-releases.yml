@@ -176,7 +176,7 @@ jobs:
             // Convert map to array and sort by date
             let allReleases = Array.from(repoReleasesMap.values());
             allReleases.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-            allReleases = allReleases.slice(0, 5);
+            allReleases = allReleases.slice(0, 20);
             console.log(`\nProcessed ${allReleases.length} most recent releases`);
             
             function formatDate(dateStr) {

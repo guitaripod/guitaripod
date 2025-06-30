@@ -1,10 +1,5 @@
 ![professionalretardtechstacks](https://github.com/user-attachments/assets/108655df-7d5d-43dd-884a-7406a52221d3)
 
-<p align="left">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Kotlin,Dockerfile,Shell,PowerShell,Makefile" alt="Technologies" />
-  <img width="54%" src="https://github-readme-stats.vercel.app/api?username=marcusziade&hide_border=true&custom_title=Open%20Source&theme=transparent" />
-</p>
-
 
 
 
@@ -124,6 +119,11 @@
 </table>
 </div>
 <!-- End Recent Releases -->
+
+<p align="left">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcusziade&theme=transparent&hide_border=true&layout=compact&langs_count=10&locale=en&custom_title=Technologies&hide=css,scss,html,HTTP,Pug,Ruby,Javascript,Kotlin,Dockerfile,Shell,PowerShell,Makefile" alt="Technologies" />
+  <img width="54%" src="https://github-readme-stats.vercel.app/api?username=marcusziade&hide_border=true&custom_title=Open%20Source&theme=transparent" />
+</p>
 
 
 

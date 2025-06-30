@@ -230,7 +230,7 @@ jobs:
                 '\n<!-- Recent Releases -->',
                 '<div style="width: 80%; text-align: right;">',
                 '<h3>📦 Latest Releases</h3>',
-                '<table style="margin-left: auto; font-size: 0.6em;">',
+                '<table style="margin-left: auto;">',
                 '<thead>',
                 '<tr>',
                 '<th>Lang</th>',

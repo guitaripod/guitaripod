@@ -64,7 +64,7 @@
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
-<table style="margin-left: auto;">
+<table style="margin-left: auto; font-size: 0.6em;">
 <thead>
 <tr>
 <th>Lang</th>

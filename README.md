@@ -63,11 +63,12 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/marcusziade/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐2 • A comprehensive Swift SDK for the Google Gemini API
+<a href="https://github.com/marcusziade/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐3 • A comprehensive Swift SDK for the Google Gemini API
 <a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a> 1.0.1 [Swift] ⭐2 • A comprehensive Swift SDK for the DeepSeek API
 <a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.2">xAIKit</a> 1.0.2 [Swift] ⭐2 • A comprehensive Swift SDK for the xAI API
 <a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.1">OpenAIKit</a> 1.2.1 [Swift] ⭐9 • A comprehensive Swift SDK for the OpenAI API.
@@ -90,6 +91,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

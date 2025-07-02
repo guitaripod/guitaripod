@@ -67,11 +67,12 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.2">OpenAIKit</a> 1.2.2 [Swift] ⭐9 • A comprehensive Swift SDK for the OpenAI API.
+<a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.3">OpenAIKit</a> 1.2.3 [Swift] ⭐9 • A comprehensive Swift SDK for the OpenAI API.
 <a href="https://github.com/marcusziade/Pomme/releases/tag/2.0.0">Pomme</a> 2.0.0 [Go] ⭐0 • App Store Connect CLI tool built with Go.
 <a href="https://github.com/marcusziade/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐4 • A comprehensive Swift SDK for the Google Gemini API
 <a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a> 1.0.1 [Swift] ⭐2 • A comprehensive Swift SDK for the DeepSeek API
@@ -94,6 +95,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

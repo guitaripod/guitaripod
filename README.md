@@ -71,10 +71,12 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/marcusziade/igscraper/releases/tag/2.0.0">igscraper</a> 2.0.0 [Go] ⭐0 • ig photo scraper
 <a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.4">OpenAIKit</a> 1.2.4 [Swift] ⭐9 • A comprehensive Swift SDK for the OpenAI API.
 <a href="https://github.com/marcusziade/Pomme/releases/tag/2.0.0">Pomme</a> 2.0.0 [Go] ⭐1 • App Store Connect CLI tool built with Go.
 <a href="https://github.com/marcusziade/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐5 • A comprehensive Swift SDK for the Google Gemini API
@@ -94,10 +96,10 @@
 <a href="https://github.com/marcusziade/chatgpt-gtk4/releases/tag/v0.0.1-alpha">chatgpt-gtk4</a> v0.0.1-alpha [Go] ⭐0 • Native GTK4 ChatGPT client using the official Go SDK
 <a href="https://github.com/marcusziade/rawdog.ml.nvim/releases/tag/v1">rawdog.ml.nvim</a> v1 [Lua] ⭐0 • my neovim config, btw. for arch and macOS, btw.
 <a href="https://github.com/marcusziade/StarCraftKit/releases/tag/v1.0.0">StarCraftKit</a> v1.0.0 [Swift] ⭐1 • StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.
-<a href="https://github.com/marcusziade/VimTerminalKit/releases/tag/v1.0.2">VimTerminalKit</a> v1.0.2 [Swift] ⭐1 • A Swift package that brings Vim-style navigation to your command-line applications.
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

@@ -76,10 +76,12 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/marcusziade/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐1 • 3rd place T3 Cloneathon Champion
 <a href="https://github.com/marcusziade/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.
 <a href="https://github.com/marcusziade/igscraper/releases/tag/2.0.1">igscraper</a> 2.0.1 [Go] ⭐0 • ig photo scraper
 <a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.4">OpenAIKit</a> 1.2.4 [Swift] ⭐9 • A comprehensive Swift SDK for the OpenAI API.
@@ -99,10 +101,10 @@
 <a href="https://github.com/marcusziade/twitter-reply-selector/releases/tag/v1.0.1">twitter-reply-selector</a> v1.0.1 [JS] ⭐0 • A browser extension that automatically sets reply visibility to "Verified accounts" when composing tweets
 <a href="https://github.com/marcusziade/freedom-speech-tierlist/releases/tag/v1.0">freedom-speech-tierlist</a> v1.0 [JS] ⭐0
 <a href="https://github.com/marcusziade/chatgpt-gtk4/releases/tag/v0.0.1-alpha">chatgpt-gtk4</a> v0.0.1-alpha [Go] ⭐0 • Native GTK4 ChatGPT client using the official Go SDK
-<a href="https://github.com/marcusziade/rawdog.ml.nvim/releases/tag/v1">rawdog.ml.nvim</a> v1 [Lua] ⭐0 • my neovim config, btw. for arch and macOS, btw.
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

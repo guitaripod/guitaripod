@@ -78,11 +78,12 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/marcusziade/lastfm-rs/releases/tag/1.0.0">lastfm-rs</a> 1.0.0 [Rust] ⭐0 • A blazing-fast Rust SDK for last.fm
+<a href="https://github.com/marcusziade/lastfm-rs/releases/tag/1.0.0">lastfm-rs</a> 1.0.0 [Rust] ⭐1 • A blazing-fast Rust SDK for last.fm
 <a href="https://github.com/marcusziade/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐1 • 3rd place T3 Cloneathon Champion
 <a href="https://github.com/marcusziade/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.
 <a href="https://github.com/marcusziade/igscraper/releases/tag/2.0.1">igscraper</a> 2.0.1 [Go] ⭐0 • ig photo scraper
@@ -105,6 +106,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

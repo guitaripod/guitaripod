@@ -80,6 +80,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
@@ -89,7 +90,7 @@
 <a href="https://github.com/marcusziade/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.
 <a href="https://github.com/marcusziade/igscraper/releases/tag/2.0.1">igscraper</a> 2.0.1 [Go] ⭐0 • ig photo scraper
 <a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.4">OpenAIKit</a> 1.2.4 [Swift] ⭐9 • A comprehensive Swift SDK for the OpenAI API.
-<a href="https://github.com/marcusziade/Pomme/releases/tag/2.0.0">Pomme</a> 2.0.0 [Go] ⭐1 • App Store Connect CLI tool built with Go.
+<a href="https://github.com/marcusziade/Pomme/releases/tag/2.0.0">Pomme</a> 2.0.0 [Go] ⭐2 • App Store Connect CLI tool built with Go.
 <a href="https://github.com/marcusziade/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐5 • A comprehensive Swift SDK for the Google Gemini API
 <a href="https://github.com/marcusziade/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a> 1.0.1 [Swift] ⭐2 • A comprehensive Swift SDK for the DeepSeek API
 <a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.2">xAIKit</a> 1.0.2 [Swift] ⭐2 • A comprehensive Swift SDK for the xAI API
@@ -107,6 +108,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

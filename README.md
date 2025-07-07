@@ -81,10 +81,12 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/marcusziade/LastFMKit/releases/tag/1.0.0">LastFMKit</a> 1.0.0 [Swift] ⭐0 • A comprehensive Swift SDK for last.fm
 <a href="https://github.com/marcusziade/lastfm-rs/releases/tag/1.0.1">lastfm-rs</a> 1.0.1 [Rust] ⭐1 • A blazing-fast Rust SDK for last.fm
 <a href="https://github.com/marcusziade/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐1 • 3rd place T3 Cloneathon Champion
 <a href="https://github.com/marcusziade/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • StarCraftKit aims to be the go-to Swift package for developers working with the StarCraft II pro scene.
@@ -104,10 +106,10 @@
 <a href="https://github.com/marcusziade/JewOrNotJewKit/releases/tag/v1.0.2">JewOrNotJewKit</a> v1.0.2 [Go] ⭐1 • A Go SDK and database for JewOrNotJew(dot)com
 <a href="https://github.com/marcusziade/MusicKitKat/releases/tag/v0.0.2">MusicKitKat</a> v0.0.2 [Go] ⭐0 • Go SDK for Apple Music (WIP)
 <a href="https://github.com/marcusziade/twitter-reply-selector/releases/tag/v1.0.1">twitter-reply-selector</a> v1.0.1 [JS] ⭐0 • A browser extension that automatically sets reply visibility to "Verified accounts" when composing tweets
-<a href="https://github.com/marcusziade/freedom-speech-tierlist/releases/tag/v1.0">freedom-speech-tierlist</a> v1.0 [JS] ⭐0
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

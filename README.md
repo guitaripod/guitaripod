@@ -146,19 +146,31 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                          Language Distribution                                │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ████████████████████████████████████████████░░░░░░░░░  42.3%     │
-│ Go         ████████████████████████████████░░░░░░░░░░░░░░░░░░░  30.1%     │
-│ Rust       ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.8%     │
-│ TypeScript █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.2%     │
-│ Python     ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6%     │
+│ Swift      ████████████████████████████████████████████░░░░░░░░░   42.3%    │
+│ Go         ████████████████████████████████░░░░░░░░░░░░░░░░░░░   30.1%    │
+│ Rust       ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   14.8%    │
+│ TypeScript █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    9.2%    │
+│ Python     ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.6%    │
 └──────────────────────────────────────────────────────────────────────────────┘
 
 ┌─── Tech Stack ──────────────────────┬─── Expertise ───────────────────────┐
 │                                     │                                     │
 │ Apple Platforms                     │ Specializations                     │
-│ Backend Development                 │ Activity                            │
-│ Frontend & Web                      │ Focus Areas                         │
-│ Infrastructure                      │                                     │
+│   SwiftUI • UIKit • Combine         │   SDK Development                   │
+│   Core Data • CloudKit              │   API Design & Integration          │
+│                                     │   Performance Optimization          │
+│ Backend Development                 │   Open Source Libraries             │
+│   Go • Rust • Node.js               │                                     │
+│   GraphQL • REST                    │ Activity                            │
+│                                     │   100+ Repositories                 │
+│ Frontend & Web                      │   5,000+ Commits                    │
+│   React • Next.js • TypeScript      │   500K+ Lines of Code               │
+│   TailwindCSS • HTML5               │   20+ Published Packages            │
+│                                     │                                     │
+│ Infrastructure                      │ Focus Areas                         │
+│   Docker • GitHub Actions           │   Swift SDKs for Popular APIs       │
+│   PostgreSQL • Redis                │   CLI Tools in Go                   │
+│   Linux • macOS                     │   High-Performance Rust Libraries   │
 └─────────────────────────────────────┴─────────────────────────────────────┘
 ```
 

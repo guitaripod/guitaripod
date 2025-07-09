@@ -158,19 +158,7 @@ def update_readme(stats, languages):
     
     lang_section += "└──────────────────────────────────────────────────────────────────────────────┘"
     
-    # Update Activity stats in Tech Stack section
-    # Find and update the Activity section
-    activity_pattern = r'(│ Activity\s+│\n)(│\s+\d+\+ Repositories\s+│\n)(│\s+[\d,]+\+ Commits\s+│\n)(│\s+[\dKM]+\+ Lines of Code\s+│\n)(│\s+\d+\+ Published Packages\s+│)'
-    
-    activity_replacement = (
-        r'\1'
-        f'│   {stats["total_repos"]}+ Repositories                 │\n'
-        f'│   {format_number(stats["total_commits"])}+ Commits                    │\n'
-        f'│   {format_number(stats["lines_of_code"])}+ Lines of Code               │\n'
-        f'│   {stats["published_packages"]}+ Published Packages            │'
-    )
-    
-    content = re.sub(activity_pattern, activity_replacement, content)
+# Activity stats removed - keeping Tech Stack section simple
     
     # Update the language distribution section
     lang_pattern = r'```\n┌──────────────────────────────────────────────────────────────────────────────┐\n│\s+Language Distribution\s+│\n├──────────────────────────────────────────────────────────────────────────────┤\n.*?└──────────────────────────────────────────────────────────────────────────────┘'

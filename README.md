@@ -153,29 +153,29 @@
 
 ┌─── Tech Stack ──────────────────────┬─── Expertise ───────────────────────┐
 │                                     │                                     │
-│ Apple Platforms                     │ Specializations                     │
-│   SwiftUI • UIKit • Combine         │   SDK Development                   │
-│   Core Data • CloudKit              │   API Design & Integration          │
-│                                     │   Performance Optimization          │
-│ Backend Development                 │   Open Source Libraries             │
-│   Go • Rust • Node.js               │                                     │
-│   GraphQL • REST                    │ Activity                            │
-│                                     │   100+ Repositories                 │
-│ Frontend & Web                      │   5,000+ Commits                    │
-│   React • Next.js • TypeScript      │   500K+ Lines of Code               │
-│   TailwindCSS • HTML5               │   20+ Published Packages            │
+│ Apple Platforms                     │ • SDK Development                   │
+│   SwiftUI • UIKit • Combine         │ • API Design & Integration          │
+│   Core Data • CloudKit              │ • Performance Optimization          │
+│                                     │ • Open Source Libraries             │
+│ Backend Development                 │                                     │
+│   Go • Rust • Node.js               │ Focus Areas                         │
+│   GraphQL • REST                    │ • Swift SDKs for Popular APIs       │
+│                                     │ • CLI Tools in Go                   │
+│ Frontend & Web                      │ • High-Performance Rust Libraries   │
+│   React • Next.js • TypeScript      │ • Full-Stack Web Applications       │
+│   TailwindCSS • HTML5               │                                     │
 │                                     │                                     │
-│ Infrastructure                      │ Focus Areas                         │
-│   Docker • GitHub Actions           │   Swift SDKs for Popular APIs       │
-│   PostgreSQL • Redis                │   CLI Tools in Go                   │
-│   Linux • macOS                     │   High-Performance Rust Libraries   │
+│ Infrastructure                      │                                     │
+│   Docker • GitHub Actions           │                                     │
+│   PostgreSQL • Redis                │                                     │
+│   Linux • macOS                     │                                     │
 └─────────────────────────────────────┴─────────────────────────────────────┘
 ```
 
 ```
 ┌─── Open Source Stats (Lifetime) ────────────────────────────────────────────┐
 │                                                                              │
-│ Total Stars Earned:     92           Total PRs:         40+                 │
+│ Total Stars Earned:     74           Total PRs:         40+                 │
 │ Total Commits:          5,000+       Total Issues:      20+                 │
 │ Contributed to:         25 projects                                         │
 │                                                                              │

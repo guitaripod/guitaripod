@@ -7,6 +7,7 @@ Fetches real-time data from GitHub API and updates the stats widgets.
 import os
 import re
 from collections import defaultdict
+from datetime import datetime
 from github import Github
 import requests
 
@@ -48,36 +49,65 @@ def get_github_stats(username, token):
                 pass
     
     # Use GitHub GraphQL API for more detailed stats
-    query = """
-    query($username: String!) {
-      user(login: $username) {
-        contributionsCollection {
-          totalCommitContributions
-          totalPullRequestContributions
-          totalIssueContributions
-          totalRepositoriesWithContributedCommits
-        }
-      }
-    }
-    """
+    # Note: contributionsCollection without date range only shows last year
+    # For lifetime stats, we need to aggregate across multiple years
+    current_year = datetime.now().year
+    lifetime_commits = 0
+    lifetime_prs = 0
+    lifetime_issues = 0
+    contributed_repos = set()
     
     headers = {
         'Authorization': f'Bearer {token}',
         'Content-Type': 'application/json'
     }
     
-    response = requests.post(
-        'https://api.github.com/graphql',
-        json={'query': query, 'variables': {'username': username}},
-        headers=headers
-    )
+    # Fetch data for multiple years (GitHub API typically has data from 2008+)
+    for year in range(2008, current_year + 1):
+        query = """
+        query($username: String!, $from: DateTime!, $to: DateTime!) {
+          user(login: $username) {
+            contributionsCollection(from: $from, to: $to) {
+              totalCommitContributions
+              totalPullRequestContributions
+              totalIssueContributions
+              commitContributionsByRepository {
+                repository {
+                  nameWithOwner
+                }
+              }
+            }
+          }
+        }
+        """
+        
+        variables = {
+            'username': username,
+            'from': f'{year}-01-01T00:00:00Z',
+            'to': f'{year}-12-31T23:59:59Z'
+        }
+        
+        response = requests.post(
+            'https://api.github.com/graphql',
+            json={'query': query, 'variables': variables},
+            headers=headers
+        )
+        
+        if response.status_code == 200:
+            data = response.json().get('data', {}).get('user', {}).get('contributionsCollection', {})
+            lifetime_commits += data.get('totalCommitContributions', 0)
+            lifetime_prs += data.get('totalPullRequestContributions', 0)
+            lifetime_issues += data.get('totalIssueContributions', 0)
+            
+            # Track contributed repositories
+            for contrib in data.get('commitContributionsByRepository', []):
+                if contrib.get('repository'):
+                    contributed_repos.add(contrib['repository']['nameWithOwner'])
     
-    if response.status_code == 200:
-        data = response.json()['data']['user']['contributionsCollection']
-        stats['total_commits'] = data['totalCommitContributions']
-        stats['total_prs'] = data['totalPullRequestContributions']
-        stats['total_issues'] = data['totalIssueContributions']
-        stats['contributed_to'] = data['totalRepositoriesWithContributedCommits']
+    stats['total_commits'] = lifetime_commits
+    stats['total_prs'] = lifetime_prs
+    stats['total_issues'] = lifetime_issues
+    stats['contributed_to'] = len(contributed_repos)
     
     return stats
 
@@ -148,7 +178,7 @@ def update_readme(stats, languages):
     
     # Update Open Source Stats
     stats_section = f"""```
-┌─── Open Source Stats ───────────────────────────────────────────────────────┐
+┌─── Open Source Stats (Lifetime) ────────────────────────────────────────────┐
 │                                                                              │
 │ Total Stars Earned:     {format_number(stats['total_stars']):<10}   Total PRs:         {format_number(stats['total_prs']):<10}      │
 │ Total Commits:          {format_number(stats['total_commits']):<10}   Total Issues:      {format_number(stats['total_issues']):<10}      │

@@ -173,7 +173,7 @@
 ```
 
 ```
-┌─── Open Source Stats ───────────────────────────────────────────────────────┐
+┌─── Open Source Stats (Lifetime) ────────────────────────────────────────────┐
 │                                                                              │
 │ Total Stars Earned:     92           Total PRs:         40+                 │
 │ Total Commits:          5,000+       Total Issues:      20+                 │

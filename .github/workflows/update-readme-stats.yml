@@ -28,7 +28,7 @@ jobs:
           
       - name: Update README stats
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python scripts/update_readme_stats.py
         
       - name: Check for changes

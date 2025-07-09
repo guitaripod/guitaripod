@@ -1,6 +1,6 @@
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
-<h3>📦 Latest Releases</h3>
+## Latest Releases
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
 <a href="https://github.com/marcusziade/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐0 • A Swift SDK for the speedrun.com API
 <a href="https://github.com/marcusziade/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐1 • Rust SDK for the NASA API

@@ -1,5 +1,3 @@
-![professionalretardtechstacks](https://github.com/user-attachments/assets/108655df-7d5d-43dd-884a-7406a52221d3)
-
 
 
 

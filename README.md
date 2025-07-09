@@ -1,4 +1,4 @@
-## Latest Releases
+#### Latest Releases
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
@@ -26,7 +26,7 @@
 </div>
 <!-- End Recent Releases -->
 
-## Technologies
+#### Technologies
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
@@ -39,9 +39,7 @@
 │ Astro      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.5%         │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
-
 </div>
-
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="width: 35%;">

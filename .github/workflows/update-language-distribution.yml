@@ -1,4 +1,4 @@
-name: Update README Stats
+name: Update Language Distribution
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-stats:
+  update-languages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,14 +22,10 @@ jobs:
         with:
           python-version: '3.11'
           
-      - name: Install dependencies
-        run: |
-          pip install requests PyGithub
-          
-      - name: Update README stats
+      - name: Update language distribution
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: python scripts/update_readme_stats.py
+        run: python scripts/update_language_stats.py
         
       - name: Check for changes
         id: check_changes
@@ -46,5 +42,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git commit -m "Update README stats [skip ci]"
+          git commit -m "Update language distribution [skip ci]"
           git push

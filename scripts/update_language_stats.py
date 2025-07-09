@@ -78,7 +78,7 @@ def calculate_language_percentages(languages):
     sorted_langs = sorted(percentages.items(), key=lambda x: x[1], reverse=True)
     return sorted_langs[:5]  # Top 5 languages
 
-def generate_progress_bar(percentage, width=35):
+def generate_progress_bar(percentage, width=50):
     """Generate a text-based progress bar."""
     filled = int((percentage / 100) * width)
     bar = '█' * filled + '░' * (width - filled)
@@ -138,11 +138,12 @@ def update_readme(languages):
     lang_section += "├──────────────────────────────────────────────────────────────────────────────┤\n"
     
     for lang, percentage in languages:
-        bar = generate_progress_bar(percentage, 35)
+        bar = generate_progress_bar(percentage, 50)
         # Ensure proper spacing and alignment
         lang_padded = f"{lang:<10}"
         percentage_str = f"{percentage:>5.1f}%"
-        lang_section += f"│ {lang_padded} {bar} {percentage_str}     │\n"
+        # Adjust spacing: removed extra spaces to accommodate wider bar
+        lang_section += f"│ {lang_padded} {bar} {percentage_str} │\n"
     
     lang_section += "└──────────────────────────────────────────────────────────────────────────────┘\n```"
     

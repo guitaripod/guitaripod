@@ -88,7 +88,6 @@ def update_readme():
     
     new_section = f'''<!-- Recent Blog Posts -->
 <div style="width: 80%; text-align: right;">
-<h3>📝 Latest Blog Posts</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
 {chr(10).join(new_lines)}
 </pre>

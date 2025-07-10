@@ -134,7 +134,7 @@ def update_readme(languages):
     
     # Build the new language distribution section
     lang_section = "```\n┌──────────────────────────────────────────────────────────────────────────────┐\n"
-    lang_section += "│                          Language Distribution                               │\n"
+    lang_section += "│                              Technologies                                    │\n"
     lang_section += "├──────────────────────────────────────────────────────────────────────────────┤\n"
     
     for lang, percentage in languages:
@@ -148,9 +148,9 @@ def update_readme(languages):
     lang_section += "└──────────────────────────────────────────────────────────────────────────────┘\n```"
     
     # Find and replace the language distribution section
-    # Look for the pattern that starts with ```\n┌─── and contains "Language Distribution"
+    # Look for the pattern that starts with ```\n┌─── and contains "Technologies"
     # Allow for optional newlines
-    pattern = r'```\n┌──────────────────────────────────────────────────────────────────────────────┐\n│\s+Language Distribution\s+│\n├──────────────────────────────────────────────────────────────────────────────┤\n.*?└──────────────────────────────────────────────────────────────────────────────┘\n+```'
+    pattern = r'```\n┌──────────────────────────────────────────────────────────────────────────────┐\n│\s+Technologies\s+│\n├──────────────────────────────────────────────────────────────────────────────┤\n.*?└──────────────────────────────────────────────────────────────────────────────┘\n+```'
     
     # Check if pattern exists
     if re.search(pattern, content, flags=re.DOTALL):

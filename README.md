@@ -30,16 +30,16 @@
 <!-- Recent Blog Posts -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://compiledthoughts.pages.dev/blog/integrating-swiftdata-with-uikit-applications/">Integrating SwiftData with UIKit Applications</a> • Aug 19, 2024
-<a href="https://compiledthoughts.pages.dev/blog/optimizing-cloudflare-pages-deployments/">Optimizing Cloudflare Pages Deployments</a> • Jan 25, 2024
-<a href="https://compiledthoughts.pages.dev/blog/building-clis-in-go/">Building CLIs in Go</a> • Jan 20, 2024
-<a href="https://compiledthoughts.pages.dev/blog/getting-started-with-swift-async-await/">Getting Started with Swift Async/Await</a> • Jan 15, 2024
-<a href="https://compiledthoughts.pages.dev/blog/structuring-rest-apis-in-golang/">Structuring REST APIs in Golang</a> • Sep 2, 2023
-<a href="https://compiledthoughts.pages.dev/blog/deep-dive-uikit-uisegmentedcontrol/">A Deep Dive into UIKit UISegmentedControl</a> • Jul 26, 2023
-<a href="https://compiledthoughts.pages.dev/blog/uilabel-the-ultimate-guide/">UILabel: The Ultimate Guide</a> • Jul 26, 2023
-<a href="https://compiledthoughts.pages.dev/blog/migrating-from-swiftui-to-uikit-app-lifecycle/">Migrating from SwiftUI to UIKit App Lifecycle</a> • Apr 13, 2023
-<a href="https://compiledthoughts.pages.dev/blog/big-o-time-complexity-101-for-swift-developers/">Big O Time Complexity 101 for Swift Developers</a> • Mar 30, 2023
-<a href="https://compiledthoughts.pages.dev/blog/the-beginners-guide-to-uikit-part-1/">The Beginner's Guide to UIKit: Part 1</a> • Mar 23, 2023
+<a href="https://compiledthoughts.pages.dev/blog/oauth-without-local-api-keys-rust-cloudflare-workers/">Secure OAuth Implementation Without Local API Keys Using Rust and Cloudflare Workers</a> • Jul 7, 2025
+<a href="https://compiledthoughts.pages.dev/blog/pomme-beautiful-cli-app-store-connect/">Pomme: A Beautiful CLI for App Store Connect That Actually Makes Sense</a> • Jul 2, 2025
+<a href="https://compiledthoughts.pages.dev/blog/neovim-auto-theme-switching/">Making Neovim Follow Your System Theme Automatically</a> • Jul 1, 2025
+<a href="https://compiledthoughts.pages.dev/blog/git-aware-terminal-prompt/">Building a Git-Aware Terminal Prompt That Actually Helps</a> • Jun 24, 2025
+<a href="https://compiledthoughts.pages.dev/blog/integrating-mlx-local-llms-ios-apps/">Integrating Local LLMs into iOS Apps with MLX Swift</a> • Jun 18, 2025
+<a href="https://compiledthoughts.pages.dev/blog/supercharge-git-commits-with-opencommit-and-ollama/">Supercharge Your Git Commits with OpenCommit and Ollama</a> • Jun 12, 2025
+<a href="https://compiledthoughts.pages.dev/blog/adding-lastfm-now-playing-to-your-website/">Adding a Last.fm Now Playing Widget to Your Website</a> • Jun 7, 2025
+<a href="https://compiledthoughts.pages.dev/blog/sign-in-with-apple-cloudflare/">How to Implement Sign in with Apple Using Cloudflare Workers: A Complete Guide</a> • Jun 5, 2025
+<a href="https://compiledthoughts.pages.dev/blog/understanding-gitattributes-for-better-language-detection/">Understanding .gitattributes for Better Language Detection</a> • Jun 5, 2025
+<a href="https://compiledthoughts.pages.dev/blog/dream-eater-ml-powered-dream-journaling-ios/">Dream Eater: ML-Powered Dream Journaling for iOS</a> • Jun 3, 2025
 </pre>
 </div>
 <!-- End Recent Blog Posts -->

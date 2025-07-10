@@ -1,20 +1,6 @@
 #### Latest Releases
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
-<h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
 <a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐2 • A comprehensive Swift SDK for the xAI API
 <a href="https://github.com/marcusziade/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐0 • A Swift SDK for the speedrun.com API
@@ -40,19 +26,6 @@
 </div>
 <!-- End Recent Releases -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                                Technologies                                  │
@@ -64,6 +37,24 @@
 │ Astro      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.5%         │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
+
+#### Latest Blog Posts
+<!-- Recent Blog Posts -->
+<div style="width: 80%; text-align: right;">
+<pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://compiledthoughts.pages.dev/blog/integrating-swiftdata-with-uikit-applications/">Integrating SwiftData with UIKit Applications</a> • Aug 19, 2024
+<a href="https://compiledthoughts.pages.dev/blog/optimizing-cloudflare-pages-deployments/">Optimizing Cloudflare Pages Deployments</a> • Jan 25, 2024
+<a href="https://compiledthoughts.pages.dev/blog/building-clis-in-go/">Building CLIs in Go</a> • Jan 20, 2024
+<a href="https://compiledthoughts.pages.dev/blog/getting-started-with-swift-async-await/">Getting Started with Swift Async/Await</a> • Jan 15, 2024
+<a href="https://compiledthoughts.pages.dev/blog/structuring-rest-apis-in-golang/">Structuring REST APIs in Golang</a> • Sep 2, 2023
+<a href="https://compiledthoughts.pages.dev/blog/deep-dive-uikit-uisegmentedcontrol/">A Deep Dive into UIKit UISegmentedControl</a> • Jul 26, 2023
+<a href="https://compiledthoughts.pages.dev/blog/uilabel-the-ultimate-guide/">UILabel: The Ultimate Guide</a> • Jul 26, 2023
+<a href="https://compiledthoughts.pages.dev/blog/migrating-from-swiftui-to-uikit-app-lifecycle/">Migrating from SwiftUI to UIKit App Lifecycle</a> • Apr 13, 2023
+<a href="https://compiledthoughts.pages.dev/blog/big-o-time-complexity-101-for-swift-developers/">Big O Time Complexity 101 for Swift Developers</a> • Mar 30, 2023
+<a href="https://compiledthoughts.pages.dev/blog/the-beginners-guide-to-uikit-part-1/">The Beginner's Guide to UIKit: Part 1</a> • Mar 23, 2023
+</pre>
+</div>
+<!-- End Recent Blog Posts -->
 </div>
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">

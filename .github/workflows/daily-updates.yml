@@ -1,18 +1,59 @@
-name: Update Recent Releases
+name: Daily Updates
 
 on:
-  release:
-    types: [published]
   schedule:
-    - cron: '0 * * * *'  # Runs at minute 0 of every hour
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+  release:
+    types: [published] # Also trigger on new releases
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      # Update language distribution
+      - name: Update language distribution
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python scripts/update_language_stats.py
+      
+      - name: Check for language changes
+        id: check_lang_changes
+        run: |
+          if [[ -n $(git diff --name-only README.md) ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+      
+      # Update blog posts
+      - name: Update blog posts
+        run: python scripts/update_blog_posts.py
+      
+      - name: Check for blog changes
+        id: check_blog_changes
+        run: |
+          if [ -f blog_changes_detected ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            rm blog_changes_detected
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+      
+      # Update recent releases
       - name: Fetch Recent Releases
         uses: actions/github-script@v6
         with:
@@ -263,20 +304,45 @@ jobs:
               }
               
               fs.writeFileSync('README.md', readme);
-              fs.writeFileSync('changes_detected', 'true');
+              fs.writeFileSync('releases_changes_detected', 'true');
             } else {
               console.log('\nNo changes detected in release data, skipping update');
             }
-
-      - name: Commit and Push if Changed
+      
+      - name: Check for releases changes
+        id: check_releases_changes
         run: |
-          if [ -f changes_detected ]; then
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git add README.md
-            git commit -m "Update recent releases section"
-            git push
-            rm changes_detected
+          if [ -f releases_changes_detected ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            rm releases_changes_detected
           else
-            echo "No changes to commit"
+            echo "changes=false" >> $GITHUB_OUTPUT
           fi
+      
+      # Commit changes if any
+      - name: Commit and push if changed
+        if: steps.check_lang_changes.outputs.changes == 'true' || steps.check_blog_changes.outputs.changes == 'true' || steps.check_releases_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          
+          # Determine commit message based on what changed
+          changes=()
+          [[ "${{ steps.check_lang_changes.outputs.changes }}" == "true" ]] && changes+=("language distribution")
+          [[ "${{ steps.check_blog_changes.outputs.changes }}" == "true" ]] && changes+=("blog posts")
+          [[ "${{ steps.check_releases_changes.outputs.changes }}" == "true" ]] && changes+=("recent releases")
+          
+          # Join array elements with commas and 'and' for the last element
+          message="Update "
+          if [ ${#changes[@]} -eq 1 ]; then
+            message+="${changes[0]}"
+          elif [ ${#changes[@]} -eq 2 ]; then
+            message+="${changes[0]} and ${changes[1]}"
+          elif [ ${#changes[@]} -eq 3 ]; then
+            message+="${changes[0]}, ${changes[1]} and ${changes[2]}"
+          fi
+          message+=" [skip ci]"
+          
+          git commit -m "$message"
+          git push

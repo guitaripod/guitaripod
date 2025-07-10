@@ -1,7 +1,10 @@
 #### Latest Releases
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
+<h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/marcusziade/compiledthoughts/releases/tag/0.6.9">compiledthoughts</a> 0.6.9 [Astro] ⭐0 • blog site
 <a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐2 • A comprehensive Swift SDK for the xAI API
 <a href="https://github.com/marcusziade/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐0 • A Swift SDK for the speedrun.com API
 <a href="https://github.com/marcusziade/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐1 • Rust SDK for the NASA API
@@ -21,15 +24,16 @@
 <a href="https://github.com/marcusziade/OpenAIImagesKit/releases/tag/1.0.0">OpenAIImagesKit</a> 1.0.0 [Swift] ⭐5 • Swift package for OpenAI's Images API
 <a href="https://github.com/marcusziade/songlink-cli/releases/tag/v3.0.0">songlink-cli</a> v3.0.0 [Go] ⭐5 • A Song.Link CLI app written in Go
 <a href="https://github.com/marcusziade/fluxxxer/releases/tag/v2.0.0">fluxxxer</a> v2.0.0 [Go] ⭐0 • a native gtk4 Linux image generator built with Go
-<a href="https://github.com/marcusziade/JewOrNotJewKit/releases/tag/v1.0.2">JewOrNotJewKit</a> v1.0.2 [Go] ⭐1 • A Go SDK and database for JewOrNotJew(dot)com
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 #### Latest Blog Posts
 <!-- Recent Blog Posts -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://compiledthoughts.pages.dev/blog/claude-code-remote-ssh-tunnel/">Control Claude Code Remotely with Zero-Friction SSH Tunnels</a> • Jul 10, 2025
 <a href="https://compiledthoughts.pages.dev/blog/oauth-without-local-api-keys-rust-cloudflare-workers/">Secure OAuth Implementation Without Local API Keys Using Rust and Cloudflare Workers</a> • Jul 7, 2025
 <a href="https://compiledthoughts.pages.dev/blog/pomme-beautiful-cli-app-store-connect/">Pomme: A Beautiful CLI for App Store Connect That Actually Makes Sense</a> • Jul 2, 2025
 <a href="https://compiledthoughts.pages.dev/blog/neovim-auto-theme-switching/">Making Neovim Follow Your System Theme Automatically</a> • Jul 1, 2025
@@ -39,7 +43,6 @@
 <a href="https://compiledthoughts.pages.dev/blog/adding-lastfm-now-playing-to-your-website/">Adding a Last.fm Now Playing Widget to Your Website</a> • Jun 7, 2025
 <a href="https://compiledthoughts.pages.dev/blog/sign-in-with-apple-cloudflare/">How to Implement Sign in with Apple Using Cloudflare Workers: A Complete Guide</a> • Jun 5, 2025
 <a href="https://compiledthoughts.pages.dev/blog/understanding-gitattributes-for-better-language-detection/">Understanding .gitattributes for Better Language Detection</a> • Jun 5, 2025
-<a href="https://compiledthoughts.pages.dev/blog/dream-eater-ml-powered-dream-journaling-ios/">Dream Eater: ML-Powered Dream Journaling for iOS</a> • Jun 3, 2025
 </pre>
 </div>
 <!-- End Recent Blog Posts -->

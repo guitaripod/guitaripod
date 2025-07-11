@@ -1,8 +1,8 @@
 #### Latest Releases
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
-<h3>📦 Latest Releases</h3>
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
 <a href="https://github.com/marcusziade/compiledthoughts/releases/tag/0.6.9">compiledthoughts</a> 0.6.9 [Astro] ⭐0 • blog site
 <a href="https://github.com/marcusziade/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐2 • A comprehensive Swift SDK for the xAI API
@@ -10,7 +10,7 @@
 <a href="https://github.com/marcusziade/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐1 • Rust SDK for the NASA API
 <a href="https://github.com/marcusziade/LastFMKit/releases/tag/1.0.0">LastFMKit</a> 1.0.0 [Swift] ⭐0 • A comprehensive Swift SDK for last.fm
 <a href="https://github.com/marcusziade/lastfm-rs/releases/tag/1.0.1">lastfm-rs</a> 1.0.1 [Rust] ⭐2 • A blazing-fast Rust SDK for last.fm
-<a href="https://github.com/marcusziade/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐28 • 3rd place T3 Cloneathon Champion
+<a href="https://github.com/marcusziade/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐29 • 3rd place T3 Cloneathon Champion
 <a href="https://github.com/marcusziade/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • Swift SDK for StarCraft 2 Pro scene data
 <a href="https://github.com/marcusziade/igscraper/releases/tag/2.0.1">igscraper</a> 2.0.1 [Go] ⭐0 • ig photo scraper
 <a href="https://github.com/marcusziade/OpenAIKit/releases/tag/1.2.4">OpenAIKit</a> 1.2.4 [Swift] ⭐9 • A comprehensive Swift SDK for the OpenAI API.
@@ -27,6 +27,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 #### Latest Blog Posts

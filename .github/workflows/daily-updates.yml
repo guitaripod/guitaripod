@@ -224,7 +224,6 @@ jobs:
               newSection = [
                 '\n<!-- Recent Releases -->',
                 '<div style="width: 80%; text-align: right;">',
-                '<h3>📦 Latest Releases</h3>',
                 '<p>No releases yet</p>',
                 '</div>',
                 '<!-- End Recent Releases -->'
@@ -276,7 +275,6 @@ jobs:
               newSection = [
                 '\n<!-- Recent Releases -->',
                 '<div style="width: 80%; text-align: right;">',
-                '<h3>📦 Latest Releases</h3>',
                 '<pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">',
                 releaseLines,
                 '</pre>',

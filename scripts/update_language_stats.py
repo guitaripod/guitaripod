@@ -165,7 +165,7 @@ def update_readme(languages):
     return True
 
 def main():
-    username = 'marcusziade'
+    username = 'guitaripod'
     token = os.environ.get('GITHUB_TOKEN')
     
     if not token:

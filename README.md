@@ -9,9 +9,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.1">ThemeSwitch</a> 0.0.1 [C++] ⭐0 • Windows system tray app for toggling dark/light mode
 <a href="https://github.com/guitaripod/songlink-cli/releases/tag/v3.2.0">songlink-cli</a> 3.2.0 [Go] ⭐5 • Convert music URLs & download tracks
 <a href="https://github.com/guitaripod/gh-export/releases/tag/1.0.0">gh-export</a> 1.0.0 [Rust] ⭐2 • Export all GitHub repositories from a user account
 <a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐12 • A comprehensive Swift SDK for the OpenAI API.
@@ -31,10 +33,10 @@
 <a href="https://github.com/guitaripod/Swollama/releases/tag/2.0.0">Swollama</a> 2.0.0 [Swift] ⭐13 • A comprehensive Swift SDK for Ollama
 <a href="https://github.com/guitaripod/speedrun-cli/releases/tag/1.4.1">speedrun-cli</a> 1.4.1 [Go] ⭐1 • CLI client for speedrun.com
 <a href="https://github.com/guitaripod/xthemetoggler/releases/tag/1.0.0">xthemetoggler</a> 1.0.0 [JS] ⭐0 • Add a dedicated button on X.com to access display settings
-<a href="https://github.com/guitaripod/OpenAIImagesKit/releases/tag/1.0.0">OpenAIImagesKit</a> 1.0.0 [Swift] ⭐5 • Swift package for OpenAI's Images API
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

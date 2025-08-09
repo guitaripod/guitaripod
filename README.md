@@ -12,9 +12,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • x.com extension that automatically selects "replies from verified accounts only"
 <a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2">ThemeSwitch</a> 0.0.2 [C++] ⭐0 • Cross-platform system tray application for toggling dark/light mode
 <a href="https://github.com/guitaripod/ffrelay/releases/tag/1.0.0">ffrelay</a> 1.0.0 [TS] ⭐0 • Web app for Final Fantasy Relay events
 <a href="https://github.com/guitaripod/songlink-cli/releases/tag/v3.2.0">songlink-cli</a> 3.2.0 [Go] ⭐5 • Convert music URLs & download tracks
@@ -34,10 +36,10 @@
 <a href="https://github.com/guitaripod/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a> 1.0.1 [Swift] ⭐3 • A comprehensive Swift SDK for the DeepSeek API
 <a href="https://github.com/guitaripod/AnthropicKit/releases/tag/1.0.1">AnthropicKit</a> 1.0.1 [Swift] ⭐3 • A comprehensive Swift SDK for the Anthropic API
 <a href="https://github.com/guitaripod/Swollama/releases/tag/2.0.0">Swollama</a> 2.0.0 [Swift] ⭐13 • A comprehensive Swift SDK for Ollama
-<a href="https://github.com/guitaripod/speedrun-cli/releases/tag/1.4.1">speedrun-cli</a> 1.4.1 [Go] ⭐1 • CLI client for speedrun.com
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

@@ -13,6 +13,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
@@ -35,10 +36,11 @@
 <a href="https://github.com/guitaripod/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐7 • A comprehensive Swift SDK for the Google Gemini API
 <a href="https://github.com/guitaripod/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a> 1.0.1 [Swift] ⭐3 • A comprehensive Swift SDK for the DeepSeek API
 <a href="https://github.com/guitaripod/AnthropicKit/releases/tag/1.0.1">AnthropicKit</a> 1.0.1 [Swift] ⭐3 • A comprehensive Swift SDK for the Anthropic API
-<a href="https://github.com/guitaripod/Swollama/releases/tag/2.0.0">Swollama</a> 2.0.0 [Swift] ⭐13 • A comprehensive Swift SDK for Ollama
+<a href="https://github.com/guitaripod/Swollama/releases/tag/2.0.0">Swollama</a> 2.0.0 [Swift] ⭐14 • A comprehensive Swift SDK for Ollama
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

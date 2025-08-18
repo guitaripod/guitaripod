@@ -15,9 +15,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/image-collage/releases/tag/1.0.0">image-collage</a> 1.0.0 [Rust] ⭐0 • Create 2x2 image collages in the terminal
 <a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • x.com extension that automatically selects "replies from verified accounts only"
 <a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2">ThemeSwitch</a> 0.0.2 [C++] ⭐0 • Cross-platform system tray application for toggling dark/light mode
 <a href="https://github.com/guitaripod/ffrelay/releases/tag/1.0.0">ffrelay</a> 1.0.0 [TS] ⭐0 • Web app for Final Fantasy Relay events
@@ -25,7 +27,7 @@
 <a href="https://github.com/guitaripod/gh-export/releases/tag/1.0.0">gh-export</a> 1.0.0 [Rust] ⭐2 • Export all GitHub repositories from a user account
 <a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐12 • A comprehensive Swift SDK for the OpenAI API.
 <a href="https://github.com/guitaripod/compiledthoughts/releases/tag/0.6.9">compiledthoughts</a> 0.6.9 [Astro] ⭐0 • Personal website 
-<a href="https://github.com/guitaripod/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐2 • A comprehensive Swift SDK for the xAI API
+<a href="https://github.com/guitaripod/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐4 • A comprehensive Swift SDK for the xAI API
 <a href="https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐1 • A Swift SDK for the speedrun.com API
 <a href="https://github.com/guitaripod/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐1 • Rust SDK for the NASA API
 <a href="https://github.com/guitaripod/LastFMKit/releases/tag/1.0.0">LastFMKit</a> 1.0.0 [Swift] ⭐0 • A comprehensive Swift SDK for last.fm
@@ -37,10 +39,10 @@
 <a href="https://github.com/guitaripod/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐7 • A comprehensive Swift SDK for the Google Gemini API
 <a href="https://github.com/guitaripod/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a> 1.0.1 [Swift] ⭐3 • A comprehensive Swift SDK for the DeepSeek API
 <a href="https://github.com/guitaripod/AnthropicKit/releases/tag/1.0.1">AnthropicKit</a> 1.0.1 [Swift] ⭐3 • A comprehensive Swift SDK for the Anthropic API
-<a href="https://github.com/guitaripod/Swollama/releases/tag/2.0.0">Swollama</a> 2.0.0 [Swift] ⭐14 • A comprehensive Swift SDK for Ollama
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

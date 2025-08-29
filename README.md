@@ -19,9 +19,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/minibanana/releases/tag/v1.1.5">minibanana</a> 1.1.5 [TS] ⭐0 • Flash Image 2.5 Preview wrapper web app
 <a href="https://github.com/guitaripod/image-collage/releases/tag/1.0.0">image-collage</a> 1.0.0 [Rust] ⭐1 • Create 2x2 image collages in the terminal
 <a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • x.com extension that automatically selects "replies from verified accounts only"
 <a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2">ThemeSwitch</a> 0.0.2 [C++] ⭐0 • Cross-platform system tray application for toggling dark/light mode
@@ -41,10 +43,10 @@
 <a href="https://github.com/guitaripod/Pomme/releases/tag/2.0.0">Pomme</a> 2.0.0 [Go] ⭐3 • App Store Connect CLI tool built with Go.
 <a href="https://github.com/guitaripod/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐7 • A comprehensive Swift SDK for the Google Gemini API
 <a href="https://github.com/guitaripod/DeepSeekKit/releases/tag/1.0.1">DeepSeekKit</a> 1.0.1 [Swift] ⭐3 • A comprehensive Swift SDK for the DeepSeek API
-<a href="https://github.com/guitaripod/AnthropicKit/releases/tag/1.0.1">AnthropicKit</a> 1.0.1 [Swift] ⭐3 • A comprehensive Swift SDK for the Anthropic API
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 
@@ -89,10 +91,10 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ████████████████████████████████░░░░░░░░░░░░░░░░░░  64.2% │
-│ Go         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10.2% │
-│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.9% │
-│ Rust       ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.0% │
+│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  63.7% │
+│ TypeScript █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10.1% │
+│ Go         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10.1% │
+│ Rust       ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.1% │
 │ Kotlin     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.4% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```

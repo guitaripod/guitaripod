@@ -20,10 +20,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/guitaripod/minibanana/releases/tag/v1.1.5">minibanana</a> 1.1.5 [TS] ⭐0 • Flash Image 2.5 Preview wrapper web app
+<a href="https://github.com/guitaripod/minibanana/releases/tag/v1.2.2">minibanana</a> 1.2.2 [TS] ⭐0 • Flash Image 2.5 Preview wrapper web app
 <a href="https://github.com/guitaripod/image-collage/releases/tag/1.0.0">image-collage</a> 1.0.0 [Rust] ⭐1 • Create 2x2 image collages in the terminal
 <a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • x.com extension that automatically selects "replies from verified accounts only"
 <a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2">ThemeSwitch</a> 0.0.2 [C++] ⭐0 • Cross-platform system tray application for toggling dark/light mode
@@ -46,6 +47,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 
@@ -91,11 +93,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  63.7% │
-│ TypeScript █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10.1% │
-│ Go         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10.1% │
-│ Rust       ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.1% │
-│ Kotlin     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.4% │
+│ Swift      ████████████████████████████████░░░░░░░░░░░░░░░░░░  65.4% │
+│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.7% │
+│ Go         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.6% │
+│ Rust       ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.8% │
+│ Kotlin     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.1% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

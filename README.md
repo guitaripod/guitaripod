@@ -28,9 +28,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/pixie/releases/tag/1.0.0">pixie</a> 1.0.0 [Swift] ⭐2 • Image Generation Platform
 <a href="https://github.com/guitaripod/emobanana/releases/tag/1.0.1">emobanana</a> 1.0.1 [Rust] ⭐2 • nano banana hackathon submission
 <a href="https://github.com/guitaripod/minibanana/releases/tag/v1.2.2">minibanana</a> 1.2.2 [TS] ⭐1 • Flash Image 2.5 Preview wrapper web app
 <a href="https://github.com/guitaripod/image-collage/releases/tag/1.0.0">image-collage</a> 1.0.0 [Rust] ⭐1 • Create 2x2 image collages in the terminal
@@ -46,14 +48,14 @@
 <a href="https://github.com/guitaripod/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐2 • Rust SDK for the NASA API
 <a href="https://github.com/guitaripod/LastFMKit/releases/tag/1.0.0">LastFMKit</a> 1.0.0 [Swift] ⭐0 • A comprehensive Swift SDK for last.fm
 <a href="https://github.com/guitaripod/lastfm-rs/releases/tag/1.0.1">lastfm-rs</a> 1.0.1 [Rust] ⭐2 • A blazing-fast Rust SDK for last.fm
-<a href="https://github.com/guitaripod/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐49 • 3rd place T3 Cloneathon Champion
+<a href="https://github.com/guitaripod/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐50 • 3rd place T3 Cloneathon Champion
 <a href="https://github.com/guitaripod/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • Swift SDK for StarCraft 2 Pro scene data
 <a href="https://github.com/guitaripod/igscraper/releases/tag/2.0.1">igscraper</a> 2.0.1 [Go] ⭐1 • ig photo scraper
 <a href="https://github.com/guitaripod/Pomme/releases/tag/2.0.0">Pomme</a> 2.0.0 [Go] ⭐3 • App Store Connect CLI tool built with Go.
-<a href="https://github.com/guitaripod/GeminiKit/releases/tag/1.0.0">GeminiKit</a> 1.0.0 [Swift] ⭐8 • A comprehensive Swift SDK for the Google Gemini API
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 
@@ -88,6 +90,7 @@
 <!-- Recent Blog Posts -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://compiledthoughts.pages.dev/blog/pixie-ai-image-generation-platform/">Pixie: Building a Production-Ready AI Image Generation Platform with Rust and Native Mobile Apps</a> • Sep 22, 2025
 <a href="https://compiledthoughts.pages.dev/blog/claude-code-remote-ssh-tunnel/">Control Claude Code Remotely with Zero-Friction SSH Tunnels</a> • Jul 10, 2025
 <a href="https://compiledthoughts.pages.dev/blog/oauth-without-local-api-keys-rust-cloudflare-workers/">Secure OAuth Implementation Without Local API Keys Using Rust and Cloudflare Workers</a> • Jul 7, 2025
 <a href="https://compiledthoughts.pages.dev/blog/pomme-beautiful-cli-app-store-connect/">Pomme: A Beautiful CLI for App Store Connect That Actually Makes Sense</a> • Jul 2, 2025
@@ -97,7 +100,6 @@
 <a href="https://compiledthoughts.pages.dev/blog/supercharge-git-commits-with-opencommit-and-ollama/">Supercharge Your Git Commits with OpenCommit and Ollama</a> • Jun 12, 2025
 <a href="https://compiledthoughts.pages.dev/blog/adding-lastfm-now-playing-to-your-website/">Adding a Last.fm Now Playing Widget to Your Website</a> • Jun 7, 2025
 <a href="https://compiledthoughts.pages.dev/blog/sign-in-with-apple-cloudflare/">How to Implement Sign in with Apple Using Cloudflare Workers: A Complete Guide</a> • Jun 5, 2025
-<a href="https://compiledthoughts.pages.dev/blog/understanding-gitattributes-for-better-language-detection/">Understanding .gitattributes for Better Language Detection</a> • Jun 5, 2025
 </pre>
 </div>
 <!-- End Recent Blog Posts -->

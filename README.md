@@ -29,9 +29,12 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.0">appofthedead</a> 1.0.0 [Swift] ⭐0 • Learn afterlife beliefs from around the world
+<a href="https://github.com/guitaripod/songlink-cli/releases/tag/3.2.1">songlink-cli</a> 3.2.1 [Go] ⭐6 • Convert music URLs & download tracks
 <a href="https://github.com/guitaripod/pixie/releases/tag/1.0.0">pixie</a> 1.0.0 [Swift] ⭐2 • Image Generation Platform
 <a href="https://github.com/guitaripod/emobanana/releases/tag/1.0.1">emobanana</a> 1.0.1 [Rust] ⭐2 • nano banana hackathon submission
 <a href="https://github.com/guitaripod/minibanana/releases/tag/v1.2.2">minibanana</a> 1.2.2 [TS] ⭐1 • Flash Image 2.5 Preview wrapper web app
@@ -39,7 +42,6 @@
 <a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • x.com extension that automatically selects "replies from verified accounts only"
 <a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2">ThemeSwitch</a> 0.0.2 [C++] ⭐0 • Cross-platform system tray application for toggling dark/light mode
 <a href="https://github.com/guitaripod/ffrelay/releases/tag/1.0.0">ffrelay</a> 1.0.0 [TS] ⭐0 • Web app for Final Fantasy Relay events
-<a href="https://github.com/guitaripod/songlink-cli/releases/tag/v3.2.0">songlink-cli</a> 3.2.0 [Go] ⭐5 • Convert music URLs & download tracks
 <a href="https://github.com/guitaripod/gh-export/releases/tag/1.0.0">gh-export</a> 1.0.0 [Rust] ⭐2 • Export all GitHub repositories from a user account
 <a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐12 • A comprehensive Swift SDK for the OpenAI API.
 <a href="https://github.com/guitaripod/compiledthoughts/releases/tag/0.6.9">compiledthoughts</a> 0.6.9 [Astro] ⭐0 • Personal website 
@@ -51,10 +53,10 @@
 <a href="https://github.com/guitaripod/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐50 • 3rd place T3 Cloneathon Champion
 <a href="https://github.com/guitaripod/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • Swift SDK for StarCraft 2 Pro scene data
 <a href="https://github.com/guitaripod/igscraper/releases/tag/2.0.1">igscraper</a> 2.0.1 [Go] ⭐1 • ig photo scraper
-<a href="https://github.com/guitaripod/Pomme/releases/tag/2.0.0">Pomme</a> 2.0.0 [Go] ⭐3 • App Store Connect CLI tool built with Go.
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

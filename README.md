@@ -92,6 +92,7 @@
 <!-- Recent Blog Posts -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://compiledthoughts.pages.dev/blog/app-of-the-dead-local-llm-afterlife-education/">App of the Dead: Running Local LLMs on iOS to Teach World Religions</a> • Sep 25, 2025
 <a href="https://compiledthoughts.pages.dev/blog/pixie-ai-image-generation-platform/">Pixie: Building a Production-Ready AI Image Generation Platform with Rust and Native Mobile Apps</a> • Sep 22, 2025
 <a href="https://compiledthoughts.pages.dev/blog/claude-code-remote-ssh-tunnel/">Control Claude Code Remotely with Zero-Friction SSH Tunnels</a> • Jul 10, 2025
 <a href="https://compiledthoughts.pages.dev/blog/oauth-without-local-api-keys-rust-cloudflare-workers/">Secure OAuth Implementation Without Local API Keys Using Rust and Cloudflare Workers</a> • Jul 7, 2025
@@ -101,7 +102,6 @@
 <a href="https://compiledthoughts.pages.dev/blog/integrating-mlx-local-llms-ios-apps/">Integrating Local LLMs into iOS Apps with MLX Swift</a> • Jun 18, 2025
 <a href="https://compiledthoughts.pages.dev/blog/supercharge-git-commits-with-opencommit-and-ollama/">Supercharge Your Git Commits with OpenCommit and Ollama</a> • Jun 12, 2025
 <a href="https://compiledthoughts.pages.dev/blog/adding-lastfm-now-playing-to-your-website/">Adding a Last.fm Now Playing Widget to Your Website</a> • Jun 7, 2025
-<a href="https://compiledthoughts.pages.dev/blog/sign-in-with-apple-cloudflare/">How to Implement Sign in with Apple Using Cloudflare Workers: A Complete Guide</a> • Jun 5, 2025
 </pre>
 </div>
 <!-- End Recent Blog Posts -->

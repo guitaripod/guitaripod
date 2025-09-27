@@ -30,9 +30,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/Weavex/releases/tag/1.0.8">Weavex</a> 1.0.8 [Rust] ⭐4 • Autonomous research agent powered by local LLMs
 <a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.0">appofthedead</a> 1.0.0 [Swift] ⭐0 • Learn afterlife beliefs from around the world
 <a href="https://github.com/guitaripod/songlink-cli/releases/tag/3.2.1">songlink-cli</a> 3.2.1 [Go] ⭐6 • Convert music URLs & download tracks
 <a href="https://github.com/guitaripod/pixie/releases/tag/1.0.0">pixie</a> 1.0.0 [Swift] ⭐2 • Image Generation Platform
@@ -52,10 +54,10 @@
 <a href="https://github.com/guitaripod/lastfm-rs/releases/tag/1.0.1">lastfm-rs</a> 1.0.1 [Rust] ⭐2 • A blazing-fast Rust SDK for last.fm
 <a href="https://github.com/guitaripod/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐50 • 3rd place T3 Cloneathon Champion
 <a href="https://github.com/guitaripod/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • Swift SDK for StarCraft 2 Pro scene data
-<a href="https://github.com/guitaripod/igscraper/releases/tag/2.0.1">igscraper</a> 2.0.1 [Go] ⭐1 • ig photo scraper
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

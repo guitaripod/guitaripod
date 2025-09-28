@@ -31,10 +31,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/guitaripod/Weavex/releases/tag/1.0.8">Weavex</a> 1.0.8 [Rust] ⭐4 • Autonomous research agent powered by local LLMs
+<a href="https://github.com/guitaripod/Weavex/releases/tag/1.1.0">Weavex</a> 1.1.0 [Rust] ⭐6 • Autonomous research agent powered by local LLMs
 <a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.0">appofthedead</a> 1.0.0 [Swift] ⭐0 • Learn afterlife beliefs from around the world
 <a href="https://github.com/guitaripod/songlink-cli/releases/tag/3.2.1">songlink-cli</a> 3.2.1 [Go] ⭐6 • Convert music URLs & download tracks
 <a href="https://github.com/guitaripod/pixie/releases/tag/1.0.0">pixie</a> 1.0.0 [Swift] ⭐2 • Image Generation Platform
@@ -57,6 +58,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

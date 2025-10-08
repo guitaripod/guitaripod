@@ -44,7 +44,7 @@
 <a href="https://github.com/guitaripod/emobanana/releases/tag/1.0.1">emobanana</a> 1.0.1 [Rust] ⭐2 • nano banana hackathon submission
 <a href="https://github.com/guitaripod/minibanana/releases/tag/v1.2.2">minibanana</a> 1.2.2 [TS] ⭐1 • Flash Image 2.5 Preview wrapper web app
 <a href="https://github.com/guitaripod/image-collage/releases/tag/1.0.0">image-collage</a> 1.0.0 [Rust] ⭐1 • Create 2x2 image collages in the terminal
-<a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • x.com extension that automatically selects "replies from verified accounts only"
+<a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • auto-selects "replies from verified accounts only"
 <a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2">ThemeSwitch</a> 0.0.2 [C++] ⭐0 • Cross-platform system tray application for toggling dark/light mode
 <a href="https://github.com/guitaripod/ffrelay/releases/tag/1.0.0">ffrelay</a> 1.0.0 [TS] ⭐0 • Web app for Final Fantasy Relay events
 <a href="https://github.com/guitaripod/gh-export/releases/tag/1.0.0">gh-export</a> 1.0.0 [Rust] ⭐2 • Export all GitHub repositories from a user account

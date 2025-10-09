@@ -33,6 +33,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
@@ -44,7 +45,7 @@
 <a href="https://github.com/guitaripod/emobanana/releases/tag/1.0.1">emobanana</a> 1.0.1 [Rust] ⭐2 • nano banana hackathon submission
 <a href="https://github.com/guitaripod/minibanana/releases/tag/v1.2.2">minibanana</a> 1.2.2 [TS] ⭐1 • Flash Image 2.5 Preview wrapper web app
 <a href="https://github.com/guitaripod/image-collage/releases/tag/1.0.0">image-collage</a> 1.0.0 [Rust] ⭐1 • Create 2x2 image collages in the terminal
-<a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • auto-selects "replies from verified accounts only"
+<a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • extension that auto-selects "replies from verified accounts only"
 <a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2">ThemeSwitch</a> 0.0.2 [C++] ⭐0 • Cross-platform system tray application for toggling dark/light mode
 <a href="https://github.com/guitaripod/ffrelay/releases/tag/1.0.0">ffrelay</a> 1.0.0 [TS] ⭐0 • Web app for Final Fantasy Relay events
 <a href="https://github.com/guitaripod/gh-export/releases/tag/1.0.0">gh-export</a> 1.0.0 [Rust] ⭐2 • Export all GitHub repositories from a user account
@@ -55,10 +56,11 @@
 <a href="https://github.com/guitaripod/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐2 • Rust SDK for the NASA API
 <a href="https://github.com/guitaripod/LastFMKit/releases/tag/1.0.0">LastFMKit</a> 1.0.0 [Swift] ⭐0 • A comprehensive Swift SDK for last.fm
 <a href="https://github.com/guitaripod/lastfm-rs/releases/tag/1.0.1">lastfm-rs</a> 1.0.1 [Rust] ⭐2 • A blazing-fast Rust SDK for last.fm
-<a href="https://github.com/guitaripod/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐50 • 3rd place T3 Cloneathon Champion
+<a href="https://github.com/guitaripod/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐51 • 3rd place T3 Cloneathon Champion
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

@@ -38,6 +38,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
@@ -54,7 +55,7 @@
 <a href="https://github.com/guitaripod/ffrelay/releases/tag/1.0.0">ffrelay</a> 1.0.0 [TS] ⭐0 • Web app for Final Fantasy Relay events
 <a href="https://github.com/guitaripod/gh-export/releases/tag/1.0.0">gh-export</a> 1.0.0 [Rust] ⭐2 • Export all GitHub repositories from a user account
 <a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐12 • A comprehensive Swift SDK for the OpenAI API.
-<a href="https://github.com/guitaripod/compiledthoughts/releases/tag/0.6.9">compiledthoughts</a> 0.6.9 [Astro] ⭐0 • Personal website 
+<a href="https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9">midgarcorp</a> 0.6.9 [Astro] ⭐0 • Personal website 
 <a href="https://github.com/guitaripod/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐4 • A comprehensive Swift SDK for the xAI API
 <a href="https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐1 • A Swift SDK for the speedrun.com API
 <a href="https://github.com/guitaripod/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐2 • Rust SDK for the NASA API
@@ -104,20 +105,21 @@
 
 
 
+
 #### Latest Blog Posts
 <!-- Recent Blog Posts -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://compiledthoughts.pages.dev/blog/app-of-the-dead-local-llm-afterlife-education/">App of the Dead: Running Local LLMs on iOS to Teach World Religions</a> • Sep 25, 2025
-<a href="https://compiledthoughts.pages.dev/blog/pixie-ai-image-generation-platform/">Pixie: Building a Production-Ready AI Image Generation Platform with Rust and Native Mobile Apps</a> • Sep 22, 2025
-<a href="https://compiledthoughts.pages.dev/blog/claude-code-remote-ssh-tunnel/">Control Claude Code Remotely with Zero-Friction SSH Tunnels</a> • Jul 10, 2025
-<a href="https://compiledthoughts.pages.dev/blog/oauth-without-local-api-keys-rust-cloudflare-workers/">Secure OAuth Implementation Without Local API Keys Using Rust and Cloudflare Workers</a> • Jul 7, 2025
-<a href="https://compiledthoughts.pages.dev/blog/pomme-beautiful-cli-app-store-connect/">Pomme: A Beautiful CLI for App Store Connect That Actually Makes Sense</a> • Jul 2, 2025
-<a href="https://compiledthoughts.pages.dev/blog/neovim-auto-theme-switching/">Making Neovim Follow Your System Theme Automatically</a> • Jul 1, 2025
-<a href="https://compiledthoughts.pages.dev/blog/git-aware-terminal-prompt/">Building a Git-Aware Terminal Prompt That Actually Helps</a> • Jun 24, 2025
-<a href="https://compiledthoughts.pages.dev/blog/integrating-mlx-local-llms-ios-apps/">Integrating Local LLMs into iOS Apps with MLX Swift</a> • Jun 18, 2025
-<a href="https://compiledthoughts.pages.dev/blog/supercharge-git-commits-with-opencommit-and-ollama/">Supercharge Your Git Commits with OpenCommit and Ollama</a> • Jun 12, 2025
-<a href="https://compiledthoughts.pages.dev/blog/adding-lastfm-now-playing-to-your-website/">Adding a Last.fm Now Playing Widget to Your Website</a> • Jun 7, 2025
+<a href="https://midgarcorp.cc/blog/app-of-the-dead-local-llm-afterlife-education/">App of the Dead: Running Local LLMs on iOS to Teach World Religions</a> • Sep 25, 2025
+<a href="https://midgarcorp.cc/blog/pixie-ai-image-generation-platform/">Pixie: Building a Production-Ready AI Image Generation Platform with Rust and Native Mobile Apps</a> • Sep 22, 2025
+<a href="https://midgarcorp.cc/blog/claude-code-remote-ssh-tunnel/">Control Claude Code Remotely with Zero-Friction SSH Tunnels</a> • Jul 10, 2025
+<a href="https://midgarcorp.cc/blog/oauth-without-local-api-keys-rust-cloudflare-workers/">Secure OAuth Implementation Without Local API Keys Using Rust and Cloudflare Workers</a> • Jul 7, 2025
+<a href="https://midgarcorp.cc/blog/pomme-beautiful-cli-app-store-connect/">Pomme: A Beautiful CLI for App Store Connect That Actually Makes Sense</a> • Jul 2, 2025
+<a href="https://midgarcorp.cc/blog/neovim-auto-theme-switching/">Making Neovim Follow Your System Theme Automatically</a> • Jul 1, 2025
+<a href="https://midgarcorp.cc/blog/git-aware-terminal-prompt/">Building a Git-Aware Terminal Prompt That Actually Helps</a> • Jun 24, 2025
+<a href="https://midgarcorp.cc/blog/integrating-mlx-local-llms-ios-apps/">Integrating Local LLMs into iOS Apps with MLX Swift</a> • Jun 18, 2025
+<a href="https://midgarcorp.cc/blog/supercharge-git-commits-with-opencommit-and-ollama/">Supercharge Your Git Commits with OpenCommit and Ollama</a> • Jun 12, 2025
+<a href="https://midgarcorp.cc/blog/adding-lastfm-now-playing-to-your-website/">Adding a Last.fm Now Playing Widget to Your Website</a> • Jun 7, 2025
 </pre>
 </div>
 <!-- End Recent Blog Posts -->

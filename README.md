@@ -40,10 +40,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐15 • A comprehensive Swift SDK for Ollama
+<a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐16 • A comprehensive Swift SDK for Ollama
 <a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.1">appofthedead</a> 1.0.1 [Swift] ⭐0 • Learn afterlife beliefs from around the world
 <a href="https://github.com/guitaripod/pixie/releases/tag/1.1.0">pixie</a> 1.1.0 [Swift] ⭐2 • Image Generation Platform
 <a href="https://github.com/guitaripod/Weavex/releases/tag/1.1.0">Weavex</a> 1.1.0 [Rust] ⭐8 • Autonomous research agent powered by local LLMs
@@ -66,6 +67,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

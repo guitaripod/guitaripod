@@ -42,11 +42,12 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
 <a href="https://github.com/guitaripod/scribe/releases/tag/0.0.1">scribe</a> 0.0.1 [TS] ⭐1 • Local AI-powered grammar checking browser extension
-<a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐16 • A comprehensive Swift SDK for Ollama
+<a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐15 • A comprehensive Swift SDK for Ollama
 <a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.1">appofthedead</a> 1.0.1 [Swift] ⭐0 • Learn afterlife beliefs from around the world
 <a href="https://github.com/guitaripod/pixie/releases/tag/1.1.0">pixie</a> 1.1.0 [Swift] ⭐2 • Image Generation Platform
 <a href="https://github.com/guitaripod/Weavex/releases/tag/1.1.0">Weavex</a> 1.1.0 [Rust] ⭐8 • Autonomous research agent powered by local LLMs
@@ -58,7 +59,7 @@
 <a href="https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2">ThemeSwitch</a> 0.0.2 [C++] ⭐0 • Cross-platform system tray application for toggling dark/light mode
 <a href="https://github.com/guitaripod/ffrelay/releases/tag/1.0.0">ffrelay</a> 1.0.0 [TS] ⭐0 • Web app for Final Fantasy Relay events
 <a href="https://github.com/guitaripod/gh-export/releases/tag/1.0.0">gh-export</a> 1.0.0 [Rust] ⭐2 • Export all GitHub repositories from a user account
-<a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐12 • A comprehensive Swift SDK for the OpenAI API.
+<a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐11 • A comprehensive Swift SDK for the OpenAI API.
 <a href="https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9">midgarcorp</a> 0.6.9 [Astro] ⭐0 • Personal website 
 <a href="https://github.com/guitaripod/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐4 • A comprehensive Swift SDK for the xAI API
 <a href="https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐1 • A Swift SDK for the speedrun.com API
@@ -68,6 +69,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

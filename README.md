@@ -43,6 +43,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
@@ -61,7 +62,7 @@
 <a href="https://github.com/guitaripod/gh-export/releases/tag/1.0.0">gh-export</a> 1.0.0 [Rust] ⭐2 • Export all GitHub repositories from a user account
 <a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐11 • A comprehensive Swift SDK for the OpenAI API.
 <a href="https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9">midgarcorp</a> 0.6.9 [Astro] ⭐0 • Personal website 
-<a href="https://github.com/guitaripod/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐4 • A comprehensive Swift SDK for the xAI API
+<a href="https://github.com/guitaripod/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐5 • A comprehensive Swift SDK for the xAI API
 <a href="https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐1 • A Swift SDK for the speedrun.com API
 <a href="https://github.com/guitaripod/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐2 • Rust SDK for the NASA API
 <a href="https://github.com/guitaripod/LastFMKit/releases/tag/1.0.0">LastFMKit</a> 1.0.0 [Swift] ⭐0 • A comprehensive Swift SDK for last.fm
@@ -69,6 +70,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

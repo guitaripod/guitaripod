@@ -47,9 +47,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/flyr/releases/tag/1.1.0">flyr</a> 1.1.0 [Rust] ⭐1 • Search Google Flights from the terminal
 <a href="https://github.com/guitaripod/scribe/releases/tag/0.0.1">scribe</a> 0.0.1 [TS] ⭐2 • Local AI-powered grammar checking browser extension
 <a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐15 • A comprehensive Swift SDK for Ollama
 <a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.1">appofthedead</a> 1.0.1 [Swift] ⭐0 • Learn afterlife beliefs from around the world
@@ -69,10 +71,10 @@
 <a href="https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐1 • A Swift SDK for the speedrun.com API
 <a href="https://github.com/guitaripod/nasa-rs/releases/tag/1.0.1">nasa-rs</a> 1.0.1 [Rust] ⭐2 • Rust SDK for the NASA API
 <a href="https://github.com/guitaripod/omnichat/releases/tag/0.0.9">omnichat</a> 0.0.9 [TS] ⭐54 • 3rd place T3 Cloneathon Champion
-<a href="https://github.com/guitaripod/StarCraftKit/releases/tag/2.0.0">StarCraftKit</a> 2.0.0 [Swift] ⭐1 • Swift SDK for StarCraft 2 Pro scene data
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 
@@ -145,11 +147,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ████████████████████████████████░░░░░░░░░░░░░░░░░░  64.1% │
-│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.7% │
-│ Go         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.4% │
-│ Rust       ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.2% │
-│ Kotlin     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.1% │
+│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  63.8% │
+│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.5% │
+│ Rust       ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.2% │
+│ Go         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.0% │
+│ Kotlin     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.9% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

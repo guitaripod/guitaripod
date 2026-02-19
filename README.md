@@ -49,10 +49,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/guitaripod/flyr/releases/tag/v1.3.1">flyr</a> v1.3.1 [Rust] ⭐1 • Search Google Flights from the terminal
+<a href="https://github.com/guitaripod/flyr/releases/tag/v1.6.0">flyr</a> v1.6.0 [Rust] ⭐2 • Search Google Flights from the terminal
 <a href="https://github.com/guitaripod/scribe/releases/tag/0.0.1">scribe</a> 0.0.1 [TS] ⭐2 • Local AI-powered grammar checking browser extension
 <a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐15 • A comprehensive Swift SDK for Ollama
 <a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.1">appofthedead</a> 1.0.1 [Swift] ⭐0 • Learn afterlife beliefs from around the world
@@ -75,6 +76,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

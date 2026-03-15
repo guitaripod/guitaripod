@@ -56,6 +56,7 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
@@ -78,9 +79,11 @@
 <a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐11 • A comprehensive Swift SDK for the OpenAI API.
 <a href="https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9">midgarcorp</a> 0.6.9 [Astro] ⭐0 • Personal website 
 <a href="https://github.com/guitaripod/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐5 • A comprehensive Swift SDK for the xAI API
+<a href="https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐1 • A Swift SDK for the speedrun.com API
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

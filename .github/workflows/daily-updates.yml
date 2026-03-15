@@ -168,8 +168,9 @@ jobs:
             let repoReleasesMap = new Map();
             
             // Fetch releases and additional repo data
-            console.log(`\nFetching release data for ${repos.data.length} repositories...`);
-            for (const repo of repos.data) {
+            const ownedRepos = repos.data.filter(repo => !repo.fork);
+            console.log(`\nFetching release data for ${ownedRepos.length} owned repositories (${repos.data.length - ownedRepos.length} forks excluded)...`);
+            for (const repo of ownedRepos) {
               try {
                 console.log(`\nProcessing ${repo.name}...`);
                 const [releases, repoDetails] = await Promise.all([

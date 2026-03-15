@@ -59,7 +59,6 @@
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/guitaripod/zeroclaw/releases/tag/v0.2.0-beta.1">zeroclaw</a> v0.2.0-beta.1 [N/A] ⭐0 • Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap anything 🦀
 <a href="https://github.com/guitaripod/circadia/releases/tag/1.0.0">circadia</a> 1.0.0 [Rust] ⭐0 • Melanopic-aware color temperature daemon for KDE Plasma Wayland
 <a href="https://github.com/guitaripod/btop-ios/releases/tag/1.0.0">btop-ios</a> 1.0.0 [Swift] ⭐0 • Terminal-aesthetic system monitor for iOS.
 <a href="https://github.com/guitaripod/flyr/releases/tag/v1.6.0">flyr</a> v1.6.0 [Rust] ⭐5 • Search Google Flights from the terminal

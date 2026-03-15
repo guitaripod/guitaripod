@@ -55,9 +55,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/zeroclaw/releases/tag/v0.2.0-beta.1">zeroclaw</a> v0.2.0-beta.1 [N/A] ⭐0 • Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap anything 🦀
 <a href="https://github.com/guitaripod/circadia/releases/tag/1.0.0">circadia</a> 1.0.0 [Rust] ⭐0 • Melanopic-aware color temperature daemon for KDE Plasma Wayland
 <a href="https://github.com/guitaripod/btop-ios/releases/tag/1.0.0">btop-ios</a> 1.0.0 [Swift] ⭐0 • Terminal-aesthetic system monitor for iOS.
 <a href="https://github.com/guitaripod/flyr/releases/tag/v1.6.0">flyr</a> v1.6.0 [Rust] ⭐5 • Search Google Flights from the terminal
@@ -77,10 +79,10 @@
 <a href="https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5">OpenAIKit</a> 1.2.5 [Swift] ⭐11 • A comprehensive Swift SDK for the OpenAI API.
 <a href="https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9">midgarcorp</a> 0.6.9 [Astro] ⭐0 • Personal website 
 <a href="https://github.com/guitaripod/xAIKit/releases/tag/1.0.3">xAIKit</a> 1.0.3 [Swift] ⭐5 • A comprehensive Swift SDK for the xAI API
-<a href="https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0">SpeedrunKit</a> 1.0.0 [Swift] ⭐1 • A Swift SDK for the speedrun.com API
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

@@ -68,10 +68,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/guitaripod/unrager/releases/tag/0.5.0">unrager</a> 0.5.0 [Rust] ⭐0 • A calm Twitter/X TUI with a local-LLM rage filter
+<a href="https://github.com/guitaripod/unrager/releases/tag/0.8.2">unrager</a> 0.8.2 [Rust] ⭐1 • A calm Twitter/X TUI with a local-LLM rage filter
 <a href="https://github.com/guitaripod/emusync/releases/tag/0.1.2">emusync</a> 0.1.2 [Rust] ⭐0 • Cross-machine emulation save, mod, and shader cache sync over SSH
 <a href="https://github.com/guitaripod/flaccy/releases/tag/1.0.0">flaccy</a> 1.0.0 [Swift] ⭐1 • A FLAC music player for iOS with AI-powered library management
 <a href="https://github.com/guitaripod/flyr/releases/tag/1.6.1">flyr</a> 1.6.1 [Rust] ⭐8 • Search Google Flights from the terminal
@@ -79,7 +80,7 @@
 <a href="https://github.com/guitaripod/circadia/releases/tag/1.0.0">circadia</a> 1.0.0 [Rust] ⭐0 • Melanopic-aware color temperature daemon for KDE Plasma Wayland
 <a href="https://github.com/guitaripod/btop-ios/releases/tag/1.0.0">btop-ios</a> 1.0.0 [Swift] ⭐0 • Terminal-aesthetic system monitor for iOS.
 <a href="https://github.com/guitaripod/scribe/releases/tag/0.0.1">scribe</a> 0.0.1 [TS] ⭐2 • Local AI-powered grammar checking browser extension
-<a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐16 • A comprehensive Swift SDK for Ollama
+<a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐17 • A comprehensive Swift SDK for Ollama
 <a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.1">appofthedead</a> 1.0.1 [Swift] ⭐0 • Learn afterlife beliefs from around the world
 <a href="https://github.com/guitaripod/pixie/releases/tag/1.1.0">pixie</a> 1.1.0 [Swift] ⭐2 • Image Generation Platform
 <a href="https://github.com/guitaripod/Weavex/releases/tag/1.1.0">Weavex</a> 1.1.0 [Rust] ⭐9 • Autonomous research agent powered by local LLMs
@@ -94,6 +95,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

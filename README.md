@@ -70,14 +70,15 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/guitaripod/unrager/releases/tag/0.8.13">unrager</a> 0.8.13 [Rust] ⭐1 • A calm Twitter/X TUI with a local-LLM rage filter
+<a href="https://github.com/guitaripod/unrager/releases/tag/0.9.1">unrager</a> 0.9.1 [Rust] ⭐1 • A calm Twitter/X TUI with a local-LLM rage filter
 <a href="https://github.com/guitaripod/emusync/releases/tag/0.1.2">emusync</a> 0.1.2 [Rust] ⭐0 • Cross-machine emulation save, mod, and shader cache sync over SSH
 <a href="https://github.com/guitaripod/flaccy/releases/tag/1.0.0">flaccy</a> 1.0.0 [Swift] ⭐1 • A FLAC music player for iOS with AI-powered library management
 <a href="https://github.com/guitaripod/flyr/releases/tag/1.6.1">flyr</a> 1.6.1 [Rust] ⭐8 • Search Google Flights from the terminal
-<a href="https://github.com/guitaripod/Crucible/releases/tag/1.0.0">Crucible</a> 1.0.0 [Swift] ⭐0 • A personal Plex client for iOS, built entirely on Arch Linux.
+<a href="https://github.com/guitaripod/Crucible/releases/tag/1.0.0">Crucible</a> 1.0.0 [Swift] ⭐1 • A personal Plex client for iOS, built entirely on Arch Linux.
 <a href="https://github.com/guitaripod/circadia/releases/tag/1.0.0">circadia</a> 1.0.0 [Rust] ⭐0 • Melanopic-aware color temperature daemon for KDE Plasma Wayland
 <a href="https://github.com/guitaripod/btop-ios/releases/tag/1.0.0">btop-ios</a> 1.0.0 [Swift] ⭐0 • Terminal-aesthetic system monitor for iOS.
 <a href="https://github.com/guitaripod/scribe/releases/tag/0.0.1">scribe</a> 0.0.1 [TS] ⭐2 • Local AI-powered grammar checking browser extension
@@ -96,6 +97,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 
@@ -191,10 +193,10 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  62.8% │
-│ Rust       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  12.4% │
-│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.7% │
-│ Go         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.3% │
+│ Swift      ██████████████████████████████░░░░░░░░░░░░░░░░░░░░  61.8% │
+│ Rust       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  13.8% │
+│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.6% │
+│ Go         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.1% │
 │ Kotlin     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.5% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```

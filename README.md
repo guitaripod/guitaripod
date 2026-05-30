@@ -87,10 +87,11 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
-<a href="https://github.com/guitaripod/unrager/releases/tag/0.17.7">unrager</a> 0.17.7 [Rust] ⭐4 • A calm Twitter/X TUI with a local-LLM rage filter
+<a href="https://github.com/guitaripod/unrager/releases/tag/0.18.0">unrager</a> 0.18.0 [Rust] ⭐4 • A calm Twitter/X TUI with a local-LLM rage filter
 <a href="https://github.com/guitaripod/anvil/releases/tag/0.1.0">anvil</a> 0.1.0 [Swift] ⭐1 • iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
 <a href="https://github.com/guitaripod/emusync/releases/tag/0.1.2">emusync</a> 0.1.2 [Rust] ⭐0 • Cross-machine emulation save, mod, and shader cache sync over SSH
 <a href="https://github.com/guitaripod/flaccy/releases/tag/1.0.0">flaccy</a> 1.0.0 [Swift] ⭐1 • A FLAC music player for iOS with AI-powered library management
@@ -113,6 +114,7 @@
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

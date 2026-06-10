@@ -89,9 +89,13 @@
 
 
 
+
 <!-- Recent Releases -->
 <div style="width: 80%; text-align: right;">
 <pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
+<a href="https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2">songlink-cli</a> 3.2.2 [Go] ⭐7 • Convert music URLs & download tracks
+<a href="https://github.com/guitaripod/psybeam/releases/tag/1.0.0">psybeam</a> 1.0.0 [Swift] ⭐1 • Real-time voice-to-voice travel interpreter for iOS
+<a href="https://github.com/guitaripod/pixie/releases/tag/1.2.0">pixie</a> 1.2.0 — mako [Swift] ⭐2 • Image Generation Platform
 <a href="https://github.com/guitaripod/nasa-rs/releases/tag/0.2.0">nasa-rs</a> 0.2.0 [Rust] ⭐2 • Rust SDK for the NASA API
 <a href="https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0">lastfm-rs</a> 0.2.0 [Rust] ⭐3 • A blazing-fast Rust SDK for last.fm
 <a href="https://github.com/guitaripod/unrager/releases/tag/0.18.0">unrager</a> 0.18.0 [Rust] ⭐4 • A calm Twitter/X TUI with a local-LLM rage filter
@@ -105,16 +109,14 @@
 <a href="https://github.com/guitaripod/scribe/releases/tag/0.0.1">scribe</a> 0.0.1 [TS] ⭐2 • Local AI-powered grammar checking browser extension
 <a href="https://github.com/guitaripod/Swollama/releases/tag/3.0.1">Swollama</a> 3.0.1 [Swift] ⭐17 • A comprehensive Swift SDK for Ollama
 <a href="https://github.com/guitaripod/appofthedead/releases/tag/1.0.1">appofthedead</a> 1.0.1 [Swift] ⭐0 • Learn afterlife beliefs from around the world
-<a href="https://github.com/guitaripod/pixie/releases/tag/1.1.0">pixie</a> 1.1.0 [Swift] ⭐2 • Image Generation Platform
 <a href="https://github.com/guitaripod/Weavex/releases/tag/1.1.0">Weavex</a> 1.1.0 [Rust] ⭐9 • Autonomous research agent powered by local LLMs
-<a href="https://github.com/guitaripod/songlink-cli/releases/tag/3.2.1">songlink-cli</a> 3.2.1 [Go] ⭐7 • Convert music URLs & download tracks
 <a href="https://github.com/guitaripod/emobanana/releases/tag/1.0.1">emobanana</a> 1.0.1 [Rust] ⭐2 • nano banana hackathon submission
 <a href="https://github.com/guitaripod/minibanana/releases/tag/v1.2.2">minibanana</a> 1.2.2 [TS] ⭐1 • Flash Image 2.5 Preview wrapper web app
 <a href="https://github.com/guitaripod/image-collage/releases/tag/1.0.0">image-collage</a> 1.0.0 [Rust] ⭐1 • Create 2x2 image collages in the terminal
-<a href="https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0">twitter-reply-selector</a> 1.1.0 [JS] ⭐0 • extension that auto-selects "replies from verified accounts only"
 </pre>
 </div>
 <!-- End Recent Releases -->
+
 
 
 

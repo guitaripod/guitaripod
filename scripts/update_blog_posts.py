@@ -5,7 +5,7 @@ import re
 from datetime import datetime
 
 def fetch_blog_posts():
-    rss_url = 'https://compiledthoughts.pages.dev/rss.xml'
+    rss_url = 'https://midgarcorp.cc/rss.xml'
     
     try:
         req = urllib.request.Request(rss_url)
@@ -83,15 +83,11 @@ def update_readme():
     # Build new blog posts section
     new_lines = []
     for post in posts:
-        line = f'<a href="{post["link"]}">{post["title"]}</a> • {post["date"]}'
+        line = f'- [{post["title"]}]({post["link"]}) · {post["date"]}'
         new_lines.append(line)
-    
+
     new_section = f'''<!-- Recent Blog Posts -->
-<div style="width: 80%; text-align: right;">
-<pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">
 {chr(10).join(new_lines)}
-</pre>
-</div>
 <!-- End Recent Blog Posts -->'''
     
     # Check if content changed

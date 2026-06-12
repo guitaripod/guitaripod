@@ -15,12 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       
@@ -55,259 +55,75 @@ jobs:
       
       # Update recent releases
       - name: Fetch Recent Releases
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs');
-            
-            // Function to extract release data from HTML section
-            function extractReleaseData(section) {
-              console.log('Raw section:', section); // Debug log
-              
-              const releases = [];
-              // Extract lines from the <pre> tag
-              const preMatch = section.match(/<pre[^>]*>([\s\S]*?)<\/pre>/);
-              if (!preMatch) return releases;
-              
-              const lines = preMatch[1].split('\n').filter(line => line.trim());
-              console.log(`Found ${lines.length} lines`); // Debug log
-              
-              for (const line of lines) {
-                console.log('Processing line:', line); // Debug log
-                
-                // Parse compact format: <a href="...">RepoName</a> v1.0.0 [Lang] ⭐N • Description
-                const repoMatch = line.match(/href="[^"]+">([^<]+)<\/a>/);
-                const versionMatch = line.match(/<\/a>\s+([^\s]+)\s+\[/);
-                const starsMatch = line.match(/⭐(\d+)/);
-                
-                console.log('Extracted line data:', { // Debug log
-                  repo: repoMatch?.[1],
-                  version: versionMatch?.[1],
-                  stars: starsMatch?.[1]
-                });
-                
-                if (repoMatch && versionMatch) {
-                  releases.push({
-                    repo: repoMatch[1],
-                    version: versionMatch[1],
-                    stars: starsMatch ? parseInt(starsMatch[1]) : 0
-                  });
-                }
-              }
-              
-              console.log('Final extracted releases:', releases); // Debug log
-              return releases;
+            let readme = fs.readFileSync('README.md', 'utf8');
+            const startMark = '<!-- Recent Releases -->';
+            const endMark = '<!-- End Recent Releases -->';
+            const start = readme.indexOf(startMark);
+            const end = readme.indexOf(endMark);
+            if (start === -1 || end === -1) {
+              core.setFailed('Release markers not found in README');
+              return;
             }
 
-            // Function to compare two release arrays with detailed logging
-            function releasesAreDifferent(oldReleases, newReleases) {
-              console.log('\nComparing releases:');
-              console.log('Old releases:', JSON.stringify(oldReleases, null, 2));
-              console.log('New releases:', JSON.stringify(newReleases, null, 2));
-              
-              if (oldReleases.length !== newReleases.length) {
-                console.log(`Length mismatch: old=${oldReleases.length}, new=${newReleases.length}`);
-                return true;
-              }
-              
-              for (let i = 0; i < oldReleases.length; i++) {
-                const old = oldReleases[i];
-                const newR = newReleases[i];
-                
-                console.log(`\nComparing release ${i + 1}:`);
-                console.log('Old:', old);
-                console.log('New:', newR);
-                
-                if (old.repo !== newR.repo) {
-                  console.log(`Repository changed: ${old.repo} -> ${newR.repo}`);
-                  return true;
-                }
-                if (old.version !== newR.version) {
-                  console.log(`Version changed for ${old.repo}: ${old.version} -> ${newR.version}`);
-                  return true;
-                }
-                // Skip date comparison in compact format
-                if (old.stars !== newR.stars) {
-                  console.log(`Stars changed for ${old.repo}: ${old.stars} -> ${newR.stars}`);
-                  return true;
-                }
-                
-                console.log(`No changes detected for ${old.repo}`);
-              }
-              
-              console.log('\nNo differences found between releases');
-              return false;
-            }
-            
-            // Read current README first
-            console.log('Reading README...');
-            let readme = fs.readFileSync('README.md', 'utf8');
-            
-            // Extract current releases section if it exists
-            let originalSection = '';
-            let currentReleases = [];
-            if (readme.includes('<!-- Recent Releases -->')) {
-              console.log('Found existing releases section');
-              const start = readme.indexOf('<!-- Recent Releases -->');
-              const end = readme.indexOf('<!-- End Recent Releases -->') + '<!-- End Recent Releases -->'.length;
-              originalSection = readme.substring(start, end);
-              currentReleases = extractReleaseData(originalSection);
-              console.log('Extracted current releases:', currentReleases);
-            } else {
-              console.log('No existing releases section found');
-            }
-            
-            console.log('Fetching repositories...');
-            const repos = await github.rest.repos.listForUser({
+            const repos = await github.paginate(github.rest.repos.listForUser, {
               username: context.repo.owner,
               per_page: 100,
-              sort: 'updated'
+              sort: 'updated',
             });
-            
-            // Create a map to store latest release per repo
-            let repoReleasesMap = new Map();
-            
-            // Fetch releases and additional repo data
-            const ownedRepos = repos.data.filter(repo => !repo.fork);
-            console.log(`\nFetching release data for ${ownedRepos.length} owned repositories (${repos.data.length - ownedRepos.length} forks excluded)...`);
-            for (const repo of ownedRepos) {
+
+            const releases = [];
+            for (const repo of repos.filter((r) => !r.fork)) {
               try {
-                console.log(`\nProcessing ${repo.name}...`);
-                const [releases, repoDetails] = await Promise.all([
-                  github.rest.repos.listReleases({
-                    owner: context.repo.owner,
+                const { data } = await github.rest.repos.listReleases({
+                  owner: context.repo.owner,
+                  repo: repo.name,
+                  per_page: 1,
+                });
+                if (data.length > 0) {
+                  releases.push({
                     repo: repo.name,
-                    per_page: 1
-                  }),
-                  github.rest.repos.get({
-                    owner: context.repo.owner,
-                    repo: repo.name
-                  })
-                ]);
-                
-                if (releases.data.length > 0) {
-                  const release = releases.data[0];
-                  release.repo_name = repo.name;
-                  release.language = repo.language;
-                  release.stars = repoDetails.data.stargazers_count;
-                  release.description = repoDetails.data.description;
-                  repoReleasesMap.set(repo.name, release);
-                  console.log(`Found release: ${release.name || release.tag_name}`);
-                } else {
-                  console.log('No releases found');
+                    version: data[0].name || data[0].tag_name,
+                    url: data[0].html_url,
+                    lang: repo.language || '—',
+                    stars: repo.stargazers_count,
+                    desc: repo.description || '',
+                    published: data[0].published_at,
+                  });
                 }
               } catch (error) {
-                console.log(`Error fetching data for ${repo.name}: ${error.message}`);
+                console.log(`Skipping ${repo.name}: ${error.message}`);
               }
             }
-            
-            // Convert map to array and sort by date
-            let allReleases = Array.from(repoReleasesMap.values());
-            allReleases.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-            allReleases = allReleases.slice(0, 20);
-            console.log(`\nProcessed ${allReleases.length} most recent releases`);
-            
-            function formatDate(dateStr) {
-              const date = new Date(dateStr);
-              return date.toLocaleDateString('en-US', {
-                month: 'short',
-                day: 'numeric',
-                year: 'numeric'
-              });
-            }
-            
-            // Prepare new section
-            let newSection;
-            let newReleasesData = [];
-            
-            if (allReleases.length === 0) {
-              console.log('No releases found, creating empty section');
-              newSection = [
-                '\n<!-- Recent Releases -->',
-                '<div style="width: 80%; text-align: right;">',
-                '<p>No releases yet</p>',
-                '</div>',
-                '<!-- End Recent Releases -->'
-              ].join('\n');
-            } else {
-              // Transform the new releases into comparable format
-              newReleasesData = allReleases.map(release => ({
-                repo: release.repo_name,
-                version: release.name || release.tag_name,
-                stars: release.stars
-              }));
-              
-              console.log('\nPreparing new releases data:', newReleasesData);
-              
-              // Shorten language names
-              function shortLang(lang) {
-                const langMap = {
-                  'Swift': 'Swift',
-                  'Go': 'Go',
-                  'JavaScript': 'JS',
-                  'TypeScript': 'TS',
-                  'Python': 'Py',
-                  'Rust': 'Rust',
-                  'Java': 'Java',
-                  'C++': 'C++',
-                  'C': 'C',
-                  'Ruby': 'Ruby',
-                  'PHP': 'PHP',
-                  'Kotlin': 'Kotlin',
-                  'Dart': 'Dart',
-                  'Lua': 'Lua'
-                };
-                return langMap[lang] || lang || 'N/A';
-              }
-              
-              // Just return the description as-is
-              function getDesc(desc) {
-                return desc || '';
-              }
-              
-              const releaseLines = allReleases.map(release => {
-                const name = release.name || release.tag_name;
-                const lang = shortLang(release.language);
-                const desc = getDesc(release.description);
-                const stars = release.stars.toString();
-                return `<a href="${release.html_url}">${release.repo_name}</a> ${name} [${lang}] ⭐${stars}${desc ? ' • ' + desc : ''}`;
-              }).join('\n');
 
-              newSection = [
-                '\n<!-- Recent Releases -->',
-                '<div style="width: 80%; text-align: right;">',
-                '<pre style="text-align: left; margin-left: auto; font-size: 0.7em; line-height: 1.4;">',
-                releaseLines,
-                '</pre>',
-                '</div>',
-                '<!-- End Recent Releases -->\n'
-              ].join('\n');
-            }
-            
-            // Compare the actual release data instead of HTML content
-            if (releasesAreDifferent(currentReleases, newReleasesData)) {
-              console.log('\nChanges detected in release data, updating README...');
-              // Update or append the section
-              if (originalSection) {
-                readme = readme.replace(originalSection, newSection);
-                console.log('Updated existing section');
-              } else {
-                const insertPoint = readme.indexOf('![Profile views]');
-                if (insertPoint !== -1) {
-                  readme = readme.slice(0, insertPoint) + newSection + readme.slice(insertPoint);
-                  console.log('Inserted new section before profile views');
-                } else {
-                  readme += newSection;
-                  console.log('Appended new section at end of README');
-                }
-              }
-              
+            releases.sort((a, b) => new Date(b.published) - new Date(a.published));
+            const shortLang = { JavaScript: 'JS', TypeScript: 'TS', Python: 'Py' };
+            const esc = (s) => String(s).replace(/\|/g, '\\|');
+            const rows = releases.slice(0, 20).map(
+              (r) =>
+                `| [${esc(r.repo)} ${esc(r.version)}](${r.url}) | ${shortLang[r.lang] || r.lang} | ${r.stars} | ${esc(r.desc)} |`
+            );
+            const newSection = [
+              startMark,
+              '| release | lang | ⭐ | what shipped |',
+              '|---|---|---|---|',
+              ...rows,
+              endMark,
+            ].join('\n');
+
+            const current = readme.substring(start, end + endMark.length);
+            if (current.trim() !== newSection.trim()) {
+              readme = readme.substring(0, start) + newSection + readme.substring(end + endMark.length);
               fs.writeFileSync('README.md', readme);
               fs.writeFileSync('releases_changes_detected', 'true');
+              console.log(`Releases section updated with ${rows.length} entries`);
             } else {
-              console.log('\nNo changes detected in release data, skipping update');
+              console.log('No release changes');
             }
-      
+
       - name: Check for releases changes
         id: check_releases_changes
         run: |

@@ -52,16 +52,6 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [xthemetoggler 1.0.0](https://github.com/guitaripod/xthemetoggler/releases/tag/1.0.0) · JS ⭐0 — Add a dedicated button on X.com to access display settings
 - [OpenAIImagesKit 1.0.0](https://github.com/guitaripod/OpenAIImagesKit/releases/tag/1.0.0) · Swift ⭐6 — Swift package for OpenAI's Images API
 - [fluxxxer v2.0.0](https://github.com/guitaripod/fluxxxer/releases/tag/v2.0.0) · Go ⭐0 — a native gtk4 Linux image generator built with Go
-- [JewOrNotJewKit v1.0.2](https://github.com/guitaripod/JewOrNotJewKit/releases/tag/v1.0.2) · Go ⭐1 — A Go SDK and database for JewOrNotJew(dot)com
-- [MusicKitKat v0.0.2](https://github.com/guitaripod/MusicKitKat/releases/tag/v0.0.2) · Go ⭐0 — Go SDK for Apple Music (WIP)
-- [freedom-speech-tierlist v1.0](https://github.com/guitaripod/freedom-speech-tierlist/releases/tag/v1.0) · JS ⭐0 — 
-- [chatgpt-gtk4 v0.0.1-alpha](https://github.com/guitaripod/chatgpt-gtk4/releases/tag/v0.0.1-alpha) · Go ⭐0 — Native GTK4 ChatGPT client using the official Go SDK
-- [rawdog.ml.nvim v1](https://github.com/guitaripod/rawdog.ml.nvim/releases/tag/v1) · Lua ⭐0 — my neovim config, btw. for arch and macOS, btw.
-- [VimTerminalKit v1.0.2](https://github.com/guitaripod/VimTerminalKit/releases/tag/v1.0.2) · Swift ⭐1 — A Swift package that brings Vim-style navigation to your command-line applications.
-- [torrent-rss v0.0.1-alpha](https://github.com/guitaripod/torrent-rss/releases/tag/v0.0.1-alpha) · Go ⭐2 — torrentday.com torrent downloader
-- [reposort v0.0.2-alpha](https://github.com/guitaripod/reposort/releases/tag/v0.0.2-alpha) · Go ⭐0 — RepoSort is a command-line tool written in Go that organizes repositories into language-specific directories. It is designed to help developers maintain a clean workspace by automatically sorting repositories based on the programming language they are primarily written in.
-- [CachedAsyncImage v0.0.4](https://github.com/guitaripod/CachedAsyncImage/releases/tag/v0.0.4) · Swift ⭐0 — SwiftUI's simple to use AsyncImage with cache
-- [MoodLint MoodLint (alpha)](https://github.com/guitaripod/MoodLint/releases/tag/v0.0.5) · Go ⭐2 — Tired of messy PR titles? Want to enforce a consistent style across your team? MoodLint is here to rescue your git workflow
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

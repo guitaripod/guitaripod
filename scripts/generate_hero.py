@@ -7,6 +7,7 @@ in the Snake workflow daily. The animation is pure CSS keyframes so it plays
 inside GitHub's <img>-embedded SVG sandbox (no JS allowed there).
 """
 
+import os
 import random
 import re
 import sys
@@ -272,6 +273,7 @@ def render(palette, name, snake_path=None):
   {scanlines}
 </svg>
 '''
+    os.makedirs("assets", exist_ok=True)
     with open(f"assets/{name}", "w") as f:
         f.write(svg)
     print(f"wrote assets/{name} ({len(svg)} bytes, {total:.1f}s loop)")

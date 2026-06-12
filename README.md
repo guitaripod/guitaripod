@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" alt="marcus@midgar terminal — Engineer who ships." width="100%">
+  <img src="assets/hero-dark.svg" alt="guitaripod@midgar terminal — Engineer who ships." width="100%">
 </picture>
 
 ### `$ whoami`
 
-Marcus Ziadé — independent engineer. Six years shipping production iOS, backend, and AI for category-leading consumer products: a multi-billion-dollar wearable health platform, a NASDAQ-listed cybersecurity company, an AI-native health startup. Now building my own — **9 apps live on the App Store** and the open-source stable below.
+guitaripod — independent engineer. Six years shipping production iOS, backend, and AI for category-leading consumer products: a multi-billion-dollar wearable health platform, a NASDAQ-listed cybersecurity company, an AI-native health startup. Now building my own — **9 apps live on the App Store** and the open-source stable below.
 
 **[midgarcorp.cc](https://midgarcorp.cc)** · [work with me](https://midgarcorp.cc/services) · [apps](https://midgarcorp.cc/apps) · [blog](https://midgarcorp.cc/archive)
 

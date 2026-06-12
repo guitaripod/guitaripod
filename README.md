@@ -30,6 +30,36 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [emobanana 1.0.1](https://github.com/guitaripod/emobanana/releases/tag/1.0.1) · Rust ⭐2 — nano banana hackathon submission
 - [minibanana 1.2.2](https://github.com/guitaripod/minibanana/releases/tag/v1.2.2) · TS ⭐1 — Flash Image 2.5 Preview wrapper web app
 - [image-collage 1.0.0](https://github.com/guitaripod/image-collage/releases/tag/1.0.0) · Rust ⭐1 — Create 2x2 image collages in the terminal
+- [twitter-reply-selector 1.1.0](https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0) · JS ⭐0 — extension that auto-selects "replies from verified accounts only"
+- [ThemeSwitch 0.0.2](https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2) · C++ ⭐0 — Cross-platform system tray application for toggling dark/light mode
+- [ffrelay 1.0.0](https://github.com/guitaripod/ffrelay/releases/tag/1.0.0) · TS ⭐0 — Web app for Final Fantasy Relay events
+- [gh-export 1.0.0](https://github.com/guitaripod/gh-export/releases/tag/1.0.0) · Rust ⭐2 — Export all GitHub repositories from a user account
+- [OpenAIKit 1.2.5](https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5) · Swift ⭐12 — A comprehensive Swift SDK for the OpenAI API.
+- [midgarcorp 0.6.9](https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9) · Astro ⭐0 — Personal website 
+- [xAIKit 1.0.3](https://github.com/guitaripod/xAIKit/releases/tag/1.0.3) · Swift ⭐5 — A comprehensive Swift SDK for the xAI API
+- [SpeedrunKit 1.0.0](https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0) · Swift ⭐1 — A Swift SDK for the speedrun.com API
+- [LastFMKit 1.0.0](https://github.com/guitaripod/LastFMKit/releases/tag/1.0.0) · Swift ⭐0 — A comprehensive Swift SDK for last.fm
+- [omnichat 0.0.9](https://github.com/guitaripod/omnichat/releases/tag/0.0.9) · TS ⭐56 — 3rd place T3 Cloneathon Champion
+- [StarCraftKit 2.0.0](https://github.com/guitaripod/StarCraftKit/releases/tag/2.0.0) · Swift ⭐1 — Swift SDK for StarCraft 2 Pro scene data
+- [igscraper 2.0.1](https://github.com/guitaripod/igscraper/releases/tag/2.0.1) · Go ⭐1 — ig photo scraper
+- [Pomme 2.0.0](https://github.com/guitaripod/Pomme/releases/tag/2.0.0) · Go ⭐3 — App Store Connect CLI tool built with Go.
+- [GeminiKit 1.0.0](https://github.com/guitaripod/GeminiKit/releases/tag/1.0.0) · Swift ⭐12 — A comprehensive Swift SDK for the Google Gemini API
+- [DeepSeekKit 1.0.1](https://github.com/guitaripod/DeepSeekKit/releases/tag/1.0.1) · Swift ⭐4 — A comprehensive Swift SDK for the DeepSeek API
+- [AnthropicKit 1.0.1](https://github.com/guitaripod/AnthropicKit/releases/tag/1.0.1) · Swift ⭐3 — A comprehensive Swift SDK for the Anthropic API
+- [speedrun-cli 1.4.1](https://github.com/guitaripod/speedrun-cli/releases/tag/1.4.1) · Go ⭐1 — CLI client for speedrun.com
+- [xthemetoggler 1.0.0](https://github.com/guitaripod/xthemetoggler/releases/tag/1.0.0) · JS ⭐0 — Add a dedicated button on X.com to access display settings
+- [OpenAIImagesKit 1.0.0](https://github.com/guitaripod/OpenAIImagesKit/releases/tag/1.0.0) · Swift ⭐6 — Swift package for OpenAI's Images API
+- [fluxxxer v2.0.0](https://github.com/guitaripod/fluxxxer/releases/tag/v2.0.0) · Go ⭐0 — a native gtk4 Linux image generator built with Go
+- [JewOrNotJewKit v1.0.2](https://github.com/guitaripod/JewOrNotJewKit/releases/tag/v1.0.2) · Go ⭐1 — A Go SDK and database for JewOrNotJew(dot)com
+- [MusicKitKat v0.0.2](https://github.com/guitaripod/MusicKitKat/releases/tag/v0.0.2) · Go ⭐0 — Go SDK for Apple Music (WIP)
+- [freedom-speech-tierlist v1.0](https://github.com/guitaripod/freedom-speech-tierlist/releases/tag/v1.0) · JS ⭐0 — 
+- [chatgpt-gtk4 v0.0.1-alpha](https://github.com/guitaripod/chatgpt-gtk4/releases/tag/v0.0.1-alpha) · Go ⭐0 — Native GTK4 ChatGPT client using the official Go SDK
+- [rawdog.ml.nvim v1](https://github.com/guitaripod/rawdog.ml.nvim/releases/tag/v1) · Lua ⭐0 — my neovim config, btw. for arch and macOS, btw.
+- [VimTerminalKit v1.0.2](https://github.com/guitaripod/VimTerminalKit/releases/tag/v1.0.2) · Swift ⭐1 — A Swift package that brings Vim-style navigation to your command-line applications.
+- [torrent-rss v0.0.1-alpha](https://github.com/guitaripod/torrent-rss/releases/tag/v0.0.1-alpha) · Go ⭐2 — torrentday.com torrent downloader
+- [reposort v0.0.2-alpha](https://github.com/guitaripod/reposort/releases/tag/v0.0.2-alpha) · Go ⭐0 — RepoSort is a command-line tool written in Go that organizes repositories into language-specific directories. It is designed to help developers maintain a clean workspace by automatically sorting repositories based on the programming language they are primarily written in.
+- [CachedAsyncImage v0.0.4](https://github.com/guitaripod/CachedAsyncImage/releases/tag/v0.0.4) · Swift ⭐0 — SwiftUI's simple to use AsyncImage with cache
+- [MoodLint MoodLint (alpha)](https://github.com/guitaripod/MoodLint/releases/tag/v0.0.5) · Go ⭐2 — Tired of messy PR titles? Want to enforce a consistent style across your team? MoodLint is here to rescue your git workflow
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

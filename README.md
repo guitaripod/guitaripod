@@ -100,8 +100,9 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guitaripod/guitaripod/output/snake-light.svg">
   <img src="https://raw.githubusercontent.com/guitaripod/guitaripod/output/snake-dark.svg" alt="snake eating my contribution graph" width="100%">
 </picture>
-<sub>regenerated nightly</sub>
 
 ### `$ exit 0`
 
-[midgarcorp.cc](https://midgarcorp.cc) · [App Store](https://apps.apple.com/developer/marcus-ziade/id1484270247) · [X](https://x.com/guitaripod) · [Ko-fi](https://ko-fi.com/A0A6EOA7C) · ![Profile views](https://komarev.com/ghpvc/?username=guitaripod&label=visitors&color=33ff66&style=flat)
+[midgarcorp.cc](https://midgarcorp.cc) · [App Store](https://apps.apple.com/developer/marcus-ziade/id1484270247) · [X](https://x.com/guitaripod) · [Ko-fi](https://ko-fi.com/A0A6EOA7C)
+
+![Profile views](https://komarev.com/ghpvc/?username=guitaripod&label=visitors&color=33ff66&style=flat)

@@ -174,11 +174,11 @@ def render(palette, name, snake_path=None):
                 f'<clipPath id="tc{idx}"><rect class="tw{idx}" x="{x_text}" y="{y - 18}" width="{w:.1f}" height="24"/></clipPath>'
             )
             css.append(
-                f".tw{idx}{{animation:t{idx} {total}s infinite}}"
+                f".tw{idx}{{animation:t{idx} {total}s forwards}}"
                 f"@keyframes t{idx}{{0%{{width:0}}{start_pct}%{{width:0;animation-timing-function:steps({len(text)})}}{end_pct}%{{width:{w:.1f}px}}100%{{width:{w:.1f}px}}}}"
             )
             css.append(
-                f".pr{idx}{{opacity:0;animation:o{idx} {total}s infinite}}"
+                f".pr{idx}{{opacity:0;animation:o{idx} {total}s forwards}}"
                 f"@keyframes o{idx}{{0%{{opacity:0}}{max(start_pct - 0.1, 0)}%{{opacity:0}}{start_pct}%{{opacity:1}}100%{{opacity:1}}}}"
             )
             cursor_frames.append((ev["start"], ev["start"] + ev["dur"], x_text, w, y))
@@ -193,7 +193,7 @@ def render(palette, name, snake_path=None):
                 )
                 x += len(text) * CHAR_W
             css.append(
-                f".ol{idx}{{opacity:0;animation:o{idx} {total}s infinite}}"
+                f".ol{idx}{{opacity:0;animation:o{idx} {total}s forwards}}"
                 f"@keyframes o{idx}{{0%{{opacity:0}}{max(start_pct - 0.1, 0)}%{{opacity:0}}{start_pct}%{{opacity:1}}100%{{opacity:1}}}}"
             )
         elif ev["kind"] == "snake":
@@ -201,7 +201,7 @@ def render(palette, name, snake_path=None):
             snake_style, snake_body = extract_snake(snake_path)
             css.append(snake_style)
             css.append(
-                f".sn{{opacity:0;animation:o{idx} {total}s infinite}}"
+                f".sn{{opacity:0;animation:o{idx} {total}s forwards}}"
                 f"@keyframes o{idx}{{0%{{opacity:0}}{max(start_pct - 0.1, 0)}%{{opacity:0}}{start_pct}%{{opacity:1}}100%{{opacity:1}}}}"
             )
             body.append(
@@ -216,7 +216,7 @@ def render(palette, name, snake_path=None):
                 f'<text x="{LEFT}" y="{y}" fill="{palette["green"]}" class="pr pr{idx}">{PROMPT.strip()}</text>'
             )
             css.append(
-                f".pr{idx}{{opacity:0;animation:o{idx} {total}s infinite}}"
+                f".pr{idx}{{opacity:0;animation:o{idx} {total}s forwards}}"
                 f"@keyframes o{idx}{{0%{{opacity:0}}{max(start_pct - 0.1, 0)}%{{opacity:0}}{start_pct}%{{opacity:1}}100%{{opacity:1}}}}"
             )
             cursor_frames.append((ev["start"], total, LEFT + len(PROMPT) * CHAR_W, 0, y))
@@ -230,7 +230,7 @@ def render(palette, name, snake_path=None):
         if w:
             kf_rules.append(f"{e}%{{transform:translate({x_base + w:.1f}px,{y - 14}px);opacity:1}}")
     kf_rules.append(f"100%{{transform:translate({cursor_frames[-1][2]:.1f}px,{cursor_frames[-1][4] - 14}px);opacity:1}}")
-    css.append(f'.cpos{{animation:cmove {total}s step-end infinite}}@keyframes cmove{{{"".join(kf_rules)}}}')
+    css.append(f'.cpos{{animation:cmove {total}s step-end forwards}}@keyframes cmove{{{"".join(kf_rules)}}}')
 
     cursor_fill = palette["green"]
     body.append(

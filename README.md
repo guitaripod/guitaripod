@@ -4,7 +4,7 @@
   <img src="assets/hero-dark.svg" alt="guitaripod terminal session: engineer who ships. 9 apps on the App Store. midgarcorp.cc" width="100%">
 </picture>
 
-i build iOS apps, CLIs, SDKs, and agents — and actually release them. mostly **Swift** and **Rust**, btw.
+i build iOS apps, CLIs, SDKs, and agents — and actually release them. mostly **Swift** and **Rust**.
 greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swollama](https://github.com/guitaripod/Swollama) ⭐17 · everything else: [midgarcorp.cc](https://midgarcorp.cc)
 
 ### `$ gh release list`

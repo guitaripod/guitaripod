@@ -31,10 +31,10 @@ SESSION = [
     ("idle", None),
 ]
 
-TYPE_CPS = 14
-GAP_AFTER_TYPE = 0.35
-GAP_AFTER_OUT = 0.55
-HOLD = 6.0
+TYPE_CPS = 32
+GAP_AFTER_TYPE = 0.22
+GAP_AFTER_OUT = 0.38
+HOLD = 5.0
 
 DARK = {
     "bg": "#0d1117",

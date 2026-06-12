@@ -13,28 +13,20 @@ CHAR_W = 9.6
 FONT_SIZE = 16
 LINE_H = 27
 LEFT = 40
-TOP = 78
+TOP = 76
 WIDTH = 900
 PROMPT = "$ "
 
 SESSION = [
     ("type", "whoami"),
-    ("out", [("guitaripod", "text")]),
-    ("type", "cat /etc/motd"),
-    ("out", [("engineer who ships.", "green")]),
-    ("type", "ls ~/"),
-    ("out", [("apps/  clis/  sdks/  agents/  blog/", "text")]),
-    ("type", "apps --live"),
-    ("out", [("9 on the App Store", "amber")]),
-    ("type", "./midgarcorp.cc &", ),
-    ("out", [("[1] running", "muted")]),
+    ("out", [("guitaripod", "text"), (" · ", "muted"), ("engineer who ships.", "green")]),
     ("idle", None),
 ]
 
 TYPE_CPS = 32
 GAP_AFTER_TYPE = 0.22
 GAP_AFTER_OUT = 0.38
-HOLD = 5.0
+HOLD = 4.0
 
 DARK = {
     "bg": "#0d1117",
@@ -176,7 +168,7 @@ def render(palette, name):
                 fill = palette[color_key if color_key != "text" else "text"]
                 use_glow = glow if color_key == "green" else ""
                 body.append(
-                    f'<text x="{x}" y="{y}" fill="{fill}" {use_glow} class="ol ol{idx}">{escape(text)}</text>'
+                    f'<text x="{x}" y="{y}" fill="{fill}" {use_glow} xml:space="preserve" textLength="{len(text) * CHAR_W:.1f}" lengthAdjust="spacing" class="ol ol{idx}">{escape(text)}</text>'
                 )
                 x += len(text) * CHAR_W
             css.append(
@@ -203,7 +195,7 @@ def render(palette, name):
         if w:
             kf_rules.append(f"{e}%{{transform:translate({x_base + w:.1f}px,{y - 14}px);opacity:1}}")
     kf_rules.append(f"100%{{transform:translate({cursor_frames[-1][2]:.1f}px,{cursor_frames[-1][4] - 14}px);opacity:1}}")
-    css.append(f'.cpos{{animation:cmove {total}s infinite;animation-timing-function:linear}}@keyframes cmove{{{"".join(kf_rules)}}}')
+    css.append(f'.cpos{{animation:cmove {total}s step-end infinite}}@keyframes cmove{{{"".join(kf_rules)}}}')
 
     cursor_fill = palette["green"]
     body.append(

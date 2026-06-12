@@ -102,17 +102,11 @@ jobs:
             releases.sort((a, b) => new Date(b.published) - new Date(a.published));
             const shortLang = { JavaScript: 'JS', TypeScript: 'TS', Python: 'Py' };
             const esc = (s) => String(s).replace(/\|/g, '\\|');
-            const rows = releases.slice(0, 20).map(
+            const rows = releases.slice(0, 30).map(
               (r) =>
-                `| [${esc(r.repo)} ${esc(r.version)}](${r.url}) | ${shortLang[r.lang] || r.lang} | ${r.stars} | ${esc(r.desc)} |`
+                `- [${esc(r.repo)} ${esc(r.version)}](${r.url}) · ${shortLang[r.lang] || r.lang} ⭐${r.stars} — ${esc(r.desc)}`
             );
-            const newSection = [
-              startMark,
-              '| release | lang | ⭐ | what shipped |',
-              '|---|---|---|---|',
-              ...rows,
-              endMark,
-            ].join('\n');
+            const newSection = [startMark, ...rows, endMark].join('\n');
 
             const current = readme.substring(start, end + endMark.length);
             if (current.trim() !== newSection.trim()) {

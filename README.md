@@ -93,11 +93,14 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
+### `$ snake --eat ~/contributions --since "365 days ago"`
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guitaripod/guitaripod/output/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guitaripod/guitaripod/output/snake-light.svg">
   <img src="https://raw.githubusercontent.com/guitaripod/guitaripod/output/snake-dark.svg" alt="snake eating my contribution graph" width="100%">
 </picture>
+<sub>regenerated nightly</sub>
 
 ### `$ exit 0`
 

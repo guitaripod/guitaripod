@@ -102,7 +102,7 @@ jobs:
             releases.sort((a, b) => new Date(b.published) - new Date(a.published));
             const shortLang = { JavaScript: 'JS', TypeScript: 'TS', Python: 'Py' };
             const esc = (s) => String(s).replace(/\|/g, '\\|');
-            const rows = releases.slice(0, 50).map(
+            const rows = releases.slice(0, 40).map(
               (r) =>
                 `- [${esc(r.repo)} ${esc(r.version)}](${r.url}) · ${shortLang[r.lang] || r.lang} ⭐${r.stars} — ${esc(r.desc)}`
             );

@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """Generate the animated terminal-session hero SVGs (dark + light).
 
-Run locally and commit the outputs; this is a one-time artifact generator,
-not part of CI. The animation is pure CSS keyframes so it plays inside
-GitHub's <img>-embedded SVG sandbox (no JS allowed there).
+With --embed-snake DARK_SVG LIGHT_SVG, the Platane/snk contribution graph is
+composed into the terminal as the output of a snake command — this mode runs
+in the Snake workflow daily. The animation is pure CSS keyframes so it plays
+inside GitHub's <img>-embedded SVG sandbox (no JS allowed there).
 """
 
 import random
+import re
+import sys
 from xml.sax.saxutils import escape
 
 CHAR_W = 9.6
@@ -20,13 +23,18 @@ PROMPT = "$ "
 SESSION = [
     ("type", "whoami"),
     ("out", [("guitaripod", "text"), (" · ", "muted"), ("engineer who ships.", "green")]),
+    ("type", 'snake --eat ~/contributions --since "365 days ago"'),
+    ("snake", None),
     ("idle", None),
 ]
+
+SNAKE_H = 132
+SNAKE_SCALE = 0.94
 
 TYPE_CPS = 32
 GAP_AFTER_TYPE = 0.22
 GAP_AFTER_OUT = 0.38
-HOLD = 4.0
+HOLD = 8.0
 
 DARK = {
     "bg": "#0d1117",
@@ -73,6 +81,10 @@ def build_timeline():
             events.append({"kind": "out", "line": line, "parts": payload, "start": t})
             t += GAP_AFTER_OUT
             line += 1
+        elif kind == "snake":
+            events.append({"kind": "snake", "line": line, "start": t})
+            t += GAP_AFTER_OUT
+            line += SNAKE_LINES
         elif kind == "idle":
             events.append({"kind": "idle", "line": line, "start": t})
     total = t + HOLD
@@ -114,7 +126,15 @@ def rain_layer(palette, height):
     return group, "\n".join(css)
 
 
-def render(palette, name):
+def extract_snake(path):
+    snake = open(path).read()
+    style = re.search(r"<style>(.*?)</style>", snake, re.S).group(1)
+    body = snake[snake.index("</style>") + len("</style>"):]
+    body = body[: body.rindex("</svg>")]
+    return style, body
+
+
+def render(palette, name, snake_path=None):
     events, total = build_timeline()
     n_lines = events[-1]["line"] + 1
     height = TOP + n_lines * LINE_H + 34
@@ -174,6 +194,20 @@ def render(palette, name):
             css.append(
                 f".ol{idx}{{opacity:0;animation:o{idx} {total}s infinite}}"
                 f"@keyframes o{idx}{{0%{{opacity:0}}{max(start_pct - 0.1, 0)}%{{opacity:0}}{start_pct}%{{opacity:1}}100%{{opacity:1}}}}"
+            )
+        elif ev["kind"] == "snake":
+            start_pct = pct(ev["start"], total)
+            snake_style, snake_body = extract_snake(snake_path)
+            css.append(snake_style)
+            css.append(
+                f".sn{{opacity:0;animation:o{idx} {total}s infinite}}"
+                f"@keyframes o{idx}{{0%{{opacity:0}}{max(start_pct - 0.1, 0)}%{{opacity:0}}{start_pct}%{{opacity:1}}100%{{opacity:1}}}}"
+            )
+            body.append(
+                f'<clipPath id="snclip"><rect x="0" y="-14" width="{(WIDTH - 2 * LEFT) / SNAKE_SCALE:.0f}" height="{(SNAKE_H + 6) / SNAKE_SCALE:.0f}"/></clipPath>'
+                f'<g class="sn" transform="translate({LEFT - 8},{y}) scale({SNAKE_SCALE})">'
+                f'<g clip-path="url(#snclip)"><g transform="translate(16,12)">{snake_body}</g></g>'
+                f"</g>"
             )
         elif ev["kind"] == "idle":
             start_pct = pct(ev["start"], total)
@@ -243,5 +277,13 @@ def render(palette, name):
     print(f"wrote assets/{name} ({len(svg)} bytes, {total:.1f}s loop)")
 
 
-render(DARK, "hero-dark.svg")
-render(LIGHT, "hero-light.svg")
+if len(sys.argv) == 4 and sys.argv[1] == "--embed-snake":
+    SNAKE_LINES = (SNAKE_H // LINE_H) + 1
+    render(DARK, "terminal-dark.svg", sys.argv[2])
+    render(LIGHT, "terminal-light.svg", sys.argv[3])
+else:
+    SESSION = [entry for entry in SESSION if entry[0] != "snake"]
+    SESSION = SESSION[:2] + [("idle", None)]
+    SNAKE_LINES = 0
+    render(DARK, "hero-dark.svg")
+    render(LIGHT, "hero-light.svg")

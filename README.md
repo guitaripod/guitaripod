@@ -1,8 +1,8 @@
 <a href="https://midgarcorp.cc">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-dark.svg" alt="$ whoami → guitaripod · engineer who ships. (click for midgarcorp.cc)" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guitaripod/guitaripod/output/terminal-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guitaripod/guitaripod/output/terminal-light.svg">
+    <img src="https://raw.githubusercontent.com/guitaripod/guitaripod/output/terminal-dark.svg" alt="$ whoami → guitaripod · engineer who ships. plus a snake eating the last 365 days of contributions (click for midgarcorp.cc)" width="100%">
   </picture>
 </a>
 
@@ -92,14 +92,6 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 │ Kotlin     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.1% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
-
-### `$ snake --eat ~/contributions --since "365 days ago"`
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guitaripod/guitaripod/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guitaripod/guitaripod/output/snake-light.svg">
-  <img src="https://raw.githubusercontent.com/guitaripod/guitaripod/output/snake-dark.svg" alt="snake eating my contribution graph" width="100%">
-</picture>
 
 ### `$ exit 0`
 

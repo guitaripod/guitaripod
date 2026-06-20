@@ -12,12 +12,12 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [unrager 0.19.0](https://github.com/guitaripod/unrager/releases/tag/0.19.0) · Rust ⭐4 — A calm Twitter/X TUI with a local-LLM rage filter
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐7 — Convert music URLs & download tracks
 - [psybeam 1.0.0](https://github.com/guitaripod/psybeam/releases/tag/1.0.0) · Swift ⭐1 — Real-time voice-to-voice travel interpreter for iOS
 - [pixie 1.2.0 — mako](https://github.com/guitaripod/pixie/releases/tag/1.2.0) · Swift ⭐2 — Image Generation Platform
 - [nasa-rs 0.2.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.2.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
-- [unrager 0.18.0](https://github.com/guitaripod/unrager/releases/tag/0.18.0) · Rust ⭐4 — A calm Twitter/X TUI with a local-LLM rage filter
 - [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
 - [emusync 0.1.2](https://github.com/guitaripod/emusync/releases/tag/0.1.2) · Rust ⭐0 — Cross-machine emulation save, mod, and shader cache sync over SSH
 - [flaccy 1.0.0](https://github.com/guitaripod/flaccy/releases/tag/1.0.0) · Swift ⭐1 — A FLAC music player for iOS with AI-powered library management
@@ -75,11 +75,11 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ██████████████████████████████░░░░░░░░░░░░░░░░░░░░  60.4% │
-│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.8% │
-│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.2% │
-│ Go         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.5% │
-│ Kotlin     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.1% │
+│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  63.0% │
+│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.9% │
+│ TypeScript ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.9% │
+│ Go         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.7% │
+│ Kotlin     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.7% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

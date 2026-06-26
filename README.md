@@ -12,6 +12,7 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [unrager 0.20.0](https://github.com/guitaripod/unrager/releases/tag/0.20.0) · Rust ⭐6 — A calm Twitter/X TUI with a local-LLM rage filter
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐7 — Convert music URLs & download tracks
 - [psybeam 1.0.0](https://github.com/guitaripod/psybeam/releases/tag/1.0.0) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
@@ -51,7 +52,6 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [speedrun-cli 1.4.1](https://github.com/guitaripod/speedrun-cli/releases/tag/1.4.1) · Go ⭐1 — CLI client for speedrun.com
 - [xthemetoggler 1.0.0](https://github.com/guitaripod/xthemetoggler/releases/tag/1.0.0) · JS ⭐0 — Add a dedicated button on X.com to access display settings
 - [OpenAIImagesKit 1.0.0](https://github.com/guitaripod/OpenAIImagesKit/releases/tag/1.0.0) · Swift ⭐6 — Swift package for OpenAI's Images API
-- [fluxxxer v2.0.0](https://github.com/guitaripod/fluxxxer/releases/tag/v2.0.0) · Go ⭐0 — a native gtk4 Linux image generator built with Go
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`
@@ -75,11 +75,11 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  63.0% │
-│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.9% │
-│ TypeScript ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.9% │
-│ Go         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.7% │
-│ Kotlin     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.7% │
+│ Swift      ██████████████████████████████░░░░░░░░░░░░░░░░░░░░  60.7% │
+│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.8% │
+│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.6% │
+│ Go         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.5% │
+│ Kotlin     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

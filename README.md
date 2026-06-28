@@ -12,6 +12,7 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Crucible 1.2.0](https://github.com/guitaripod/Crucible/releases/tag/1.2.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [unrager 0.20.0](https://github.com/guitaripod/unrager/releases/tag/0.20.0) · Rust ⭐6 — A calm Twitter/X TUI with a local-LLM rage filter
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐7 — Convert music URLs & download tracks
@@ -23,7 +24,6 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [emusync 0.1.2](https://github.com/guitaripod/emusync/releases/tag/0.1.2) · Rust ⭐0 — Cross-machine emulation save, mod, and shader cache sync over SSH
 - [flaccy 1.0.0](https://github.com/guitaripod/flaccy/releases/tag/1.0.0) · Swift ⭐1 — A FLAC music player for iOS with AI-powered library management
 - [flyr 1.6.1](https://github.com/guitaripod/flyr/releases/tag/1.6.1) · Rust ⭐9 — Search Google Flights from the terminal
-- [Crucible 1.0.0](https://github.com/guitaripod/Crucible/releases/tag/1.0.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [circadia 1.0.0](https://github.com/guitaripod/circadia/releases/tag/1.0.0) · Rust ⭐0 — Melanopic-aware color temperature daemon for KDE Plasma Wayland
 - [btop-ios 1.0.0](https://github.com/guitaripod/btop-ios/releases/tag/1.0.0) · Swift ⭐0 — Terminal-aesthetic system monitor for iOS.
 - [scribe 0.0.1](https://github.com/guitaripod/scribe/releases/tag/0.0.1) · TS ⭐2 — Local AI-powered grammar checking browser extension

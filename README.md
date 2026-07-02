@@ -15,7 +15,7 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [Crucible 1.2.0](https://github.com/guitaripod/Crucible/releases/tag/1.2.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [unrager 0.20.0](https://github.com/guitaripod/unrager/releases/tag/0.20.0) · Rust ⭐6 — A calm Twitter/X TUI with a local-LLM rage filter
-- [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐7 — Convert music URLs & download tracks
+- [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐8 — Convert music URLs & download tracks
 - [psybeam 1.0.0](https://github.com/guitaripod/psybeam/releases/tag/1.0.0) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [pixie 1.2.0 — mako](https://github.com/guitaripod/pixie/releases/tag/1.2.0) · Swift ⭐2 — Image Generation Platform
 - [nasa-rs 0.2.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.2.0) · Rust ⭐2 — Rust SDK for the NASA API

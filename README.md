@@ -12,9 +12,10 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [unrager 0.21.0](https://github.com/guitaripod/unrager/releases/tag/0.21.0) · Rust ⭐6 — A calm Twitter/X TUI with a local-LLM rage filter
+- [buildvm 0.1.0](https://github.com/guitaripod/buildvm/releases/tag/0.1.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [Crucible 1.4.0](https://github.com/guitaripod/Crucible/releases/tag/1.4.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
-- [unrager 0.20.0](https://github.com/guitaripod/unrager/releases/tag/0.20.0) · Rust ⭐6 — A calm Twitter/X TUI with a local-LLM rage filter
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐8 — Convert music URLs & download tracks
 - [psybeam 1.0.0](https://github.com/guitaripod/psybeam/releases/tag/1.0.0) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [pixie 1.2.0 — mako](https://github.com/guitaripod/pixie/releases/tag/1.2.0) · Swift ⭐2 — Image Generation Platform
@@ -51,7 +52,6 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [AnthropicKit 1.0.1](https://github.com/guitaripod/AnthropicKit/releases/tag/1.0.1) · Swift ⭐3 — A comprehensive Swift SDK for the Anthropic API
 - [speedrun-cli 1.4.1](https://github.com/guitaripod/speedrun-cli/releases/tag/1.4.1) · Go ⭐1 — CLI client for speedrun.com
 - [xthemetoggler 1.0.0](https://github.com/guitaripod/xthemetoggler/releases/tag/1.0.0) · JS ⭐0 — Add a dedicated button on X.com to access display settings
-- [OpenAIImagesKit 1.0.0](https://github.com/guitaripod/OpenAIImagesKit/releases/tag/1.0.0) · Swift ⭐6 — Swift package for OpenAI's Images API
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

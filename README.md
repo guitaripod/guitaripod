@@ -12,7 +12,7 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [unrager 0.21.0](https://github.com/guitaripod/unrager/releases/tag/0.21.0) · Rust ⭐6 — A calm Twitter/X TUI with a local-LLM rage filter
+- [unrager 0.21.1](https://github.com/guitaripod/unrager/releases/tag/0.21.1) · Rust ⭐6 — A calm Twitter/X TUI with a local-LLM rage filter
 - [buildvm 0.1.0](https://github.com/guitaripod/buildvm/releases/tag/0.1.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [Crucible 1.4.0](https://github.com/guitaripod/Crucible/releases/tag/1.4.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility

@@ -12,8 +12,9 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [flaccy Flaccy for Linux 1.1.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.1.0) · Swift ⭐1 — A FLAC music player for iOS with AI-powered library management
-- [unrager 0.21.1](https://github.com/guitaripod/unrager/releases/tag/0.21.1) · Rust ⭐6 — A calm Twitter/X TUI with a local-LLM rage filter
+- [flaccy Flaccy for Linux 1.3.2](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.3.2) · Swift ⭐1 — A FLAC music player for iOS with AI-powered library management
+- [tokenmaxxing 0.1.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.1.0) · Rust ⭐0 — Native LLM token-quota meters for KDE and macOS
+- [unrager 0.21.1](https://github.com/guitaripod/unrager/releases/tag/0.21.1) · Rust ⭐7 — A calm Twitter/X TUI with a local-LLM rage filter
 - [buildvm 0.1.0](https://github.com/guitaripod/buildvm/releases/tag/0.1.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [Crucible 1.4.0](https://github.com/guitaripod/Crucible/releases/tag/1.4.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
@@ -38,7 +39,7 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [ThemeSwitch 0.0.2](https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2) · C++ ⭐0 — Cross-platform system tray application for toggling dark/light mode
 - [ffrelay 1.0.0](https://github.com/guitaripod/ffrelay/releases/tag/1.0.0) · TS ⭐0 — Web app for Final Fantasy Relay events
 - [gh-export 1.0.0](https://github.com/guitaripod/gh-export/releases/tag/1.0.0) · Rust ⭐2 — Export all GitHub repositories from a user account
-- [OpenAIKit 1.2.5](https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5) · Swift ⭐12 — A comprehensive Swift SDK for the OpenAI API.
+- [OpenAIKit 1.2.5](https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5) · Swift ⭐13 — A comprehensive Swift SDK for the OpenAI API.
 - [midgarcorp 0.6.9](https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9) · Astro ⭐0 — Personal website 
 - [xAIKit 1.0.3](https://github.com/guitaripod/xAIKit/releases/tag/1.0.3) · Swift ⭐5 — A comprehensive Swift SDK for the xAI API
 - [SpeedrunKit 1.0.0](https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0) · Swift ⭐1 — A Swift SDK for the speedrun.com API
@@ -51,7 +52,6 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [DeepSeekKit 1.0.1](https://github.com/guitaripod/DeepSeekKit/releases/tag/1.0.1) · Swift ⭐4 — A comprehensive Swift SDK for the DeepSeek API
 - [AnthropicKit 1.0.1](https://github.com/guitaripod/AnthropicKit/releases/tag/1.0.1) · Swift ⭐3 — A comprehensive Swift SDK for the Anthropic API
 - [speedrun-cli 1.4.1](https://github.com/guitaripod/speedrun-cli/releases/tag/1.4.1) · Go ⭐1 — CLI client for speedrun.com
-- [xthemetoggler 1.0.0](https://github.com/guitaripod/xthemetoggler/releases/tag/1.0.0) · JS ⭐0 — Add a dedicated button on X.com to access display settings
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`
@@ -75,11 +75,11 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  63.3% │
-│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15.5% │
+│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  62.2% │
+│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.9% │
 │ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.9% │
-│ Go         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.5% │
-│ Kotlin     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0% │
+│ Go         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.0% │
+│ Kotlin     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.7% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

@@ -12,9 +12,9 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [flaccy 1.5.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.5.0) · Swift ⭐2 — A FLAC music player for iOS with AI-powered library management
+- [tokenmaxxing 0.2.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.2.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
+- [flaccy 1.5.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.5.1) · Swift ⭐2 — A FLAC music player for iOS with AI-powered library management
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
-- [tokenmaxxing 0.1.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.1.0) · Rust ⭐0 — Native LLM token-quota meters for KDE and macOS
 - [unrager 0.21.1](https://github.com/guitaripod/unrager/releases/tag/0.21.1) · Rust ⭐8 — A calm Twitter/X TUI with a local-LLM rage filter
 - [buildvm 0.1.0](https://github.com/guitaripod/buildvm/releases/tag/0.1.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [Crucible 1.4.0](https://github.com/guitaripod/Crucible/releases/tag/1.4.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.

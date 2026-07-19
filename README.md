@@ -12,7 +12,7 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [flaccy 1.7.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.7.0) · Swift ⭐2 — A FLAC music player for iOS with AI-powered library management
+- [flaccy 1.8.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.8.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.2.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.2.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
 - [unrager 0.21.1](https://github.com/guitaripod/unrager/releases/tag/0.21.1) · Rust ⭐8 — A calm Twitter/X TUI with a local-LLM rage filter
@@ -75,11 +75,11 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ███████████████████████████████░░░░░░░░░░░░░░░░░░░  62.2% │
-│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.9% │
-│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.9% │
-│ Go         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.0% │
-│ Kotlin     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.7% │
+│ Swift      ██████████████████████████████░░░░░░░░░░░░░░░░░░░░  61.2% │
+│ Rust       █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  18.5% │
+│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.4% │
+│ Go         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.7% │
+│ Kotlin     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.6% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

@@ -12,6 +12,7 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [imago imago v0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐0 — Agent-native Instagram profile archive
 - [flaccy 1.8.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.8.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.2.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.2.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
@@ -45,13 +46,12 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [xAIKit 1.0.3](https://github.com/guitaripod/xAIKit/releases/tag/1.0.3) · Swift ⭐5 — A comprehensive Swift SDK for the xAI API
 - [SpeedrunKit 1.0.0](https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0) · Swift ⭐1 — A Swift SDK for the speedrun.com API
 - [LastFMKit 1.0.0](https://github.com/guitaripod/LastFMKit/releases/tag/1.0.0) · Swift ⭐0 — A comprehensive Swift SDK for last.fm
-- [omnichat 0.0.9](https://github.com/guitaripod/omnichat/releases/tag/0.0.9) · TS ⭐56 — 3rd place T3 Cloneathon Champion
+- [omnichat 0.0.9](https://github.com/guitaripod/omnichat/releases/tag/0.0.9) · TS ⭐57 — 3rd place T3 Cloneathon Champion
 - [StarCraftKit 2.0.0](https://github.com/guitaripod/StarCraftKit/releases/tag/2.0.0) · Swift ⭐1 — Swift SDK for StarCraft 2 Pro scene data
 - [igscraper 2.0.1](https://github.com/guitaripod/igscraper/releases/tag/2.0.1) · Go ⭐1 — ig photo scraper
 - [Pomme 2.0.0](https://github.com/guitaripod/Pomme/releases/tag/2.0.0) · Go ⭐3 — App Store Connect CLI tool built with Go.
 - [GeminiKit 1.0.0](https://github.com/guitaripod/GeminiKit/releases/tag/1.0.0) · Swift ⭐12 — A comprehensive Swift SDK for the Google Gemini API
 - [DeepSeekKit 1.0.1](https://github.com/guitaripod/DeepSeekKit/releases/tag/1.0.1) · Swift ⭐4 — A comprehensive Swift SDK for the DeepSeek API
-- [AnthropicKit 1.0.1](https://github.com/guitaripod/AnthropicKit/releases/tag/1.0.1) · Swift ⭐3 — A comprehensive Swift SDK for the Anthropic API
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

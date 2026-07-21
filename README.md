@@ -12,7 +12,9 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [imago imago v0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐0 — Agent-native Instagram profile archive
+- [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
+- [youtube-thumbnail-saver 1.0.0](https://github.com/guitaripod/youtube-thumbnail-saver/releases/tag/v1.0.0) · JS ⭐0 — YouTube thumbnail saver
+- [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
 - [flaccy 1.8.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.8.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.2.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.2.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
@@ -31,7 +33,6 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [circadia 1.0.0](https://github.com/guitaripod/circadia/releases/tag/1.0.0) · Rust ⭐0 — Melanopic-aware color temperature daemon for KDE Plasma Wayland
 - [btop-ios 1.0.0](https://github.com/guitaripod/btop-ios/releases/tag/1.0.0) · Swift ⭐0 — Terminal-aesthetic system monitor for iOS.
 - [scribe 0.0.1](https://github.com/guitaripod/scribe/releases/tag/0.0.1) · TS ⭐2 — Local AI-powered grammar checking browser extension
-- [Swollama 3.0.1](https://github.com/guitaripod/Swollama/releases/tag/3.0.1) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [appofthedead 1.0.1](https://github.com/guitaripod/appofthedead/releases/tag/1.0.1) · Swift ⭐0 — Learn afterlife beliefs from around the world
 - [Weavex 1.1.0](https://github.com/guitaripod/Weavex/releases/tag/1.1.0) · Rust ⭐9 — Autonomous research agent powered by local LLMs
 - [emobanana 1.0.1](https://github.com/guitaripod/emobanana/releases/tag/1.0.1) · Rust ⭐2 — nano banana hackathon submission
@@ -51,7 +52,6 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 - [igscraper 2.0.1](https://github.com/guitaripod/igscraper/releases/tag/2.0.1) · Go ⭐1 — ig photo scraper
 - [Pomme 2.0.0](https://github.com/guitaripod/Pomme/releases/tag/2.0.0) · Go ⭐3 — App Store Connect CLI tool built with Go.
 - [GeminiKit 1.0.0](https://github.com/guitaripod/GeminiKit/releases/tag/1.0.0) · Swift ⭐12 — A comprehensive Swift SDK for the Google Gemini API
-- [DeepSeekKit 1.0.1](https://github.com/guitaripod/DeepSeekKit/releases/tag/1.0.1) · Swift ⭐4 — A comprehensive Swift SDK for the DeepSeek API
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

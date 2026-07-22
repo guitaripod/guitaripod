@@ -12,8 +12,8 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [yoink 1.1.2](https://github.com/guitaripod/yoink/releases/tag/v1.1.2) · JS ⭐1 — A YouTube thumbnail toolbar
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
-- [youtube-thumbnail-saver 1.0.0](https://github.com/guitaripod/youtube-thumbnail-saver/releases/tag/v1.0.0) · JS ⭐0 — YouTube thumbnail saver
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
 - [flaccy 1.8.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.8.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.2.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.2.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
@@ -75,11 +75,11 @@ greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swol
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ██████████████████████████████░░░░░░░░░░░░░░░░░░░░  61.2% │
-│ Rust       █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  18.5% │
-│ TypeScript ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.4% │
-│ Go         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.7% │
-│ Kotlin     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.6% │
+│ Swift      █████████████████████████████░░░░░░░░░░░░░░░░░░░░░  58.1% │
+│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  17.8% │
+│ TypeScript █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  11.4% │
+│ Go         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.5% │
+│ JavaScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.7% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

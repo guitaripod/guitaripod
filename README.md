@@ -6,9 +6,6 @@
   </picture>
 </a>
 
-i build iOS apps, CLIs, SDKs, and agents — and actually release them. mostly **Swift** and **Rust**.
-greatest hits: [omnichat](https://github.com/guitaripod/omnichat) ⭐56 · [Swollama](https://github.com/guitaripod/Swollama) ⭐17 · everything else: [midgarcorp.cc](https://midgarcorp.cc)
-
 ### `$ gh release list`
 
 <!-- Recent Releases -->

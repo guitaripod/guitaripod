@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [pokedex-llm-benchmark 1.0.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/1.0.0) · TS ⭐1 — Pokedex benchmark for LLMs
+- [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
 - [yoink 1.1.2](https://github.com/guitaripod/yoink/releases/tag/v1.1.2) · JS ⭐1 — A YouTube thumbnail toolbar
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
@@ -72,10 +72,10 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░  55.4% │
-│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.8% │
-│ TypeScript ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15.6% │
-│ Go         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.2% │
+│ Swift      ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░  53.2% │
+│ TypeScript █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  18.9% │
+│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.1% │
+│ Go         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.0% │
 │ JavaScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.8% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```

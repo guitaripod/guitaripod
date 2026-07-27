@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [remoteplay-display 1.0.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.0.0) · Py ⭐0 — Routes Steam Remote Play sessions to a dummy HDMI
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
 - [yoink 1.1.2](https://github.com/guitaripod/yoink/releases/tag/v1.1.2) · JS ⭐1 — A YouTube thumbnail toolbar
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
@@ -48,7 +49,6 @@
 - [omnichat 0.0.9](https://github.com/guitaripod/omnichat/releases/tag/0.0.9) · TS ⭐57 — 3rd place T3 Cloneathon Champion
 - [StarCraftKit 2.0.0](https://github.com/guitaripod/StarCraftKit/releases/tag/2.0.0) · Swift ⭐1 — Swift SDK for StarCraft 2 Pro scene data
 - [igscraper 2.0.1](https://github.com/guitaripod/igscraper/releases/tag/2.0.1) · Go ⭐1 — ig photo scraper
-- [Pomme 2.0.0](https://github.com/guitaripod/Pomme/releases/tag/2.0.0) · Go ⭐3 — App Store Connect CLI tool built with Go.
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

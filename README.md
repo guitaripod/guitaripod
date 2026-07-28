@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [remoteplay-display 1.0.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.0.0) · Py ⭐0 — Routes Steam Remote Play sessions to a dummy HDMI
+- [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐0 — Routes Steam Remote Play sessions to a dummy HDMI
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
 - [yoink 1.1.2](https://github.com/guitaripod/yoink/releases/tag/v1.1.2) · JS ⭐1 — A YouTube thumbnail toolbar
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama

@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐8 — A calm Twitter/X TUI with a local-LLM rage filter
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐0 — Routes Steam Remote Play sessions to a dummy HDMI
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
 - [yoink 1.1.2](https://github.com/guitaripod/yoink/releases/tag/v1.1.2) · JS ⭐1 — A YouTube thumbnail toolbar
@@ -17,7 +18,6 @@
 - [flaccy 1.8.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.8.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.2.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.2.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
-- [unrager 0.21.1](https://github.com/guitaripod/unrager/releases/tag/0.21.1) · Rust ⭐8 — A calm Twitter/X TUI with a local-LLM rage filter
 - [buildvm 0.1.0](https://github.com/guitaripod/buildvm/releases/tag/0.1.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [Crucible 1.4.0](https://github.com/guitaripod/Crucible/releases/tag/1.4.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility

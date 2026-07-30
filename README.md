@@ -9,6 +9,9 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Tailscode Tailscode 1.1](https://github.com/guitaripod/Tailscode/releases/tag/v1.1) · Swift ⭐1 — iOS client for remote coding agents
+- [claude-bridge 1.0.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.0.0) · Swift ⭐0 — 
+- [CodingAgentKit 0.9.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.9.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐8 — A calm Twitter/X TUI with a local-LLM rage filter
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐0 — Routes Steam Remote Play sessions to a dummy HDMI
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
@@ -28,7 +31,7 @@
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
 - [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
 - [emusync 0.1.2](https://github.com/guitaripod/emusync/releases/tag/0.1.2) · Rust ⭐0 — Cross-machine emulation save, mod, and shader cache sync over SSH
-- [flyr 1.6.1](https://github.com/guitaripod/flyr/releases/tag/1.6.1) · Rust ⭐9 — Search Google Flights from the terminal
+- [flyr 1.6.1](https://github.com/guitaripod/flyr/releases/tag/1.6.1) · Rust ⭐10 — Search Google Flights from the terminal
 - [circadia 1.0.0](https://github.com/guitaripod/circadia/releases/tag/1.0.0) · Rust ⭐0 — Melanopic-aware color temperature daemon for KDE Plasma Wayland
 - [btop-ios 1.0.0](https://github.com/guitaripod/btop-ios/releases/tag/1.0.0) · Swift ⭐0 — Terminal-aesthetic system monitor for iOS.
 - [scribe 0.0.1](https://github.com/guitaripod/scribe/releases/tag/0.0.1) · TS ⭐2 — Local AI-powered grammar checking browser extension
@@ -46,9 +49,6 @@
 - [xAIKit 1.0.3](https://github.com/guitaripod/xAIKit/releases/tag/1.0.3) · Swift ⭐5 — A comprehensive Swift SDK for the xAI API
 - [SpeedrunKit 1.0.0](https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0) · Swift ⭐1 — A Swift SDK for the speedrun.com API
 - [LastFMKit 1.0.0](https://github.com/guitaripod/LastFMKit/releases/tag/1.0.0) · Swift ⭐0 — A comprehensive Swift SDK for last.fm
-- [omnichat 0.0.9](https://github.com/guitaripod/omnichat/releases/tag/0.0.9) · TS ⭐57 — 3rd place T3 Cloneathon Champion
-- [StarCraftKit 2.0.0](https://github.com/guitaripod/StarCraftKit/releases/tag/2.0.0) · Swift ⭐1 — Swift SDK for StarCraft 2 Pro scene data
-- [igscraper 2.0.1](https://github.com/guitaripod/igscraper/releases/tag/2.0.1) · Go ⭐1 — ig photo scraper
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

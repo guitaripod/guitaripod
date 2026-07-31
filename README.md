@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [ps3catalog PS3 Catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐1 — Browse the entire PS3 Games catalogue
 - [Tailscode Tailscode 1.1](https://github.com/guitaripod/Tailscode/releases/tag/v1.1) · Swift ⭐1 — iOS client for remote coding agents
 - [claude-bridge 1.0.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.0.0) · Swift ⭐0 — 
 - [CodingAgentKit 0.9.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.9.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
@@ -48,7 +49,6 @@
 - [midgarcorp 0.6.9](https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9) · Astro ⭐0 — Personal website 
 - [xAIKit 1.0.3](https://github.com/guitaripod/xAIKit/releases/tag/1.0.3) · Swift ⭐5 — A comprehensive Swift SDK for the xAI API
 - [SpeedrunKit 1.0.0](https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0) · Swift ⭐1 — A Swift SDK for the speedrun.com API
-- [LastFMKit 1.0.0](https://github.com/guitaripod/LastFMKit/releases/tag/1.0.0) · Swift ⭐0 — A comprehensive Swift SDK for last.fm
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

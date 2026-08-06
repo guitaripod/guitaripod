@@ -13,7 +13,7 @@
 - [claude-bridge 1.1.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.1.0) · Swift ⭐0 — 
 - [CodingAgentKit 0.10.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.10.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
-- [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐8 — A calm Twitter/X TUI with a local-LLM rage filter
+- [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐9 — A calm Twitter/X TUI with a local-LLM rage filter
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐0 — Routes Steam Remote Play sessions to a dummy HDMI
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
 - [yoink 1.1.2](https://github.com/guitaripod/yoink/releases/tag/v1.1.2) · JS ⭐1 — A YouTube thumbnail toolbar

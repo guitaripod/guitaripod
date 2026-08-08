@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.5](https://github.com/guitaripod/Tailscode/releases/tag/v1.5) · Swift ⭐2 — iOS client for remote coding agents
+- [Tailscode 1.5](https://github.com/guitaripod/Tailscode/releases/tag/v1.5) · Swift ⭐3 — iOS client for remote coding agents
 - [claude-bridge 1.1.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.1.0) · Swift ⭐0 — 
 - [CodingAgentKit 0.10.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.10.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue

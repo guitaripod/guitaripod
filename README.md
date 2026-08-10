@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [recview recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐1 — GPU-accelerated review window for screen recordings
 - [CodingAgentKit 0.11.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.11.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [claude-bridge 1.2.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.2.0) · Swift ⭐0 — Claude Code subscription as structured HTTP sessions 
 - [Tailscode 1.5](https://github.com/guitaripod/Tailscode/releases/tag/v1.5) · Swift ⭐3 — iOS client for remote coding agents
@@ -48,7 +49,6 @@
 - [OpenAIKit 1.2.5](https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5) · Swift ⭐13 — A comprehensive Swift SDK for the OpenAI API.
 - [midgarcorp 0.6.9](https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9) · Astro ⭐0 — Personal website 
 - [xAIKit 1.0.3](https://github.com/guitaripod/xAIKit/releases/tag/1.0.3) · Swift ⭐5 — A comprehensive Swift SDK for the xAI API
-- [SpeedrunKit 1.0.0](https://github.com/guitaripod/SpeedrunKit/releases/tag/1.0.0) · Swift ⭐1 — A Swift SDK for the speedrun.com API
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

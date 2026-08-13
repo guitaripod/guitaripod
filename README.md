@@ -9,18 +9,18 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [flaccy 1.9.2](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.9.2) · Swift ⭐3 — A multi-platform music player
 - [Tailscode 1.13](https://github.com/guitaripod/Tailscode/releases/tag/v1.13) · Swift ⭐3 — iOS client for remote coding agents
 - [CodingAgentKit 0.14.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.14.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
 - [claude-bridge 1.4.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.4.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
-- [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐1 — GPU-accelerated review window for screen recordings
+- [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
 - [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐9 — A calm Twitter/X TUI with a local-LLM rage filter
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐0 — Routes Steam Remote Play sessions to a dummy HDMI
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
-- [flaccy 1.8.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.8.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.2.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.2.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
 - [buildvm 0.1.0](https://github.com/guitaripod/buildvm/releases/tag/0.1.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM

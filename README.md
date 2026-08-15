@@ -9,8 +9,8 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Tailscode 1.21](https://github.com/guitaripod/Tailscode/releases/tag/v1.21) · Swift ⭐3 — iOS client for remote coding agents
 - [flaccy 1.9.2](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.9.2) · Swift ⭐3 — A multi-platform music player
-- [Tailscode 1.13](https://github.com/guitaripod/Tailscode/releases/tag/v1.13) · Swift ⭐3 — iOS client for remote coding agents
 - [CodingAgentKit 0.14.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.14.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
 - [claude-bridge 1.4.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.4.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 

@@ -9,7 +9,8 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.21](https://github.com/guitaripod/Tailscode/releases/tag/v1.21) · Swift ⭐3 — iOS client for remote coding agents
+- [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
+- [Tailscode 1.21](https://github.com/guitaripod/Tailscode/releases/tag/v1.21) · Swift ⭐4 — iOS client for remote coding agents
 - [flaccy 1.9.2](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.9.2) · Swift ⭐3 — A multi-platform music player
 - [CodingAgentKit 0.14.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.14.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
@@ -21,7 +22,6 @@
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
-- [tokenmaxxing 0.2.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.2.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
 - [buildvm 0.1.0](https://github.com/guitaripod/buildvm/releases/tag/0.1.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [Crucible 1.4.0](https://github.com/guitaripod/Crucible/releases/tag/1.4.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
@@ -72,11 +72,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░  57.9% │
-│ TypeScript ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.0% │
-│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.4% │
-│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.3% │
-│ JavaScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0% │
+│ Swift      █████████████████████████████░░░░░░░░░░░░░░░░░░░░░  59.0% │
+│ TypeScript ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15.5% │
+│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.1% │
+│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2% │
+│ JavaScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.9% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

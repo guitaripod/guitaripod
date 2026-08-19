@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library. Three cards, two passes, one game. Self-hosted, no account, no API key — reads your local Steam client.
 - [flaccy 1.11.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.11.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [Tailscode 1.21](https://github.com/guitaripod/Tailscode/releases/tag/v1.21) · Swift ⭐4 — iOS client for remote coding agents
@@ -48,7 +49,6 @@
 - [gh-export 1.0.0](https://github.com/guitaripod/gh-export/releases/tag/1.0.0) · Rust ⭐2 — Export all GitHub repositories from a user account
 - [OpenAIKit 1.2.5](https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5) · Swift ⭐13 — A comprehensive Swift SDK for the OpenAI API.
 - [midgarcorp 0.6.9](https://github.com/guitaripod/midgarcorp/releases/tag/0.6.9) · Astro ⭐0 — Personal website 
-- [xAIKit 1.0.3](https://github.com/guitaripod/xAIKit/releases/tag/1.0.3) · Swift ⭐5 — A comprehensive Swift SDK for the xAI API
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

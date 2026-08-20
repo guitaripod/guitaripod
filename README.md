@@ -9,13 +9,13 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library. Three cards, two passes, one game. Self-hosted, no account, no API key — reads your local Steam client.
+- [CodingAgentKit 0.18.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.18.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
+- [claude-bridge 1.5.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.5.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
+- [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library
 - [flaccy 1.11.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.11.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [Tailscode 1.21](https://github.com/guitaripod/Tailscode/releases/tag/v1.21) · Swift ⭐4 — iOS client for remote coding agents
-- [CodingAgentKit 0.14.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.14.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
-- [claude-bridge 1.4.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.4.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
 - [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐9 — A calm Twitter/X TUI with a local-LLM rage filter

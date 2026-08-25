@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.22](https://github.com/guitaripod/Tailscode/releases/tag/v1.22) · Swift ⭐4 — iOS client for remote coding agents
+- [Tailscode 1.24](https://github.com/guitaripod/Tailscode/releases/tag/v1.24) · Swift ⭐4 — Your AI agents, anywhere
 - [CodingAgentKit 0.18.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.18.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [claude-bridge 1.5.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.5.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
 - [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library
@@ -20,7 +20,7 @@
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
 - [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐9 — A calm Twitter/X TUI with a local-LLM rage filter
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐0 — Routes Steam Remote Play sessions to a dummy HDMI
-- [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐2 — Pokedex benchmark for LLMs
+- [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐3 — Pokedex benchmark for LLMs
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland

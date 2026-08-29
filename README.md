@@ -9,9 +9,9 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Tailscode 1.29](https://github.com/guitaripod/Tailscode/releases/tag/v1.29) · Swift ⭐4 — Your AI agents, anywhere
 - [CodingAgentKit 0.21.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.21.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [omp-bridge 0.2.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.2.0) · Swift ⭐0 — 
-- [Tailscode 1.25](https://github.com/guitaripod/Tailscode/releases/tag/v1.25) · Swift ⭐4 — Your AI agents, anywhere
 - [claude-bridge 1.5.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.5.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
 - [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library
 - [flaccy 1.11.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.11.0) · Swift ⭐3 — A multi-platform music player

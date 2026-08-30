@@ -9,12 +9,12 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.29](https://github.com/guitaripod/Tailscode/releases/tag/v1.29) · Swift ⭐4 — Your AI agents, anywhere
+- [flaccy 1.13.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.13.1) · Swift ⭐4 — A multi-platform music player
+- [Tailscode 1.29](https://github.com/guitaripod/Tailscode/releases/tag/v1.29) · Swift ⭐6 — Your AI agents, anywhere
 - [CodingAgentKit 0.21.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.21.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [omp-bridge 0.2.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.2.0) · Swift ⭐0 — 
 - [claude-bridge 1.5.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.5.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
 - [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library
-- [flaccy 1.11.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.11.0) · Swift ⭐3 — A multi-platform music player
 - [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
@@ -30,7 +30,7 @@
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐8 — Convert music URLs & download tracks
 - [psybeam 1.0.0](https://github.com/guitaripod/psybeam/releases/tag/1.0.0) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
-- [pixie 1.2.0 — mako](https://github.com/guitaripod/pixie/releases/tag/1.2.0) · Swift ⭐2 — Image Generation Platform
+- [pixie 1.2.0 — mako](https://github.com/guitaripod/pixie/releases/tag/1.2.0) · Swift ⭐3 — Image Generation Platform
 - [nasa-rs 0.2.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.2.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
 - [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS

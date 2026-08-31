@@ -9,8 +9,9 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [cp2077-fov-always-120 FovAlways120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
+- [Tailscode 1.31](https://github.com/guitaripod/Tailscode/releases/tag/v1.31) · Swift ⭐6 — Your AI agents, anywhere
 - [flaccy 1.13.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.13.1) · Swift ⭐4 — A multi-platform music player
-- [Tailscode 1.29](https://github.com/guitaripod/Tailscode/releases/tag/v1.29) · Swift ⭐6 — Your AI agents, anywhere
 - [CodingAgentKit 0.21.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.21.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [omp-bridge 0.2.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.2.0) · Swift ⭐0 — 
 - [claude-bridge 1.5.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.5.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
@@ -20,7 +21,7 @@
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
 - [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐11 — A calm Twitter/X TUI with a local-LLM rage filter
-- [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐1 — Routes Steam Remote Play sessions to a dummy HDMI
+- [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐2 — Routes Steam Remote Play sessions to a dummy HDMI
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐3 — Pokedex benchmark for LLMs
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
@@ -48,7 +49,6 @@
 - [ThemeSwitch 0.0.2](https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2) · C++ ⭐0 — Cross-platform system tray application for toggling dark/light mode
 - [ffrelay 1.0.0](https://github.com/guitaripod/ffrelay/releases/tag/1.0.0) · TS ⭐0 — Web app for Final Fantasy Relay events
 - [gh-export 1.0.0](https://github.com/guitaripod/gh-export/releases/tag/1.0.0) · Rust ⭐2 — Export all GitHub repositories from a user account
-- [OpenAIKit 1.2.5](https://github.com/guitaripod/OpenAIKit/releases/tag/1.2.5) · Swift ⭐13 — A comprehensive Swift SDK for the OpenAI API.
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

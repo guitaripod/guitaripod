@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [cp2077-fov-always-120 FovAlways120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
+- [cp2077-fov-always-120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
 - [Tailscode 1.31](https://github.com/guitaripod/Tailscode/releases/tag/v1.31) · Swift ⭐6 — Your AI agents, anywhere
 - [flaccy 1.13.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.13.1) · Swift ⭐4 — A multi-platform music player
 - [CodingAgentKit 0.21.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.21.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP

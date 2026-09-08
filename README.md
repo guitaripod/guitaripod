@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.36](https://github.com/guitaripod/Tailscode/releases/tag/v1.36) · Swift ⭐6 — Your AI agents, anywhere
+- [Tailscode 1.38](https://github.com/guitaripod/Tailscode/releases/tag/v1.38) · Swift ⭐7 — Your AI agents, anywhere
 - [Crucible 1.5.0](https://github.com/guitaripod/Crucible/releases/tag/1.5.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [omp-bridge 0.5.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.5.1) · Swift ⭐0 — 
 - [cp2077-fov-always-120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
@@ -21,7 +21,7 @@
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
-- [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐12 — A calm Twitter/X TUI with a local-LLM rage filter
+- [unrager 0.22.0](https://github.com/guitaripod/unrager/releases/tag/0.22.0) · Rust ⭐13 — A calm Twitter/X TUI with a local-LLM rage filter
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐2 — Routes Steam Remote Play sessions to a dummy HDMI
 - [pokedex-llm-benchmark 2.1.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/2.1.0) · TS ⭐3 — Pokedex benchmark for LLMs
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama

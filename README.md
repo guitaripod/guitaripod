@@ -9,12 +9,12 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.38](https://github.com/guitaripod/Tailscode/releases/tag/v1.38) · Swift ⭐7 — Your AI agents, anywhere
+- [CodingAgentKit 0.27.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.27.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
+- [Tailscode 1.40](https://github.com/guitaripod/Tailscode/releases/tag/v1.40) · Swift ⭐8 — Your AI agents, anywhere
 - [Crucible 1.5.0](https://github.com/guitaripod/Crucible/releases/tag/1.5.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [omp-bridge 0.5.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.5.1) · Swift ⭐0 — 
 - [cp2077-fov-always-120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
 - [flaccy 1.13.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.13.1) · Swift ⭐4 — A multi-platform music player
-- [CodingAgentKit 0.21.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.21.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [claude-bridge 1.5.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.5.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
 - [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library
 - [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode

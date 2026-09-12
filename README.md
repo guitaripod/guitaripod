@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.42](https://github.com/guitaripod/Tailscode/releases/tag/v1.42) · Swift ⭐8 — Your AI agents, anywhere
+- [Tailscode 1.44](https://github.com/guitaripod/Tailscode/releases/tag/v1.44) · Swift ⭐8 — Your AI agents, anywhere
 - [CodingAgentKit 0.27.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.27.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [Crucible 1.5.0](https://github.com/guitaripod/Crucible/releases/tag/1.5.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [omp-bridge 0.5.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.5.1) · Swift ⭐0 — 

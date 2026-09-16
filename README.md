@@ -9,8 +9,9 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4 - sets any FOV by hooking the engine's projection matrix
+- [mbench mbench 1.5.0](https://github.com/guitaripod/mbench/releases/tag/1.5.0) · HTML ⭐0 — Local LLM benchmarking utility
 - [pokedex-llm-benchmark 3.0.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/3.0.0) · JS ⭐3 — Pokedex benchmark for LLMs
-- [mbench 1.1.0](https://github.com/guitaripod/mbench/releases/tag/1.1.0) · Py ⭐0 — Local LLM benchmarking utility
 - [Tailscode 1.44](https://github.com/guitaripod/Tailscode/releases/tag/v1.44) · Swift ⭐8 — Your AI agents, anywhere
 - [CodingAgentKit 0.27.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.27.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [Crucible 1.5.0](https://github.com/guitaripod/Crucible/releases/tag/1.5.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
@@ -48,7 +49,6 @@
 - [image-collage 1.0.0](https://github.com/guitaripod/image-collage/releases/tag/1.0.0) · Rust ⭐1 — Create 2x2 image collages in the terminal
 - [twitter-reply-selector 1.1.0](https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0) · JS ⭐0 — extension that auto-selects "replies from verified accounts only"
 - [ThemeSwitch 0.0.2](https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2) · C++ ⭐0 — Cross-platform system tray application for toggling dark/light mode
-- [ffrelay 1.0.0](https://github.com/guitaripod/ffrelay/releases/tag/1.0.0) · TS ⭐0 — Web app for Final Fantasy Relay events
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

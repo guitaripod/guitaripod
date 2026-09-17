@@ -9,10 +9,10 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4 - sets any FOV by hooking the engine's projection matrix
+- [Tailscode 1.47](https://github.com/guitaripod/Tailscode/releases/tag/v1.47) · Swift ⭐8 — Your AI agents, anywhere
+- [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4
 - [mbench mbench 1.5.0](https://github.com/guitaripod/mbench/releases/tag/1.5.0) · HTML ⭐0 — Local LLM benchmarking utility
 - [pokedex-llm-benchmark 3.0.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/3.0.0) · JS ⭐3 — Pokedex benchmark for LLMs
-- [Tailscode 1.44](https://github.com/guitaripod/Tailscode/releases/tag/v1.44) · Swift ⭐8 — Your AI agents, anywhere
 - [CodingAgentKit 0.27.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.27.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [Crucible 1.5.0](https://github.com/guitaripod/Crucible/releases/tag/1.5.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [omp-bridge 0.5.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.5.1) · Swift ⭐0 — 

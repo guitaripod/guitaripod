@@ -9,6 +9,8 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
+- [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset
 - [Tailscode 1.47](https://github.com/guitaripod/Tailscode/releases/tag/v1.47) · Swift ⭐8 — Your AI agents, anywhere
 - [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4
 - [mbench 1.5.0](https://github.com/guitaripod/mbench/releases/tag/1.5.0) · HTML ⭐0 — Local LLM benchmarking utility
@@ -47,8 +49,6 @@
 - [emobanana 1.0.1](https://github.com/guitaripod/emobanana/releases/tag/1.0.1) · Rust ⭐2 — nano banana hackathon submission
 - [minibanana 1.2.2](https://github.com/guitaripod/minibanana/releases/tag/v1.2.2) · TS ⭐1 — Flash Image 2.5 Preview wrapper web app
 - [image-collage 1.0.0](https://github.com/guitaripod/image-collage/releases/tag/1.0.0) · Rust ⭐1 — Create 2x2 image collages in the terminal
-- [twitter-reply-selector 1.1.0](https://github.com/guitaripod/twitter-reply-selector/releases/tag/1.1.0) · JS ⭐0 — extension that auto-selects "replies from verified accounts only"
-- [ThemeSwitch 0.0.2](https://github.com/guitaripod/ThemeSwitch/releases/tag/0.0.2) · C++ ⭐0 — Cross-platform system tray application for toggling dark/light mode
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`
@@ -72,11 +72,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ██████████████████████████████████░░░░░░░░░░░░░░░░  68.8% │
-│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15.6% │
-│ TypeScript ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8% │
-│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2% │
-│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.6% │
+│ Swift      ██████████████████████████████████░░░░░░░░░░░░░░░░  68.5% │
+│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15.3% │
+│ TypeScript ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.7% │
+│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.3% │
+│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.1% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

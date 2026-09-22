@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.49](https://github.com/guitaripod/Tailscode/releases/tag/v1.49) · Swift ⭐10 — Your AI agents, anywhere
+- [Tailscode 1.52](https://github.com/guitaripod/Tailscode/releases/tag/v1.52) · Swift ⭐10 — Your AI agents, anywhere
 - [flaccy 1.14.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.14.0) · Swift ⭐4 — A multi-platform music player
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset

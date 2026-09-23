@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Crucible 1.6.0](https://github.com/guitaripod/Crucible/releases/tag/1.6.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [Tailscode 1.52](https://github.com/guitaripod/Tailscode/releases/tag/v1.52) · Swift ⭐10 — Your AI agents, anywhere
 - [flaccy 1.14.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.14.0) · Swift ⭐4 — A multi-platform music player
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
@@ -17,7 +18,6 @@
 - [mbench 1.5.0](https://github.com/guitaripod/mbench/releases/tag/1.5.0) · HTML ⭐1 — Local LLM benchmarking utility
 - [pokedex-llm-benchmark 3.0.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/3.0.0) · JS ⭐3 — Pokedex benchmark for LLMs
 - [CodingAgentKit 0.27.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.27.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
-- [Crucible 1.5.0](https://github.com/guitaripod/Crucible/releases/tag/1.5.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [omp-bridge 0.5.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.5.1) · Swift ⭐0 — 
 - [cp2077-fov-always-120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
 - [claude-bridge 1.5.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.5.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 

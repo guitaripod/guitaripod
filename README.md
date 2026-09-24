@@ -9,13 +9,13 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Tailscode 1.57](https://github.com/guitaripod/Tailscode/releases/tag/v1.57) · Swift ⭐11 — Your AI agents, anywhere
+- [mbench 1.6.2](https://github.com/guitaripod/mbench/releases/tag/1.6.2) · HTML ⭐1 — Local LLM benchmarking utility
+- [flaccy 1.15.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.15.0) · Swift ⭐4 — A multi-platform music player
 - [Crucible 1.6.0](https://github.com/guitaripod/Crucible/releases/tag/1.6.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
-- [Tailscode 1.52](https://github.com/guitaripod/Tailscode/releases/tag/v1.52) · Swift ⭐10 — Your AI agents, anywhere
-- [flaccy 1.14.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.14.0) · Swift ⭐4 — A multi-platform music player
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset
 - [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4
-- [mbench 1.5.0](https://github.com/guitaripod/mbench/releases/tag/1.5.0) · HTML ⭐1 — Local LLM benchmarking utility
 - [pokedex-llm-benchmark 3.0.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/3.0.0) · JS ⭐3 — Pokedex benchmark for LLMs
 - [CodingAgentKit 0.27.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.27.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
 - [omp-bridge 0.5.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.5.1) · Swift ⭐0 — 

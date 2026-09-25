@@ -9,18 +9,19 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.57](https://github.com/guitaripod/Tailscode/releases/tag/v1.57) · Swift ⭐11 — Your AI agents, anywhere
-- [mbench 1.6.2](https://github.com/guitaripod/mbench/releases/tag/1.6.2) · HTML ⭐1 — Local LLM benchmarking utility
+- [delegate v0.3.0](https://github.com/guitaripod/delegate/releases/tag/v0.3.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
+- [omp-bridge v0.6.2](https://github.com/guitaripod/omp-bridge/releases/tag/v0.6.2) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
+- [claude-bridge 1.12.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.12.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
+- [CodingAgentKit 0.33.2](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.33.2) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [Tailscode 1.60](https://github.com/guitaripod/Tailscode/releases/tag/v1.60) · Swift ⭐11 — Your AI agents, anywhere
+- [mbench 1.6.4](https://github.com/guitaripod/mbench/releases/tag/1.6.4) · HTML ⭐1 — Local LLM benchmarking utility
 - [flaccy 1.15.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.15.0) · Swift ⭐4 — A multi-platform music player
 - [Crucible 1.6.0](https://github.com/guitaripod/Crucible/releases/tag/1.6.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset
 - [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4
 - [pokedex-llm-benchmark 3.0.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/3.0.0) · JS ⭐3 — Pokedex benchmark for LLMs
-- [CodingAgentKit 0.27.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.27.0) · Swift ⭐0 — Swift package for driving opencode and Claude Code over HTTP
-- [omp-bridge 0.5.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.5.1) · Swift ⭐0 — 
 - [cp2077-fov-always-120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
-- [claude-bridge 1.5.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.5.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions 
 - [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library
 - [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
@@ -48,7 +49,6 @@
 - [Weavex 1.1.0](https://github.com/guitaripod/Weavex/releases/tag/1.1.0) · Rust ⭐9 — Autonomous research agent powered by local LLMs
 - [emobanana 1.0.1](https://github.com/guitaripod/emobanana/releases/tag/1.0.1) · Rust ⭐2 — nano banana hackathon submission
 - [minibanana 1.2.2](https://github.com/guitaripod/minibanana/releases/tag/v1.2.2) · TS ⭐1 — Flash Image 2.5 Preview wrapper web app
-- [image-collage 1.0.0](https://github.com/guitaripod/image-collage/releases/tag/1.0.0) · Rust ⭐1 — Create 2x2 image collages in the terminal
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

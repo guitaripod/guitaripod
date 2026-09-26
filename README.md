@@ -9,13 +9,13 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [flaccy 1.16.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.16.1) · Swift ⭐4 — A multi-platform music player
+- [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
+- [claude-bridge 1.13.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.13.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
+- [CodingAgentKit 0.34.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.34.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [delegate v0.3.0](https://github.com/guitaripod/delegate/releases/tag/v0.3.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
-- [omp-bridge v0.6.2](https://github.com/guitaripod/omp-bridge/releases/tag/v0.6.2) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
-- [claude-bridge 1.12.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.12.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
-- [CodingAgentKit 0.33.2](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.33.2) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [Tailscode 1.60](https://github.com/guitaripod/Tailscode/releases/tag/v1.60) · Swift ⭐11 — Your AI agents, anywhere
 - [mbench 1.6.4](https://github.com/guitaripod/mbench/releases/tag/1.6.4) · HTML ⭐1 — Local LLM benchmarking utility
-- [flaccy 1.15.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.15.0) · Swift ⭐4 — A multi-platform music player
 - [Crucible 1.6.0](https://github.com/guitaripod/Crucible/releases/tag/1.6.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset

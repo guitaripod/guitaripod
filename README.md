@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐10 — Search Google Flights from the terminal
 - [flaccy 1.16.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.16.1) · Swift ⭐4 — A multi-platform music player
 - [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [claude-bridge 1.13.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.13.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
@@ -41,7 +42,6 @@
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
 - [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
 - [emusync 0.1.2](https://github.com/guitaripod/emusync/releases/tag/0.1.2) · Rust ⭐0 — Cross-machine emulation save, mod, and shader cache sync over SSH
-- [flyr 1.6.1](https://github.com/guitaripod/flyr/releases/tag/1.6.1) · Rust ⭐10 — Search Google Flights from the terminal
 - [circadia 1.0.0](https://github.com/guitaripod/circadia/releases/tag/1.0.0) · Rust ⭐0 — Melanopic-aware color temperature daemon for KDE Plasma Wayland
 - [btop-ios 1.0.0](https://github.com/guitaripod/btop-ios/releases/tag/1.0.0) · Swift ⭐0 — Terminal-aesthetic system monitor for iOS.
 - [scribe 0.0.1](https://github.com/guitaripod/scribe/releases/tag/0.0.1) · TS ⭐2 — Local AI-powered grammar checking browser extension

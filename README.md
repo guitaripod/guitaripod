@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [unrager 0.24.0](https://github.com/guitaripod/unrager/releases/tag/0.24.0) · Rust ⭐13 — Take the rage out of your x.com timeline
+- [unrager 0.24.0](https://github.com/guitaripod/unrager/releases/tag/0.24.0) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐10 — Search Google Flights from the terminal
 - [flaccy 1.16.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.16.1) · Swift ⭐4 — A multi-platform music player
 - [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol

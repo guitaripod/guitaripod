@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
 - [unrager 0.24.0](https://github.com/guitaripod/unrager/releases/tag/0.24.0) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐10 — Search Google Flights from the terminal
 - [flaccy 1.16.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.16.1) · Swift ⭐4 — A multi-platform music player
@@ -48,7 +49,6 @@
 - [appofthedead 1.0.1](https://github.com/guitaripod/appofthedead/releases/tag/1.0.1) · Swift ⭐0 — Learn afterlife beliefs from around the world
 - [Weavex 1.1.0](https://github.com/guitaripod/Weavex/releases/tag/1.1.0) · Rust ⭐9 — Autonomous research agent powered by local LLMs
 - [emobanana 1.0.1](https://github.com/guitaripod/emobanana/releases/tag/1.0.1) · Rust ⭐2 — nano banana hackathon submission
-- [minibanana 1.2.2](https://github.com/guitaripod/minibanana/releases/tag/v1.2.2) · TS ⭐1 — Flash Image 2.5 Preview wrapper web app
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

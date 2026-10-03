@@ -9,10 +9,10 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [unrager 0.29.0](https://github.com/guitaripod/unrager/releases/tag/0.29.0) · Rust ⭐14 — Take the rage out of your x.com timeline
+- [flaccy 1.17.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.17.0) · Swift ⭐4 — A multi-platform music player
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
-- [unrager 0.24.0](https://github.com/guitaripod/unrager/releases/tag/0.24.0) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐10 — Search Google Flights from the terminal
-- [flaccy 1.16.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.16.1) · Swift ⭐4 — A multi-platform music player
 - [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [claude-bridge 1.13.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.13.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [CodingAgentKit 0.34.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.34.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE

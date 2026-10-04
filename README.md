@@ -9,15 +9,20 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [unrager 0.29.0](https://github.com/guitaripod/unrager/releases/tag/0.29.0) · Rust ⭐14 — Take the rage out of your x.com timeline
-- [flaccy 1.17.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.17.0) · Swift ⭐4 — A multi-platform music player
+- [buildvm 0.2.0](https://github.com/guitaripod/buildvm/releases/tag/0.2.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
+- [unrager 0.30.0](https://github.com/guitaripod/unrager/releases/tag/0.30.0) · Rust ⭐14 — Take the rage out of your x.com timeline
+- [Tailscode 1.65](https://github.com/guitaripod/Tailscode/releases/tag/v1.65) · Swift ⭐12 — Your AI agents, anywhere
+- [embr 1.1.2](https://github.com/guitaripod/embr/releases/tag/1.1.2) · Swift ⭐0 — Native UIKit iOS Twitch client — EventSub chat, native AVPlayer HLS via Cloudflare Worker.
+- [psybeam 1.1.2](https://github.com/guitaripod/psybeam/releases/tag/1.1.2) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
+- [flaccy 1.7.3](https://github.com/guitaripod/flaccy/releases/tag/1.7.3) · Swift ⭐4 — A multi-platform music player
+- [appofthedead 1.4.9](https://github.com/guitaripod/appofthedead/releases/tag/1.4.9) · Swift ⭐0 — Learn afterlife beliefs from around the world
+- [PayDay 1.1.2](https://github.com/guitaripod/PayDay/releases/tag/1.1.2) · Swift ⭐0 — Pay Day — native iOS EU e-invoicing app (Factur-X / EN 16931 / Peppol). UIKit + Swift 6 + Cloudflare Workers.
+- [CodingAgentKit 0.35.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.35.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [delegate v0.4.0](https://github.com/guitaripod/delegate/releases/tag/v0.4.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐10 — Search Google Flights from the terminal
 - [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [claude-bridge 1.13.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.13.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
-- [CodingAgentKit 0.34.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.34.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
-- [delegate v0.3.0](https://github.com/guitaripod/delegate/releases/tag/v0.3.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
-- [Tailscode 1.60](https://github.com/guitaripod/Tailscode/releases/tag/v1.60) · Swift ⭐12 — Your AI agents, anywhere
 - [mbench 1.6.4](https://github.com/guitaripod/mbench/releases/tag/1.6.4) · HTML ⭐1 — Local LLM benchmarking utility
 - [Crucible 1.6.0](https://github.com/guitaripod/Crucible/releases/tag/1.6.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
@@ -34,10 +39,8 @@
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
-- [buildvm 0.1.0](https://github.com/guitaripod/buildvm/releases/tag/0.1.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐9 — Convert music URLs & download tracks
-- [psybeam 1.0.0](https://github.com/guitaripod/psybeam/releases/tag/1.0.0) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [pixie 1.2.0 — mako](https://github.com/guitaripod/pixie/releases/tag/1.2.0) · Swift ⭐3 — Image Generation Platform
 - [nasa-rs 0.2.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.2.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
@@ -46,9 +49,6 @@
 - [circadia 1.0.0](https://github.com/guitaripod/circadia/releases/tag/1.0.0) · Rust ⭐0 — Melanopic-aware color temperature daemon for KDE Plasma Wayland
 - [btop-ios 1.0.0](https://github.com/guitaripod/btop-ios/releases/tag/1.0.0) · Swift ⭐0 — Terminal-aesthetic system monitor for iOS.
 - [scribe 0.0.1](https://github.com/guitaripod/scribe/releases/tag/0.0.1) · TS ⭐2 — Local AI-powered grammar checking browser extension
-- [appofthedead 1.0.1](https://github.com/guitaripod/appofthedead/releases/tag/1.0.1) · Swift ⭐0 — Learn afterlife beliefs from around the world
-- [Weavex 1.1.0](https://github.com/guitaripod/Weavex/releases/tag/1.1.0) · Rust ⭐9 — Autonomous research agent powered by local LLMs
-- [emobanana 1.0.1](https://github.com/guitaripod/emobanana/releases/tag/1.0.1) · Rust ⭐2 — nano banana hackathon submission
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`
@@ -72,11 +72,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ██████████████████████████████████░░░░░░░░░░░░░░░░  68.5% │
-│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15.3% │
-│ TypeScript ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.7% │
-│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.3% │
-│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.1% │
+│ Swift      ██████████████████████████████████░░░░░░░░░░░░░░░░  69.5% │
+│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15.0% │
+│ TypeScript ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.3% │
+│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.5% │
+│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.9% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

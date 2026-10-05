@@ -9,15 +9,17 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [nasa-rs 0.3.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.3.0) · Rust ⭐2 — Rust SDK for the NASA API
+- [twitch-chat-speed 1.1.1](https://github.com/guitaripod/twitch-chat-speed/releases/tag/1.1.1) · JS ⭐0 — Chromium extension that lets you choose how fast Twitch chat moves
+- [Tailscode 1.66](https://github.com/guitaripod/Tailscode/releases/tag/v1.66) · Swift ⭐12 — Your AI agents, anywhere
+- [CodingAgentKit 0.35.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.35.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [buildvm 0.2.0](https://github.com/guitaripod/buildvm/releases/tag/0.2.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [unrager 0.30.0](https://github.com/guitaripod/unrager/releases/tag/0.30.0) · Rust ⭐14 — Take the rage out of your x.com timeline
-- [Tailscode 1.65](https://github.com/guitaripod/Tailscode/releases/tag/v1.65) · Swift ⭐12 — Your AI agents, anywhere
 - [embr 1.1.2](https://github.com/guitaripod/embr/releases/tag/1.1.2) · Swift ⭐0 — Native UIKit iOS Twitch client — EventSub chat, native AVPlayer HLS via Cloudflare Worker.
 - [psybeam 1.1.2](https://github.com/guitaripod/psybeam/releases/tag/1.1.2) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [flaccy 1.7.3](https://github.com/guitaripod/flaccy/releases/tag/1.7.3) · Swift ⭐4 — A multi-platform music player
 - [appofthedead 1.4.9](https://github.com/guitaripod/appofthedead/releases/tag/1.4.9) · Swift ⭐0 — Learn afterlife beliefs from around the world
-- [PayDay 1.1.2](https://github.com/guitaripod/PayDay/releases/tag/1.1.2) · Swift ⭐0 — Pay Day — native iOS EU e-invoicing app (Factur-X / EN 16931 / Peppol). UIKit + Swift 6 + Cloudflare Workers.
-- [CodingAgentKit 0.35.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.35.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [PayDay 1.1.2](https://github.com/guitaripod/PayDay/releases/tag/1.1.2) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [delegate v0.4.0](https://github.com/guitaripod/delegate/releases/tag/v0.4.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐10 — Search Google Flights from the terminal
@@ -31,7 +33,7 @@
 - [pokedex-llm-benchmark 3.0.0](https://github.com/guitaripod/pokedex-llm-benchmark/releases/tag/3.0.0) · JS ⭐3 — Pokedex benchmark for LLMs
 - [cp2077-fov-always-120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
 - [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library
-- [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS — Claude, Grok, and opencode
+- [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
@@ -42,13 +44,11 @@
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐9 — Convert music URLs & download tracks
 - [pixie 1.2.0 — mako](https://github.com/guitaripod/pixie/releases/tag/1.2.0) · Swift ⭐3 — Image Generation Platform
-- [nasa-rs 0.2.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.2.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
 - [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
 - [emusync 0.1.2](https://github.com/guitaripod/emusync/releases/tag/0.1.2) · Rust ⭐0 — Cross-machine emulation save, mod, and shader cache sync over SSH
 - [circadia 1.0.0](https://github.com/guitaripod/circadia/releases/tag/1.0.0) · Rust ⭐0 — Melanopic-aware color temperature daemon for KDE Plasma Wayland
 - [btop-ios 1.0.0](https://github.com/guitaripod/btop-ios/releases/tag/1.0.0) · Swift ⭐0 — Terminal-aesthetic system monitor for iOS.
-- [scribe 0.0.1](https://github.com/guitaripod/scribe/releases/tag/0.0.1) · TS ⭐2 — Local AI-powered grammar checking browser extension
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

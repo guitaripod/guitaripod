@@ -9,12 +9,14 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [unrager 0.31.0](https://github.com/guitaripod/unrager/releases/tag/0.31.0) · Rust ⭐14 — Take the rage out of your x.com timeline
+- [Crucible 2.0.1](https://github.com/guitaripod/Crucible/releases/tag/2.0.1) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
+- [Tailscode 1.68](https://github.com/guitaripod/Tailscode/releases/tag/v1.68) · Swift ⭐12 — Your AI agents, anywhere
+- [claude-bridge 1.13.1](https://github.com/guitaripod/claude-bridge/releases/tag/1.13.1) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [nasa-rs 0.3.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.3.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [twitch-chat-speed 1.1.1](https://github.com/guitaripod/twitch-chat-speed/releases/tag/1.1.1) · JS ⭐0 — Chromium extension that lets you choose how fast Twitch chat moves
-- [Tailscode 1.66](https://github.com/guitaripod/Tailscode/releases/tag/v1.66) · Swift ⭐12 — Your AI agents, anywhere
 - [CodingAgentKit 0.35.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.35.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [buildvm 0.2.0](https://github.com/guitaripod/buildvm/releases/tag/0.2.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
-- [unrager 0.30.0](https://github.com/guitaripod/unrager/releases/tag/0.30.0) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [embr 1.1.2](https://github.com/guitaripod/embr/releases/tag/1.1.2) · Swift ⭐0 — Native UIKit iOS Twitch client — EventSub chat, native AVPlayer HLS via Cloudflare Worker.
 - [psybeam 1.1.2](https://github.com/guitaripod/psybeam/releases/tag/1.1.2) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [flaccy 1.7.3](https://github.com/guitaripod/flaccy/releases/tag/1.7.3) · Swift ⭐4 — A multi-platform music player
@@ -24,9 +26,7 @@
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐10 — Search Google Flights from the terminal
 - [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
-- [claude-bridge 1.13.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.13.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [mbench 1.6.4](https://github.com/guitaripod/mbench/releases/tag/1.6.4) · HTML ⭐1 — Local LLM benchmarking utility
-- [Crucible 1.6.0](https://github.com/guitaripod/Crucible/releases/tag/1.6.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset
 - [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4

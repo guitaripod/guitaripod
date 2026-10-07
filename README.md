@@ -11,7 +11,7 @@
 <!-- Recent Releases -->
 - [unrager 0.31.0](https://github.com/guitaripod/unrager/releases/tag/0.31.0) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [Crucible 2.0.1](https://github.com/guitaripod/Crucible/releases/tag/2.0.1) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
-- [Tailscode 1.68](https://github.com/guitaripod/Tailscode/releases/tag/v1.68) · Swift ⭐12 — Your AI agents, anywhere
+- [Tailscode 1.68](https://github.com/guitaripod/Tailscode/releases/tag/v1.68) · Swift ⭐13 — Your AI agents, anywhere
 - [claude-bridge 1.13.1](https://github.com/guitaripod/claude-bridge/releases/tag/1.13.1) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [nasa-rs 0.3.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.3.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [twitch-chat-speed 1.1.1](https://github.com/guitaripod/twitch-chat-speed/releases/tag/1.1.1) · JS ⭐0 — Chromium extension that lets you choose how fast Twitch chat moves
@@ -24,8 +24,8 @@
 - [PayDay 1.1.2](https://github.com/guitaripod/PayDay/releases/tag/1.1.2) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [delegate v0.4.0](https://github.com/guitaripod/delegate/releases/tag/v0.4.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
-- [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐10 — Search Google Flights from the terminal
-- [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐0 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
+- [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐11 — Search Google Flights from the terminal
+- [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [mbench 1.6.4](https://github.com/guitaripod/mbench/releases/tag/1.6.4) · HTML ⭐1 — Local LLM benchmarking utility
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset

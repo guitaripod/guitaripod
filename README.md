@@ -9,6 +9,12 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [psybeam 1.1.3](https://github.com/guitaripod/psybeam/releases/tag/1.1.3) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
+- [PayDay 1.1.3](https://github.com/guitaripod/PayDay/releases/tag/1.1.3) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
+- [pixie 1.6.1](https://github.com/guitaripod/pixie/releases/tag/1.6.1) · Swift ⭐3 — Image Generation Platform
+- [appofthedead 1.4.10](https://github.com/guitaripod/appofthedead/releases/tag/1.4.10) · Swift ⭐0 — Learn afterlife beliefs from around the world
+- [flaccy 1.7.4](https://github.com/guitaripod/flaccy/releases/tag/1.7.4) · Swift ⭐4 — A multi-platform music player
+- [embr 1.2.0](https://github.com/guitaripod/embr/releases/tag/1.2.0) · Swift ⭐0 — Native UIKit iOS Twitch client — EventSub chat, native AVPlayer HLS via Cloudflare Worker.
 - [unrager 0.31.0](https://github.com/guitaripod/unrager/releases/tag/0.31.0) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [Crucible 2.0.1](https://github.com/guitaripod/Crucible/releases/tag/2.0.1) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [Tailscode 1.68](https://github.com/guitaripod/Tailscode/releases/tag/v1.68) · Swift ⭐13 — Your AI agents, anywhere
@@ -17,11 +23,6 @@
 - [twitch-chat-speed 1.1.1](https://github.com/guitaripod/twitch-chat-speed/releases/tag/1.1.1) · JS ⭐0 — Chromium extension that lets you choose how fast Twitch chat moves
 - [CodingAgentKit 0.35.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.35.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [buildvm 0.2.0](https://github.com/guitaripod/buildvm/releases/tag/0.2.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
-- [embr 1.1.2](https://github.com/guitaripod/embr/releases/tag/1.1.2) · Swift ⭐0 — Native UIKit iOS Twitch client — EventSub chat, native AVPlayer HLS via Cloudflare Worker.
-- [psybeam 1.1.2](https://github.com/guitaripod/psybeam/releases/tag/1.1.2) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
-- [flaccy 1.7.3](https://github.com/guitaripod/flaccy/releases/tag/1.7.3) · Swift ⭐4 — A multi-platform music player
-- [appofthedead 1.4.9](https://github.com/guitaripod/appofthedead/releases/tag/1.4.9) · Swift ⭐0 — Learn afterlife beliefs from around the world
-- [PayDay 1.1.2](https://github.com/guitaripod/PayDay/releases/tag/1.1.2) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [delegate v0.4.0](https://github.com/guitaripod/delegate/releases/tag/v0.4.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐11 — Search Google Flights from the terminal
@@ -43,7 +44,6 @@
 - [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐9 — Convert music URLs & download tracks
-- [pixie 1.2.0 — mako](https://github.com/guitaripod/pixie/releases/tag/1.2.0) · Swift ⭐3 — Image Generation Platform
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
 - [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
 - [emusync 0.1.2](https://github.com/guitaripod/emusync/releases/tag/0.1.2) · Rust ⭐0 — Cross-machine emulation save, mod, and shader cache sync over SSH

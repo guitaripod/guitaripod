@@ -9,6 +9,10 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Tailscode 1.73](https://github.com/guitaripod/Tailscode/releases/tag/v1.73) · Swift ⭐13 — Your AI agents, anywhere
+- [omp-bridge v0.8.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.8.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
+- [claude-bridge 1.14.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.14.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
+- [CodingAgentKit 0.36.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.36.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [psybeam 1.1.3](https://github.com/guitaripod/psybeam/releases/tag/1.1.3) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [PayDay 1.1.3](https://github.com/guitaripod/PayDay/releases/tag/1.1.3) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [pixie 1.6.1](https://github.com/guitaripod/pixie/releases/tag/1.6.1) · Swift ⭐3 — Image Generation Platform
@@ -17,16 +21,12 @@
 - [embr 1.2.0](https://github.com/guitaripod/embr/releases/tag/1.2.0) · Swift ⭐0 — Native UIKit iOS Twitch client — EventSub chat, native AVPlayer HLS via Cloudflare Worker.
 - [unrager 0.31.0](https://github.com/guitaripod/unrager/releases/tag/0.31.0) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [Crucible 2.0.1](https://github.com/guitaripod/Crucible/releases/tag/2.0.1) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
-- [Tailscode 1.68](https://github.com/guitaripod/Tailscode/releases/tag/v1.68) · Swift ⭐13 — Your AI agents, anywhere
-- [claude-bridge 1.13.1](https://github.com/guitaripod/claude-bridge/releases/tag/1.13.1) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [nasa-rs 0.3.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.3.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [twitch-chat-speed 1.1.1](https://github.com/guitaripod/twitch-chat-speed/releases/tag/1.1.1) · JS ⭐0 — Chromium extension that lets you choose how fast Twitch chat moves
-- [CodingAgentKit 0.35.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.35.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [buildvm 0.2.0](https://github.com/guitaripod/buildvm/releases/tag/0.2.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [delegate v0.4.0](https://github.com/guitaripod/delegate/releases/tag/v0.4.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐11 — Search Google Flights from the terminal
-- [omp-bridge v0.7.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.7.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [mbench 1.6.4](https://github.com/guitaripod/mbench/releases/tag/1.6.4) · HTML ⭐1 — Local LLM benchmarking utility
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset
@@ -72,11 +72,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ██████████████████████████████████░░░░░░░░░░░░░░░░  69.5% │
-│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15.0% │
-│ TypeScript ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.3% │
-│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.5% │
-│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.9% │
+│ Swift      ███████████████████████████████████░░░░░░░░░░░░░░░  71.3% │
+│ Rust       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  13.7% │
+│ TypeScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.0% │
+│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8% │
+│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.6% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

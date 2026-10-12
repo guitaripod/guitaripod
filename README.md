@@ -9,10 +9,10 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.73](https://github.com/guitaripod/Tailscode/releases/tag/v1.73) · Swift ⭐13 — Your AI agents, anywhere
+- [Tailscode 1.75](https://github.com/guitaripod/Tailscode/releases/tag/v1.75) · Swift ⭐13 — Your AI agents, anywhere
+- [CodingAgentKit 0.36.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.36.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [omp-bridge v0.8.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.8.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [claude-bridge 1.14.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.14.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
-- [CodingAgentKit 0.36.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.36.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [psybeam 1.1.3](https://github.com/guitaripod/psybeam/releases/tag/1.1.3) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [PayDay 1.1.3](https://github.com/guitaripod/PayDay/releases/tag/1.1.3) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [pixie 1.6.1](https://github.com/guitaripod/pixie/releases/tag/1.6.1) · Swift ⭐3 — Image Generation Platform

@@ -9,7 +9,9 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [Tailscode 1.76](https://github.com/guitaripod/Tailscode/releases/tag/v1.76) · Swift ⭐13 — Your AI agents, anywhere
+- [MidgarKit MidgarKit 3.1.2](https://github.com/guitaripod/MidgarKit/releases/tag/3.1.2) · Swift ⭐0 — 
+- [Tailscode 1.77](https://github.com/guitaripod/Tailscode/releases/tag/v1.77) · Swift ⭐14 — Your AI agents, anywhere
+- [unrager 0.31.1](https://github.com/guitaripod/unrager/releases/tag/0.31.1) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [Crucible 2.1.0](https://github.com/guitaripod/Crucible/releases/tag/2.1.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [CodingAgentKit 0.36.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.36.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [omp-bridge v0.8.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.8.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
@@ -20,7 +22,6 @@
 - [appofthedead 1.4.10](https://github.com/guitaripod/appofthedead/releases/tag/1.4.10) · Swift ⭐0 — Learn afterlife beliefs from around the world
 - [flaccy 1.7.4](https://github.com/guitaripod/flaccy/releases/tag/1.7.4) · Swift ⭐4 — A multi-platform music player
 - [embr 1.2.0](https://github.com/guitaripod/embr/releases/tag/1.2.0) · Swift ⭐0 — Native UIKit iOS Twitch client — EventSub chat, native AVPlayer HLS via Cloudflare Worker.
-- [unrager 0.31.0](https://github.com/guitaripod/unrager/releases/tag/0.31.0) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [nasa-rs 0.3.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.3.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [twitch-chat-speed 1.1.1](https://github.com/guitaripod/twitch-chat-speed/releases/tag/1.1.1) · JS ⭐0 — Chromium extension that lets you choose how fast Twitch chat moves
 - [buildvm 0.2.0](https://github.com/guitaripod/buildvm/releases/tag/0.2.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
@@ -48,7 +49,6 @@
 - [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
 - [emusync 0.1.2](https://github.com/guitaripod/emusync/releases/tag/0.1.2) · Rust ⭐0 — Cross-machine emulation save, mod, and shader cache sync over SSH
 - [circadia 1.0.0](https://github.com/guitaripod/circadia/releases/tag/1.0.0) · Rust ⭐0 — Melanopic-aware color temperature daemon for KDE Plasma Wayland
-- [btop-ios 1.0.0](https://github.com/guitaripod/btop-ios/releases/tag/1.0.0) · Swift ⭐0 — Terminal-aesthetic system monitor for iOS.
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

@@ -9,6 +9,8 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [flaccy Flaccy for Linux 1.18.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.18.1) · Swift ⭐4 — A multi-platform music player
+- [emojipick emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
 - [MidgarKit MidgarKit 3.1.2](https://github.com/guitaripod/MidgarKit/releases/tag/3.1.2) · Swift ⭐0 — 
 - [Tailscode 1.77](https://github.com/guitaripod/Tailscode/releases/tag/v1.77) · Swift ⭐14 — Your AI agents, anywhere
 - [unrager 0.31.1](https://github.com/guitaripod/unrager/releases/tag/0.31.1) · Rust ⭐14 — Take the rage out of your x.com timeline
@@ -20,7 +22,6 @@
 - [PayDay 1.1.3](https://github.com/guitaripod/PayDay/releases/tag/1.1.3) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [pixie 1.6.1](https://github.com/guitaripod/pixie/releases/tag/1.6.1) · Swift ⭐3 — Image Generation Platform
 - [appofthedead 1.4.10](https://github.com/guitaripod/appofthedead/releases/tag/1.4.10) · Swift ⭐0 — Learn afterlife beliefs from around the world
-- [flaccy 1.7.4](https://github.com/guitaripod/flaccy/releases/tag/1.7.4) · Swift ⭐4 — A multi-platform music player
 - [embr 1.2.0](https://github.com/guitaripod/embr/releases/tag/1.2.0) · Swift ⭐0 — Native UIKit iOS Twitch client — EventSub chat, native AVPlayer HLS via Cloudflare Worker.
 - [nasa-rs 0.3.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.3.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [twitch-chat-speed 1.1.1](https://github.com/guitaripod/twitch-chat-speed/releases/tag/1.1.1) · JS ⭐0 — Chromium extension that lets you choose how fast Twitch chat moves
@@ -42,7 +43,6 @@
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐3 — Routes Steam Remote Play sessions to a dummy HDMI
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
-- [emojipick 0.1.0](https://github.com/guitaripod/emojipick/releases/tag/v0.1.0) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐9 — Convert music URLs & download tracks
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm

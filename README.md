@@ -9,12 +9,13 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [flaccy Flaccy for Linux 1.18.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.18.1) · Swift ⭐4 — A multi-platform music player
+- [mbench 1.7.1](https://github.com/guitaripod/mbench/releases/tag/1.7.1) · HTML ⭐1 — Local LLM benchmarking utility
+- [flaccy Flaccy for Linux 1.18.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.18.1) · Swift ⭐5 — A multi-platform music player
 - [emojipick emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
 - [MidgarKit MidgarKit 3.1.2](https://github.com/guitaripod/MidgarKit/releases/tag/3.1.2) · Swift ⭐0 — 
 - [Tailscode 1.77](https://github.com/guitaripod/Tailscode/releases/tag/v1.77) · Swift ⭐14 — Your AI agents, anywhere
 - [unrager 0.31.1](https://github.com/guitaripod/unrager/releases/tag/0.31.1) · Rust ⭐14 — Take the rage out of your x.com timeline
-- [Crucible 2.1.0](https://github.com/guitaripod/Crucible/releases/tag/2.1.0) · Swift ⭐1 — A personal Plex client for iOS, built entirely on Arch Linux.
+- [Crucible 2.1.0](https://github.com/guitaripod/Crucible/releases/tag/2.1.0) · Swift ⭐2 — A personal Plex client for iOS, built entirely on Arch Linux.
 - [CodingAgentKit 0.36.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.36.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [omp-bridge v0.8.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.8.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [claude-bridge 1.14.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.14.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
@@ -29,7 +30,6 @@
 - [delegate v0.4.0](https://github.com/guitaripod/delegate/releases/tag/v0.4.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
 - [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐11 — Search Google Flights from the terminal
-- [mbench 1.6.4](https://github.com/guitaripod/mbench/releases/tag/1.6.4) · HTML ⭐1 — Local LLM benchmarking utility
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset
 - [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4

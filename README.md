@@ -9,14 +9,16 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [mbench 1.7.1](https://github.com/guitaripod/mbench/releases/tag/1.7.1) · HTML ⭐1 — Local LLM benchmarking utility
-- [flaccy Flaccy for Linux 1.18.1](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.18.1) · Swift ⭐5 — A multi-platform music player
-- [emojipick emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
-- [MidgarKit MidgarKit 3.1.2](https://github.com/guitaripod/MidgarKit/releases/tag/3.1.2) · Swift ⭐0 — 
-- [Tailscode 1.77](https://github.com/guitaripod/Tailscode/releases/tag/v1.77) · Swift ⭐14 — Your AI agents, anywhere
-- [unrager 0.31.1](https://github.com/guitaripod/unrager/releases/tag/0.31.1) · Rust ⭐14 — Take the rage out of your x.com timeline
+- [flaccy 1.20.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.20.0) · Swift ⭐5 — A multi-platform music player
+- [unrager 0.31.2](https://github.com/guitaripod/unrager/releases/tag/0.31.2) · Rust ⭐14 — Take the rage out of your x.com timeline
+- [blackwall Blackwall 2.0.1](https://github.com/guitaripod/blackwall/releases/tag/2.0.1) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
+- [gpulens 0.1.0](https://github.com/guitaripod/gpulens/releases/tag/0.1.0) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
+- [CodingAgentKit 0.39.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.39.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [Tailscode 1.78](https://github.com/guitaripod/Tailscode/releases/tag/v1.78) · Swift ⭐14 — Your AI agents, anywhere
+- [previewd previewd 0.1.0](https://github.com/guitaripod/previewd/releases/tag/0.1.0) · Swift ⭐0 — Run an iOS app on a Mac's simulator and watch, inspect and touch it from anywhere — the host behind Tailscode's live preview
+- [emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
+- [MidgarKit 3.1.2](https://github.com/guitaripod/MidgarKit/releases/tag/3.1.2) · Swift ⭐0 — 
 - [Crucible 2.1.0](https://github.com/guitaripod/Crucible/releases/tag/2.1.0) · Swift ⭐2 — A personal Plex client for iOS, built entirely on Arch Linux.
-- [CodingAgentKit 0.36.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.36.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [omp-bridge v0.8.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.8.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [claude-bridge 1.14.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.14.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [psybeam 1.1.3](https://github.com/guitaripod/psybeam/releases/tag/1.1.3) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
@@ -40,15 +42,13 @@
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
-- [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐3 — Routes Steam Remote Play sessions to a dummy HDMI
+- [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐4 — Routes Steam Remote Play sessions to a dummy HDMI
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐9 — Convert music URLs & download tracks
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
 - [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
-- [emusync 0.1.2](https://github.com/guitaripod/emusync/releases/tag/0.1.2) · Rust ⭐0 — Cross-machine emulation save, mod, and shader cache sync over SSH
-- [circadia 1.0.0](https://github.com/guitaripod/circadia/releases/tag/1.0.0) · Rust ⭐0 — Melanopic-aware color temperature daemon for KDE Plasma Wayland
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

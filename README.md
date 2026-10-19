@@ -9,11 +9,11 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [gpulens 0.1.2](https://github.com/guitaripod/gpulens/releases/tag/0.1.2) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
 - [CodingAgentKit 0.42.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.42.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [blackwall Blackwall 2.2.0](https://github.com/guitaripod/blackwall/releases/tag/2.2.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
-- [flaccy 1.21.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.21.0) · Swift ⭐5 — A multi-platform music player
+- [flaccy 1.21.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.21.0) · Swift ⭐6 — A multi-platform music player
 - [unrager 0.31.2](https://github.com/guitaripod/unrager/releases/tag/0.31.2) · Rust ⭐14 — Take the rage out of your x.com timeline
-- [gpulens 0.1.0](https://github.com/guitaripod/gpulens/releases/tag/0.1.0) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
 - [Tailscode 1.78](https://github.com/guitaripod/Tailscode/releases/tag/v1.78) · Swift ⭐14 — Your AI agents, anywhere
 - [previewd previewd 0.1.0](https://github.com/guitaripod/previewd/releases/tag/0.1.0) · Swift ⭐0 — Run an iOS app on a Mac's simulator and watch, inspect and touch it from anywhere — the host behind Tailscode's live preview
 - [emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland

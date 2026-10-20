@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [rc-tui rc-tui 0.1.0](https://github.com/guitaripod/rc-tui/releases/tag/v0.1.0) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
 - [gpulens 0.1.2](https://github.com/guitaripod/gpulens/releases/tag/0.1.2) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
 - [CodingAgentKit 0.42.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.42.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [blackwall Blackwall 2.2.0](https://github.com/guitaripod/blackwall/releases/tag/2.2.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
@@ -48,7 +49,6 @@
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 - [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐9 — Convert music URLs & download tracks
 - [lastfm-rs 0.2.0](https://github.com/guitaripod/lastfm-rs/releases/tag/0.2.0) · Rust ⭐3 — A blazing-fast Rust SDK for last.fm
-- [anvil 0.1.0](https://github.com/guitaripod/anvil/releases/tag/0.1.0) · Swift ⭐1 — iOS qBittorrent client. UIKit, cross-compiled from Linux to iOS
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

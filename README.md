@@ -9,10 +9,11 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [omp-bridge v0.9.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.9.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
+- [CodingAgentKit 0.44.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.44.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [claude-bridge 1.16.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.16.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [rc-tui v0.2.1](https://github.com/guitaripod/rc-tui/releases/tag/v0.2.1) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
 - [Tailscode 1.79](https://github.com/guitaripod/Tailscode/releases/tag/v1.79) · Swift ⭐14 — Your AI agents, anywhere
-- [CodingAgentKit 0.42.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.42.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
-- [claude-bridge 1.15.3](https://github.com/guitaripod/claude-bridge/releases/tag/1.15.3) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [gpulens 0.1.2](https://github.com/guitaripod/gpulens/releases/tag/0.1.2) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
 - [blackwall 2.2.0](https://github.com/guitaripod/blackwall/releases/tag/2.2.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
 - [flaccy 1.21.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.21.0) · Swift ⭐6 — A multi-platform music player
@@ -21,7 +22,6 @@
 - [emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐1 — A fast emoji picker for KDE Plasma Wayland
 - [MidgarKit 3.1.2](https://github.com/guitaripod/MidgarKit/releases/tag/3.1.2) · Swift ⭐0 — 
 - [Crucible 2.1.0](https://github.com/guitaripod/Crucible/releases/tag/2.1.0) · Swift ⭐2 — A personal Plex client for iOS, built entirely on Arch Linux.
-- [omp-bridge v0.8.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.8.0) · Swift ⭐1 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [psybeam 1.1.3](https://github.com/guitaripod/psybeam/releases/tag/1.1.3) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [PayDay 1.1.3](https://github.com/guitaripod/PayDay/releases/tag/1.1.3) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [pixie 1.6.1](https://github.com/guitaripod/pixie/releases/tag/1.6.1) · Swift ⭐3 — Image Generation Platform

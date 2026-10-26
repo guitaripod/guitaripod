@@ -9,14 +9,14 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [rc-tui 0.4.0](https://github.com/guitaripod/rc-tui/releases/tag/0.4.0) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
+- [flaccy flaccy-server 0.1.0](https://github.com/guitaripod/flaccy/releases/tag/server-v0.1.0) · Swift ⭐6 — A multi-platform music player
 - [omp-bridge v0.9.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.9.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [blackwall Blackwall 2.4.0](https://github.com/guitaripod/blackwall/releases/tag/2.4.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
 - [CodingAgentKit 0.44.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.44.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [claude-bridge 1.16.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.16.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
-- [rc-tui v0.2.1](https://github.com/guitaripod/rc-tui/releases/tag/v0.2.1) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
 - [Tailscode 1.79](https://github.com/guitaripod/Tailscode/releases/tag/v1.79) · Swift ⭐15 — Your AI agents, anywhere
 - [gpulens 0.1.2](https://github.com/guitaripod/gpulens/releases/tag/0.1.2) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
-- [flaccy 1.21.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.21.0) · Swift ⭐6 — A multi-platform music player
 - [unrager 0.31.2](https://github.com/guitaripod/unrager/releases/tag/0.31.2) · Rust ⭐14 — Take the rage out of your x.com timeline
 - [previewd 0.1.0](https://github.com/guitaripod/previewd/releases/tag/0.1.0) · Swift ⭐0 — Run iOS app on a Mac's simulator and watch, inspect and touch it from anywhere.
 - [emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐2 — A fast emoji picker for KDE Plasma Wayland
@@ -72,11 +72,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ████████████████████████████████████░░░░░░░░░░░░░░  73.5% │
-│ Rust       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  13.4% │
-│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6% │
-│ TypeScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2% │
-│ Go         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.0% │
+│ Swift      █████████████████████████████████████░░░░░░░░░░░░░  74.1% │
+│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.4% │
+│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.5% │
+│ TypeScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.6% │
+│ Go         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.8% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

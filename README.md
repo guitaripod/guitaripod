@@ -9,8 +9,8 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [flaccy Linux 1.24.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.24.0) · Swift ⭐6 — A multi-platform music player
 - [rc-tui 0.4.0](https://github.com/guitaripod/rc-tui/releases/tag/0.4.0) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
-- [flaccy flaccy-server 0.1.0](https://github.com/guitaripod/flaccy/releases/tag/server-v0.1.0) · Swift ⭐6 — A multi-platform music player
 - [omp-bridge v0.9.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.9.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [blackwall Blackwall 2.4.0](https://github.com/guitaripod/blackwall/releases/tag/2.4.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
 - [CodingAgentKit 0.44.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.44.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE

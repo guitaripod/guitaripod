@@ -9,7 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [clicker clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
+- [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
 - [flaccy Linux 1.24.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.24.0) · Swift ⭐6 — A multi-platform music player
 - [rc-tui 0.4.0](https://github.com/guitaripod/rc-tui/releases/tag/0.4.0) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
 - [omp-bridge v0.9.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.9.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol

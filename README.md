@@ -9,8 +9,8 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [flaccy Flaccy Server 1.0.0](https://github.com/guitaripod/flaccy/releases/tag/server-v1.0.0) · Swift ⭐7 — A multi-platform music player
 - [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
-- [flaccy Linux 1.24.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.24.0) · Swift ⭐6 — A multi-platform music player
 - [rc-tui 0.4.0](https://github.com/guitaripod/rc-tui/releases/tag/0.4.0) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
 - [omp-bridge v0.9.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.9.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [blackwall 2.4.0](https://github.com/guitaripod/blackwall/releases/tag/2.4.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
@@ -41,7 +41,7 @@
 - [cp2077-fov-always-120 1.0.0](https://github.com/guitaripod/cp2077-fov-always-120/releases/tag/1.0.0) · Lua ⭐0 — Cyberpunk 2077 FOV 120 always mod
 - [tonight 0.1.2](https://github.com/guitaripod/tonight/releases/tag/0.1.2) · Rust ⭐0 — A decision engine for your Steam library
 - [tokenmaxxing 0.3.0](https://github.com/guitaripod/tokenmaxxing/releases/tag/0.3.0) · Rust ⭐0 — Native LLM usage dashboards for KDE and macOS
-- [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐1 — A YouTube thumbnail toolbar
+- [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐2 — A YouTube thumbnail toolbar
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐4 — Routes Steam Remote Play sessions to a dummy HDMI
@@ -72,11 +72,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      █████████████████████████████████████░░░░░░░░░░░░░  74.1% │
-│ Rust       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.4% │
-│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.5% │
+│ Swift      ███████████████████████████████████░░░░░░░░░░░░░░░  71.9% │
+│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.7% │
+│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6% │
 │ TypeScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.6% │
-│ Go         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.8% │
+│ Go         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.7% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

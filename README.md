@@ -9,8 +9,8 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [flaccy Flaccy Server 1.1.0](https://github.com/guitaripod/flaccy/releases/tag/server-v1.1.0) · Swift ⭐7 — A multi-platform music player
 - [Tailscode 1.80](https://github.com/guitaripod/Tailscode/releases/tag/v1.80) · Swift ⭐15 — Your AI agents, anywhere
-- [flaccy Server 1.0.0](https://github.com/guitaripod/flaccy/releases/tag/server-v1.0.0) · Swift ⭐7 — A multi-platform music player
 - [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
 - [rc-tui 0.4.0](https://github.com/guitaripod/rc-tui/releases/tag/0.4.0) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
 - [omp-bridge v0.9.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.9.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
@@ -44,7 +44,7 @@
 - [yoink 1.2.1](https://github.com/guitaripod/yoink/releases/tag/v1.2.1) · Py ⭐2 — A YouTube thumbnail toolbar
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
-- [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐4 — Routes Steam Remote Play sessions to a dummy HDMI
+- [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐5 — Routes Steam Remote Play sessions to a dummy HDMI
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility

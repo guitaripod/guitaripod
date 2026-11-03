@@ -9,13 +9,13 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [CodingAgentKit 0.47.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.47.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [flaccy Flaccy Server 1.1.0](https://github.com/guitaripod/flaccy/releases/tag/server-v1.1.0) · Swift ⭐7 — A multi-platform music player
 - [Tailscode 1.80](https://github.com/guitaripod/Tailscode/releases/tag/v1.80) · Swift ⭐15 — Your AI agents, anywhere
 - [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
 - [rc-tui 0.4.0](https://github.com/guitaripod/rc-tui/releases/tag/0.4.0) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
 - [omp-bridge v0.9.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.9.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [blackwall 2.4.0](https://github.com/guitaripod/blackwall/releases/tag/2.4.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
-- [CodingAgentKit 0.44.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.44.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [claude-bridge 1.16.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.16.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [gpulens 0.1.2](https://github.com/guitaripod/gpulens/releases/tag/0.1.2) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
 - [unrager 0.31.2](https://github.com/guitaripod/unrager/releases/tag/0.31.2) · Rust ⭐15 — Take the rage out of your x.com timeline

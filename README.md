@@ -9,10 +9,10 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [claude-bridge 1.20.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.20.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
+- [CodingAgentKit 0.49.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.49.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [omp-bridge v0.11.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.11.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [flaccy Flaccy Server 1.2.0](https://github.com/guitaripod/flaccy/releases/tag/server-v1.2.0) · Swift ⭐7 — A multi-platform music player
-- [omp-bridge v0.10.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.10.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
-- [claude-bridge 1.17.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.17.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
-- [CodingAgentKit 0.47.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.47.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [Tailscode 1.80](https://github.com/guitaripod/Tailscode/releases/tag/v1.80) · Swift ⭐15 — Your AI agents, anywhere
 - [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
 - [rc-tui 0.4.0](https://github.com/guitaripod/rc-tui/releases/tag/0.4.0) · Rust ⭐0 — RevenueCat overview in the terminal: six animated metric cards, every project in one window.
@@ -22,7 +22,7 @@
 - [previewd 0.1.0](https://github.com/guitaripod/previewd/releases/tag/0.1.0) · Swift ⭐0 — Run iOS app on a Mac's simulator and watch, inspect and touch it from anywhere.
 - [emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐2 — A fast emoji picker for KDE Plasma Wayland
 - [MidgarKit 3.1.2](https://github.com/guitaripod/MidgarKit/releases/tag/3.1.2) · Swift ⭐0 — 
-- [Crucible 2.1.0](https://github.com/guitaripod/Crucible/releases/tag/2.1.0) · Swift ⭐2 — A personal Plex client for iOS, built entirely on Arch Linux.
+- [Crucible 2.1.0](https://github.com/guitaripod/Crucible/releases/tag/2.1.0) · Swift ⭐2 — A native Plex client for iPhone, iPad and Apple TV, built entirely on Arch Linux.
 - [psybeam 1.1.3](https://github.com/guitaripod/psybeam/releases/tag/1.1.3) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [PayDay 1.1.3](https://github.com/guitaripod/PayDay/releases/tag/1.1.3) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [pixie 1.6.1](https://github.com/guitaripod/pixie/releases/tag/1.6.1) · Swift ⭐3 — Image Generation Platform

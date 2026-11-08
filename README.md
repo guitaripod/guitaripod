@@ -9,6 +9,9 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Crucible Crucible Server 0.2.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.2.0) · Swift ⭐2 — A native Plex client for iPhone, iPad and Apple TV, built entirely on Arch Linux.
+- [prebake 0.1.0](https://github.com/guitaripod/prebake/releases/tag/0.1.0) · Rust ⭐0 — Bakes Steam's Vulkan shader caches while you are away, so games start without "Processing Vulkan shaders". Linux daemon.
+- [unrager 0.32.0](https://github.com/guitaripod/unrager/releases/tag/0.32.0) · Rust ⭐15 — Take the rage out of your x.com timeline
 - [omp-bridge v0.12.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.12.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [claude-bridge 1.21.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.21.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [CodingAgentKit 0.50.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.50.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
@@ -18,11 +21,9 @@
 - [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
 - [blackwall 2.4.0](https://github.com/guitaripod/blackwall/releases/tag/2.4.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
 - [gpulens 0.1.2](https://github.com/guitaripod/gpulens/releases/tag/0.1.2) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
-- [unrager 0.31.2](https://github.com/guitaripod/unrager/releases/tag/0.31.2) · Rust ⭐15 — Take the rage out of your x.com timeline
 - [previewd 0.1.0](https://github.com/guitaripod/previewd/releases/tag/0.1.0) · Swift ⭐0 — Run iOS app on a Mac's simulator and watch, inspect and touch it from anywhere.
 - [emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐2 — A fast emoji picker for KDE Plasma Wayland
 - [MidgarKit 3.1.2](https://github.com/guitaripod/MidgarKit/releases/tag/3.1.2) · Swift ⭐0 — 
-- [Crucible 2.1.0](https://github.com/guitaripod/Crucible/releases/tag/2.1.0) · Swift ⭐2 — A native Plex client for iPhone, iPad and Apple TV, built entirely on Arch Linux.
 - [psybeam 1.1.3](https://github.com/guitaripod/psybeam/releases/tag/1.1.3) · Swift ⭐2 — Real-time voice-to-voice travel interpreter for iOS
 - [PayDay 1.1.3](https://github.com/guitaripod/PayDay/releases/tag/1.1.3) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [pixie 1.6.1](https://github.com/guitaripod/pixie/releases/tag/1.6.1) · Swift ⭐3 — Image Generation Platform
@@ -48,7 +49,6 @@
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
 - [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
-- [songlink-cli 3.2.2](https://github.com/guitaripod/songlink-cli/releases/tag/3.2.2) · Go ⭐9 — Convert music URLs & download tracks
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

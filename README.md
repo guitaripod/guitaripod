@@ -9,15 +9,15 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [claude-bridge 1.21.1](https://github.com/guitaripod/claude-bridge/releases/tag/1.21.1) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
-- [Crucible Crucible Server 0.2.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.2.0) · Swift ⭐2 — A native Plex client for iPhone, iPad and Apple TV, built entirely on Arch Linux.
-- [prebake 0.1.0](https://github.com/guitaripod/prebake/releases/tag/0.1.0) · Rust ⭐0 — Bakes Steam's Vulkan shader caches while you are away, so games start without "Processing Vulkan shaders". Linux daemon.
+- [omp-bridge v0.12.3](https://github.com/guitaripod/omp-bridge/releases/tag/v0.12.3) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
+- [CodingAgentKit 0.51.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.51.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [claude-bridge 1.23.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.23.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
+- [Tailscode 1.82](https://github.com/guitaripod/Tailscode/releases/tag/v1.82) · Swift ⭐15 — Your AI agents, anywhere
+- [Crucible Crucible Server 0.2.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.2.0) · Swift ⭐2 — A native Plex client for iPhone, iPad and Apple TV
+- [prebake 0.1.0](https://github.com/guitaripod/prebake/releases/tag/0.1.0) · Rust ⭐0 — Bakes Steam's Vulkan shader caches while you are away
 - [unrager 0.32.0](https://github.com/guitaripod/unrager/releases/tag/0.32.0) · Rust ⭐15 — Take the rage out of your x.com timeline
-- [omp-bridge v0.12.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.12.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
-- [CodingAgentKit 0.50.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.50.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [flaccy Flaccy for Linux 1.28.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.28.0) · Swift ⭐7 — A multi-platform music player
 - [rc-tui 0.5.0](https://github.com/guitaripod/rc-tui/releases/tag/0.5.0) · Rust ⭐0 — RevenueCat overview in the terminal.
-- [Tailscode 1.80](https://github.com/guitaripod/Tailscode/releases/tag/v1.80) · Swift ⭐15 — Your AI agents, anywhere
 - [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
 - [blackwall 2.4.0](https://github.com/guitaripod/blackwall/releases/tag/2.4.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
 - [gpulens 0.1.2](https://github.com/guitaripod/gpulens/releases/tag/0.1.2) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
@@ -34,7 +34,7 @@
 - [buildvm 0.2.0](https://github.com/guitaripod/buildvm/releases/tag/0.2.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM
 - [delegate v0.4.0](https://github.com/guitaripod/delegate/releases/tag/v0.4.0) · Rust ⭐1 — Tiered task dispatcher: packets in, verified patches out
 - [grokipedia-redirect 1.0.0](https://github.com/guitaripod/grokipedia-redirect/releases/tag/v1.0.0) · JS ⭐0 — Browser extension that redirects Wikipedia articles to Grokipedia
-- [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐11 — Search Google Flights from the terminal
+- [flyr v1.7.0](https://github.com/guitaripod/flyr/releases/tag/v1.7.0) · Rust ⭐12 — Search Google Flights from the terminal
 - [datashard 0.2.0](https://github.com/guitaripod/datashard/releases/tag/0.2.0) · Swift ⭐0 — Offline Cyberpunk 2077 text reader for iOS
 - [cp2077-db 0.2.0](https://github.com/guitaripod/cp2077-db/releases/tag/0.2.0) · Py ⭐0 — Every readable string in Cyberpunk 2077 as one SQLite dataset
 - [jc4-fov 1.2.0](https://github.com/guitaripod/jc4-fov/releases/tag/v1.2.0) · C ⭐0 — Field of view mod for Just Cause 4

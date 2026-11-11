@@ -9,10 +9,11 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [omp-bridge v0.12.3](https://github.com/guitaripod/omp-bridge/releases/tag/v0.12.3) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
+- [shotcaller 0.2.0](https://github.com/guitaripod/shotcaller/releases/tag/v0.2.0) · Py ⭐0 — An LLM game master, DOOM-style overlays and an end-of-match map vote for IW4x
+- [omp-bridge v0.13.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.13.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [CodingAgentKit 0.51.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.51.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [claude-bridge 1.23.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.23.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
-- [Tailscode 1.82](https://github.com/guitaripod/Tailscode/releases/tag/v1.82) · Swift ⭐15 — Your AI agents, anywhere
+- [Tailscode 1.82](https://github.com/guitaripod/Tailscode/releases/tag/v1.82) · Swift ⭐16 — Your AI agents, anywhere
 - [Crucible Crucible Server 0.2.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.2.0) · Swift ⭐2 — A native Plex client for iPhone, iPad and Apple TV
 - [prebake 0.1.0](https://github.com/guitaripod/prebake/releases/tag/0.1.0) · Rust ⭐0 — Bakes Steam's Vulkan shader caches while you are away
 - [unrager 0.32.0](https://github.com/guitaripod/unrager/releases/tag/0.32.0) · Rust ⭐15 — Take the rage out of your x.com timeline
@@ -48,7 +49,6 @@
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐5 — Routes Steam Remote Play sessions to a dummy HDMI
 - [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 - [imago 0.1.4](https://github.com/guitaripod/imago/releases/tag/v0.1.4) · Rust ⭐1 — Agent-native Instagram profile archive
-- [kontu 0.1.0](https://github.com/guitaripod/kontu/releases/tag/0.1.0) · Rust ⭐0 — Quality-gated Finnish house-hunting utility
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`

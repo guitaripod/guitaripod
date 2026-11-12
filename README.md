@@ -14,7 +14,7 @@
 - [CodingAgentKit 0.51.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.51.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [claude-bridge 1.23.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.23.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [Tailscode 1.82](https://github.com/guitaripod/Tailscode/releases/tag/v1.82) · Swift ⭐16 — Your AI agents, anywhere
-- [Crucible Crucible Server 0.2.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.2.0) · Swift ⭐2 — A native Plex client for iPhone, iPad and Apple TV
+- [Crucible Crucible Server 0.2.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.2.0) · Swift ⭐3 — A native Plex client for iPhone, iPad and Apple TV
 - [prebake 0.1.0](https://github.com/guitaripod/prebake/releases/tag/0.1.0) · Rust ⭐0 — Bakes Steam's Vulkan shader caches while you are away
 - [unrager 0.32.0](https://github.com/guitaripod/unrager/releases/tag/0.32.0) · Rust ⭐15 — Take the rage out of your x.com timeline
 - [flaccy Flaccy for Linux 1.28.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.28.0) · Swift ⭐7 — A multi-platform music player
@@ -29,7 +29,7 @@
 - [PayDay 1.1.3](https://github.com/guitaripod/PayDay/releases/tag/1.1.3) · Swift ⭐0 — EU e-invoicing app (Factur-X / EN 16931 / Peppol)
 - [pixie 1.6.1](https://github.com/guitaripod/pixie/releases/tag/1.6.1) · Swift ⭐3 — Image Generation Platform
 - [appofthedead 1.4.10](https://github.com/guitaripod/appofthedead/releases/tag/1.4.10) · Swift ⭐0 — Learn afterlife beliefs from around the world
-- [embr 1.2.0](https://github.com/guitaripod/embr/releases/tag/1.2.0) · Swift ⭐0 — Native Apple platform Twitch client
+- [embr 1.2.0](https://github.com/guitaripod/embr/releases/tag/1.2.0) · Swift ⭐1 — Native Apple platform Twitch client
 - [nasa-rs 0.3.0](https://github.com/guitaripod/nasa-rs/releases/tag/0.3.0) · Rust ⭐2 — Rust SDK for the NASA API
 - [twitch-chat-speed 1.1.1](https://github.com/guitaripod/twitch-chat-speed/releases/tag/1.1.1) · JS ⭐0 — Chromium extension that lets you choose how fast Twitch chat moves
 - [buildvm 0.2.0](https://github.com/guitaripod/buildvm/releases/tag/0.2.0) · Shell ⭐0 — Agent-native iOS App Store builds from a stable-macOS VM

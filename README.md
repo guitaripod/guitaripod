@@ -9,12 +9,12 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [Crucible Crucible Server 0.3.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.3.0) · Swift ⭐3 — A native Plex client for iPhone, iPad and Apple TV
 - [claude-bridge 1.24.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.24.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [CodingAgentKit 0.53.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.53.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [shotcaller 0.2.0](https://github.com/guitaripod/shotcaller/releases/tag/v0.2.0) · Py ⭐0 — An LLM game master, DOOM-style overlays and an end-of-match map vote for IW4x
 - [omp-bridge v0.13.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.13.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
-- [Tailscode 1.82](https://github.com/guitaripod/Tailscode/releases/tag/v1.82) · Swift ⭐16 — Your AI agents, anywhere
-- [Crucible Crucible Server 0.2.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.2.0) · Swift ⭐3 — A native Plex client for iPhone, iPad and Apple TV
+- [Tailscode 1.82](https://github.com/guitaripod/Tailscode/releases/tag/v1.82) · Swift ⭐16 — Claude Code, Codex, opencode and Hermes on your own machines, from your phone, Mac or Linux desk
 - [prebake 0.1.0](https://github.com/guitaripod/prebake/releases/tag/0.1.0) · Rust ⭐0 — Bakes Steam's Vulkan shader caches while you are away
 - [unrager 0.32.0](https://github.com/guitaripod/unrager/releases/tag/0.32.0) · Rust ⭐15 — Take the rage out of your x.com timeline
 - [flaccy Flaccy for Linux 1.28.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.28.0) · Swift ⭐7 — A multi-platform music player

@@ -9,10 +9,10 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [omp-bridge v0.18.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.18.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
+- [CodingAgentKit 0.62.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.62.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [claude-bridge 1.35.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.35.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [Crucible Crucible Server 0.6.4](https://github.com/guitaripod/Crucible/releases/tag/server-v0.6.4) · Swift ⭐3 — A native Plex client for iPhone, iPad and Apple TV
-- [claude-bridge 1.28.1](https://github.com/guitaripod/claude-bridge/releases/tag/1.28.1) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
-- [omp-bridge v0.16.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.16.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
-- [CodingAgentKit 0.55.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.55.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [baton-pass Baton Pass 0.1.0-alpha.1](https://github.com/guitaripod/baton-pass/releases/tag/0.1.0-alpha.1) · Rust ⭐0 — Hand a KDE Plasma desktop's mouse, keyboard and clipboard to the Mac beside it
 - [Tailscode 1.83](https://github.com/guitaripod/Tailscode/releases/tag/v1.83) · Swift ⭐16 — Claude Code, from all your devices.
 - [unrager 0.33.0](https://github.com/guitaripod/unrager/releases/tag/0.33.0) · Rust ⭐15 — Take the rage out of your x.com timeline
@@ -72,11 +72,11 @@
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                              Technologies                                    │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ Swift      ███████████████████████████████████░░░░░░░░░░░░░░░  71.9% │
-│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.7% │
-│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6% │
-│ TypeScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.6% │
-│ Go         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.7% │
+│ Swift      ███████████████████████████████████░░░░░░░░░░░░░░░  71.7% │
+│ Rust       ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.3% │
+│ Python     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.5% │
+│ TypeScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.3% │
+│ C          ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.5% │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

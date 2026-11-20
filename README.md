@@ -9,9 +9,9 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [claude-bridge 1.36.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.36.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [omp-bridge v0.18.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.18.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [CodingAgentKit 0.62.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.62.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
-- [claude-bridge 1.35.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.35.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [Crucible Crucible Server 0.6.4](https://github.com/guitaripod/Crucible/releases/tag/server-v0.6.4) · Swift ⭐3 — A native Plex client for iPhone, iPad and Apple TV
 - [baton-pass 0.1.0-alpha.1](https://github.com/guitaripod/baton-pass/releases/tag/0.1.0-alpha.1) · Rust ⭐0 — Hand a KDE Plasma desktop's mouse, keyboard and clipboard to the Mac beside it
 - [Tailscode 1.83](https://github.com/guitaripod/Tailscode/releases/tag/v1.83) · Swift ⭐17 — Claude Code, from all your devices.

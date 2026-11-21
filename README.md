@@ -9,16 +9,16 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
-- [claude-bridge 1.36.0](https://github.com/guitaripod/claude-bridge/releases/tag/1.36.0) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
+- [claude-bridge 1.37.2](https://github.com/guitaripod/claude-bridge/releases/tag/1.37.2) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
+- [CodingAgentKit 0.64.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.64.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [flaccy Flaccy Server 1.3.0](https://github.com/guitaripod/flaccy/releases/tag/server-v1.3.0) · Swift ⭐7 — A multi-platform music player
 - [omp-bridge v0.18.1](https://github.com/guitaripod/omp-bridge/releases/tag/v0.18.1) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
-- [CodingAgentKit 0.62.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.62.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [Crucible Crucible Server 0.6.4](https://github.com/guitaripod/Crucible/releases/tag/server-v0.6.4) · Swift ⭐3 — A native Plex client for iPhone, iPad and Apple TV
 - [baton-pass 0.1.0-alpha.1](https://github.com/guitaripod/baton-pass/releases/tag/0.1.0-alpha.1) · Rust ⭐0 — Hand a KDE Plasma desktop's mouse, keyboard and clipboard to the Mac beside it
 - [Tailscode 1.83](https://github.com/guitaripod/Tailscode/releases/tag/v1.83) · Swift ⭐17 — Claude Code, from all your devices.
 - [unrager 0.33.0](https://github.com/guitaripod/unrager/releases/tag/0.33.0) · Swift ⭐15 — Take the rage out of your x.com timeline
 - [shotcaller 0.2.0](https://github.com/guitaripod/shotcaller/releases/tag/v0.2.0) · Py ⭐0 — An LLM game master, DOOM-style overlays and an end-of-match map vote for IW4x
 - [prebake 0.1.0](https://github.com/guitaripod/prebake/releases/tag/0.1.0) · Rust ⭐0 — Bakes Steam's Vulkan shader caches while you are away
-- [flaccy Flaccy for Linux 1.28.0](https://github.com/guitaripod/flaccy/releases/tag/linux-v1.28.0) · Swift ⭐7 — A multi-platform music player
 - [rc-tui 0.5.0](https://github.com/guitaripod/rc-tui/releases/tag/0.5.0) · Rust ⭐0 — RevenueCat overview in the terminal.
 - [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
 - [blackwall 2.4.0](https://github.com/guitaripod/blackwall/releases/tag/2.4.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell

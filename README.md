@@ -9,19 +9,19 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [CodingAgentKit 0.66.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.66.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
+- [Crucible Crucible Server 0.8.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.8.0) · Swift ⭐3 — A native Plex client for Linux, iPhone, iPad and Apple TV
+- [blackwall Blackwall 2.6.0](https://github.com/guitaripod/blackwall/releases/tag/2.6.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
 - [Tailscode 1.84](https://github.com/guitaripod/Tailscode/releases/tag/v1.84) · Swift ⭐17 — Claude Code, from all your devices.
-- [CodingAgentKit 0.65.1](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.65.1) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [flaccy Flaccy Server 1.3.1](https://github.com/guitaripod/flaccy/releases/tag/server-v1.3.1) · Swift ⭐7 — A multi-platform music player
 - [claude-bridge 1.38.1](https://github.com/guitaripod/claude-bridge/releases/tag/1.38.1) · Swift ⭐1 — Claude Code subscription as structured HTTP sessions
 - [omp-bridge v0.19.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.19.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
-- [Crucible Crucible Server 0.6.4](https://github.com/guitaripod/Crucible/releases/tag/server-v0.6.4) · Swift ⭐3 — A native Plex client for iPhone, iPad and Apple TV
 - [baton-pass 0.1.0-alpha.1](https://github.com/guitaripod/baton-pass/releases/tag/0.1.0-alpha.1) · Rust ⭐0 — Hand a KDE Plasma desktop's mouse, keyboard and clipboard to the Mac beside it
 - [unrager 0.33.0](https://github.com/guitaripod/unrager/releases/tag/0.33.0) · Swift ⭐15 — Take the rage out of your x.com timeline
 - [shotcaller 0.2.0](https://github.com/guitaripod/shotcaller/releases/tag/v0.2.0) · Py ⭐0 — An LLM game master, DOOM-style overlays and an end-of-match map vote for IW4x
 - [prebake 0.1.0](https://github.com/guitaripod/prebake/releases/tag/0.1.0) · Rust ⭐0 — Bakes Steam's Vulkan shader caches while you are away
 - [rc-tui 0.5.0](https://github.com/guitaripod/rc-tui/releases/tag/0.5.0) · Rust ⭐0 — RevenueCat overview in the terminal.
 - [clicker 0.2.3](https://github.com/guitaripod/clicker/releases/tag/v0.2.3) · Rust ⭐0 — Agent-native Apple TV remote
-- [blackwall 2.4.0](https://github.com/guitaripod/blackwall/releases/tag/2.4.0) · HTML ⭐1 — Rank open models on one NVIDIA RTX PRO 6000 Blackwell
 - [gpulens 0.1.2](https://github.com/guitaripod/gpulens/releases/tag/0.1.2) · Rust ⭐0 — GPU monitor, in plain language. NVIDIA Linux native TUI with an optional local-LLM helper.
 - [previewd 0.1.0](https://github.com/guitaripod/previewd/releases/tag/0.1.0) · Swift ⭐0 — Run iOS app on a Mac's simulator and watch, inspect and touch it from anywhere.
 - [emojipick 0.1.6](https://github.com/guitaripod/emojipick/releases/tag/v0.1.6) · Rust ⭐2 — A fast emoji picker for KDE Plasma Wayland

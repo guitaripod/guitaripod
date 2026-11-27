@@ -9,6 +9,7 @@
 ### `$ gh release list`
 
 <!-- Recent Releases -->
+- [swiftnav.nvim v0.1.5](https://github.com/guitaripod/swiftnav.nvim/releases/tag/v0.1.5) · Lua ⭐0 — Xcode-style navigation for Swift in Neovim: Open Quickly, Related Items, and go-to-definition that keeps working in Xcode app targets
 - [omp-bridge v0.20.0](https://github.com/guitaripod/omp-bridge/releases/tag/v0.20.0) · Swift ⭐2 — Oh My Pi as structured HTTP sessions, on claude-bridge's wire protocol
 - [CodingAgentKit 0.66.0](https://github.com/guitaripod/CodingAgentKit/releases/tag/0.66.0) · Swift ⭐0 — Swift package for driving opencode, Claude Code and Oh My Pi over HTTP + SSE
 - [Crucible Crucible Server 0.8.0](https://github.com/guitaripod/Crucible/releases/tag/server-v0.8.0) · Swift ⭐3 — A native Plex client for Linux, iPhone, iPad and Apple TV
@@ -48,7 +49,6 @@
 - [recview 0.3.0](https://github.com/guitaripod/recview/releases/tag/0.3.0) · Rust ⭐2 — GPU-accelerated review window for screen recordings
 - [ps3catalog 1.1.0](https://github.com/guitaripod/ps3catalog/releases/tag/v1.1.0) · JS ⭐2 — Browse the entire PS3 Games catalogue
 - [remoteplay-display 1.1.0](https://github.com/guitaripod/remoteplay-display/releases/tag/1.1.0) · Py ⭐5 — Routes Steam Remote Play sessions to a dummy HDMI
-- [Swollama 4.2.0](https://github.com/guitaripod/Swollama/releases/tag/4.2.0) · Swift ⭐17 — A comprehensive Swift SDK for Ollama
 <!-- End Recent Releases -->
 
 ### `$ cat ~/blog/latest`
